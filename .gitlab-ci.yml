@@ -1,0 +1,12 @@
+stages:
+  - validate
+
+no-player-data:
+  stage: validate
+  image: alpine:3.20
+  script:
+    - |
+      if git ls-files | grep -E '^Plants  VS  Zombies/(saves/|userdata/|server_quests/|audio-cache/|server_users\.json$|start_screen_state\.json$|users\.json$|quest_progress\.json$|session\.json$|session_token\.txt$)'; then
+        echo 'Player saves and runtime state must not be committed.'
+        exit 1
+      fi

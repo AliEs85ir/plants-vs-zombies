@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ServerLauncher",
+            "request": "launch",
+            "mainClass": "com.plants_vs_zombies.lwjgl3.ServerLauncher",
+            "projectName": "Plants VS Zombies-lwjgl3",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "ClientLauncher",
+            "request": "launch",
+            "mainClass": "com.plants_vs_zombies.lwjgl3.ClientLauncher",
+            "projectName": "Plants VS Zombies-lwjgl3",
+            "cwd": "${workspaceFolder}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Server + Client",
+            "configurations": ["ServerLauncher", "ClientLauncher"],
+            "stopAll": true
+        }
+    ]
+}
