@@ -1,0 +1,30 @@
+{
+  "ANCIENT_EGYPT-1": {
+    "description": "Sand shifts across the ancient tombs and the dead do not rest. Ra Zombies guard the pyramids and will bury anything that stands between them and your brain. Build a steady sun economy first, then wall off the lanes before the second wave crests.",
+    "difficulty": "Easy",
+    "selectionCount": 8,
+    "recommended": ["SUNFLOWER", "PEASHOOTER", "WALL_NUT", "SNOW_PEA", "SQUASH", "MELON_PULT", "CITRON", "MAGNET_SHROOM"]
+  },
+  "ANCIENT_EGYPT-3": {
+    "description": "Night operations in the deep tombs. Visibility is poor and the horde travels in packs, so lean on plants that cover several lanes at once rather than single-target damage.",
+    "difficulty": "Hard",
+    "selectionCount": 8
+  },
+  "DARK_AGES-1": {
+    "description": "Darkness falls over the ruins and a boss zombie stalks the lawn. Every wave brings reinforcements out of the gloom. Choose a lineup that balances sun production, sustained damage and emergency defense, because you will not get a second chance once the horde commits.",
+    "difficulty": "Boss",
+    "selectionCount": 8,
+    "recommended": ["SUNFLOWER", "TWIN_SUNFLOWER", "PEASHOOTER", "REPEATER", "WALL_NUT", "SNOW_PEA", "CHERRY_BOMB", "MELON_PULT"]
+  },
+  "BIG_WAVE_BEACH-1": {
+    "description": "The tide rolls in and redraws the shoreline. Keep lily pads ready for the water, and watch for low-tide ambushes on the newly dry sand.",
+    "difficulty": "Normal",
+    "selectionCount": 8,
+    "recommended": ["SUNFLOWER", "PEASHOOTER", "WALL_NUT", "LILY_PAD", "TANGLE_KELP", "SEA_SHROOM", "REPEATER", "PUMPKIN"]
+  },
+  "FROSTBITE_CAVES-1": {
+    "description": "Bitter wind howls through the ice caverns. Plants freeze solid if left unattended, so pack a way to thaw your defenses and keep the pressure on between gusts.",
+    "difficulty": "Hard",
+    "selectionCount": 8
+  }
+}

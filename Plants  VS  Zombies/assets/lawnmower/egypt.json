@@ -1,0 +1,31 @@
+{
+  "lawnmower": "EGYPT",
+  "pamPath": "768/INITIAL/MOWERS/MOWER_EGYPT/MOWER_EGYPT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "TRANSITION": [
+      {
+        "clip": "transition",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+
+      {
+        "clip": "attack",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

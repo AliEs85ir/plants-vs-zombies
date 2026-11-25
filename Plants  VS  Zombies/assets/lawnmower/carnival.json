@@ -1,0 +1,28 @@
+{
+  "lawnmower": "CARNIVAL",
+  "pamPath": "768/FULL/MOWERS/MOWER_CARNIVAL/MOWER_CARNIVAL.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "transition",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "attack",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

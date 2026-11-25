@@ -1,0 +1,1416 @@
+{
+  "effects": [
+    {
+      "id": "sheep transformation",
+      "pamPath": "768/FULL/EFFECTS/DARK_WIZARD_SHEEPENING/DARK_WIZARD_SHEEPENING.PAM",
+      "selection": "SEQUENCE",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "idle", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "sheep die",
+      "pamPath": "768/FULL/EFFECTS/DARK_WIZARD_SHEEPENING/DARK_WIZARD_SHEEPENING.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "impact plant death",
+      "pamPath": "768/FULL/EFFECTS/WATER_SPLASH/WATER_SPLASH.PAM",
+      "selection": "RANDOM",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "new projectile",
+      "pamPath": "768/INITIAL/EFFECTS/DRAFTODIL_PROJECTILE_HIT/DRAFTODIL_PROJECTILE_HIT.PAM",
+      "selection": "RANDOM",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "skull laser",
+      "pamPath": "768/FULL/EFFECTS/CRYSTALSKULL_BEAM/CRYSTALSKULL_BEAM.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "laser_beam", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "prospector smoke",
+      "pamPath": "768/FULL/EFFECTS/ZOMBIE_PROSPECTOR_SMOKE_ARC/ZOMBIE_PROSPECTOR_SMOKE_ARC.PAM",
+      "selection": "SEQUENCE",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "prospector blast",
+      "pamPath": "768/FULL/EFFECTS/ZOMBIE_PROSPECTOR_BLAST_OFF/ZOMBIE_PROSPECTOR_BLAST_OFF.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "animation",
+          "loop": false,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "spawn tomb",
+      "pamPath": "768/FULL/EFFECTS/TOMBSTONE_DARK_SPAWN_EFFECT/TOMBSTONE_DARK_SPAWN_EFFECT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "animation",
+          "loop": false,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "sand storm start",
+      "pamPath": "768/INITIAL/EFFECTS/SANDSTORM_TOP/SANDSTORM_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        {"clip": "intro", "loop": false, "priority": 0, "tag": "DEFAULT"}
+      ]
+    },
+    {
+      "id": "sand storm loop",
+      "pamPath": "768/INITIAL/EFFECTS/SANDSTORM_TOP/SANDSTORM_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        {"clip": "loop", "loop": true, "priority": 0, "tag": "DEFAULT"}
+      ]
+    },{
+      "id": "sand storm finish",
+      "pamPath": "768/INITIAL/EFFECTS/SANDSTORM_TOP/SANDSTORM_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        {"clip": "outro", "loop": false, "priority": 0, "tag": "DEFAULT"}
+      ]
+    },
+    {
+      "id": "clock icon",
+      "pamPath": "768/FULL/UI/PENNY_PURSUITS/ZOMBOSS/CLOCK_ICON/CLOCK_ICON.PAM",
+      "selection": "FIRST",
+      "layer": "UI",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "default",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "newspaper_particles",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_MODERN_NEWSPAPER/ZOMBIE_MODERN_NEWSPAPER.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "Basic Egypt_particles",
+      "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "Basic Halloween_particles",
+      "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "Basic Halloween BUCKET",
+      "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": false,
+            "zombie_jaw": false,
+            "zombie_armor_bucket_damage_02": true
+          }
+        }
+      ]
+    },{
+      "id": "Basic Halloween CONE",
+      "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": false,
+            "zombie_jaw": false,
+            "zombie_armor_bucket_damage_02": false,
+            "zombie_armor_cone_damage_02" : true
+          }
+        }
+      ]
+    },
+    {
+      "id": "Basic Halloween HEAD",
+      "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": true,
+            "zombie_jaw": true,
+            "zombie_armor_bucket_damage_02": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Basic IceAge BUCKET",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_BASIC_BRICK/ZOMBIE_ICEAGE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": false,
+            "zombie_jaw": false,
+            "zombie_armor_bucket_damage_02": true
+          }
+        }
+      ]
+    },{
+      "id": "Basic IceAge CONE",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_BASIC_BRICK/ZOMBIE_ICEAGE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": false,
+            "zombie_jaw": false,
+            "zombie_armor_bucket_damage_02": false,
+            "zombie_armor_cone_damage_02" : true
+          }
+        }
+      ]
+    },
+    {
+      "id": "Basic IceAge HEAD",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_BASIC_BRICK/ZOMBIE_ICEAGE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": true,
+            "zombie_jaw": true,
+            "zombie_armor_bucket_damage_02": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Basic IceAge BRICK",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_BASIC_BRICK/ZOMBIE_ICEAGE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_hand_outer_01": false,
+            "zombie_arm_outer_lower": false,
+            "zombie_skull": false,
+            "zombie_jaw": false,
+            "zombie_armor_bucket_damage_02": false,
+            "zombie_armor_brick_damage_02" : true
+          }
+        }
+      ]
+    },
+    {
+      "id": "Basic Egypt BUCKET",
+      "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_egypt_jaw": false,
+            "zombie_egypt_skull": false,
+            "zombie_egypt_arm_outer_lower": false,
+            "zombie_egypt_hand_outer_01": false,
+            "_zombie_egypt_armor2_states": true,
+            "_zombie_egypt_armor1_states": false,
+            "zombie_armor_brick_damage_02": false
+          }
+        }
+      ]
+    },{
+      "id": "Basic Egypt CONE",
+      "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_egypt_jaw": false,
+            "zombie_egypt_skull": false,
+            "zombie_egypt_arm_outer_lower": false,
+            "zombie_egypt_hand_outer_01": false,
+            "_zombie_egypt_armor2_states": false,
+            "_zombie_egypt_armor1_states": true,
+            "zombie_armor_brick_damage_02": false
+          }
+        }
+      ]
+    },{
+      "id": "Basic Egypt BRICK",
+      "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_egypt_jaw": false,
+            "zombie_egypt_skull": false,
+            "zombie_egypt_arm_outer_lower": false,
+            "zombie_egypt_hand_outer_01": false,
+            "_zombie_egypt_armor2_states": false,
+            "_zombie_egypt_armor1_states": false,
+            "zombie_armor_brick_damage_02": true
+          }
+        }
+      ]
+    },{
+      "id": "Basic Egypt HEAD",
+      "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_egypt_jaw": true,
+            "zombie_egypt_skull": true,
+            "zombie_egypt_arm_outer_lower": false,
+            "zombie_egypt_hand_outer_01": false,
+            "_zombie_egypt_armor2_states": false,
+            "_zombie_egypt_armor1_states": false,
+            "zombie_armor_brick_damage_02": false
+          }
+        }
+      ]
+    },{
+      "id": "Basic Pirate BUCKET",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PIRATE_BASIC_BRICK/ZOMBIE_PIRATE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_pirate_basic_jaw": false,
+            "zombie_pirate_basic_skull": false,
+            "zombie_pirate_basic_arm_outer_lower": false,
+            "zombie_pirate_basic_hand_outer_01": false,
+            "zombie_pirate_armor_cone_damage_02": false,
+            "zombie_pirate_armor_bucket_damage_02": true,
+            "zombie_armor_brick_damage_02": false
+          }
+        }
+      ]
+    },{
+      "id": "Basic Pirate CONE",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PIRATE_BASIC_BRICK/ZOMBIE_PIRATE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_pirate_basic_jaw": false,
+            "zombie_pirate_basic_skull": false,
+            "zombie_pirate_basic_arm_outer_lower": false,
+            "zombie_pirate_basic_hand_outer_01": false,
+            "zombie_pirate_armor_cone_damage_02": true,
+            "zombie_pirate_armor_bucket_damage_02": false,
+            "zombie_armor_brick_damage_02": false
+          }
+        }
+      ]
+    },{
+      "id": "Basic Pirate BRICK",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PIRATE_BASIC_BRICK/ZOMBIE_PIRATE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_pirate_basic_jaw": false,
+            "zombie_pirate_basic_skull": false,
+            "zombie_pirate_basic_arm_outer_lower": false,
+            "zombie_pirate_basic_hand_outer_01": false,
+            "zombie_pirate_armor_cone_damage_02": false,
+            "zombie_pirate_armor_bucket_damage_02": false,
+            "zombie_armor_brick_damage_02": true
+          }
+        }
+      ]
+    },{
+      "id": "Basic Pirate HEAD",
+      "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PIRATE_BASIC_BRICK/ZOMBIE_PIRATE_BASIC_BRICK.PAM",
+      "selection": "FIRST",
+      "layer": "DEFAULT",
+      "groundOffset": 20,
+      "despawnDelay": 1.2,
+      "fadeDuration": 0.6,
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "particles",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "zombie_pirate_basic_jaw": true,
+            "zombie_pirate_basic_skull": true,
+            "zombie_pirate_basic_arm_outer_lower": false,
+            "zombie_pirate_basic_hand_outer_01": false,
+            "zombie_pirate_armor_cone_damage_02": false,
+            "zombie_pirate_armor_bucket_damage_02": false,
+            "zombie_armor_brick_damage_02": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "zombie_ash",
+      "pamPath": "768/FULL/EFFECTS/ZOMBIE_SEAGULL_ASH/ZOMBIE_SEAGULL_ASH.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "potato_mine_explosion",
+      "pamPath": "768/INITIAL/EFFECTS/PRIMAL_POTATOMINE_EXPLOSION/PRIMAL_POTATOMINE_EXPLOSION.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "primal_potato_mine_explosion",
+      "pamPath": "768/INITIAL/EFFECTS/PRIMAL_POTATOMINE_EXPLOSION/PRIMAL_POTATOMINE_EXPLOSION.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "cherry_bomb_explosion",
+      "pamPath": "768/FULL/EFFECTS/CHERRYBOMB_EXPLOSION_REAR/CHERRYBOMB_EXPLOSION_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "grapeshot_explosion",
+      "pamPath": "768/INITIAL/EFFECTS/PRIMAL_POTATOMINE_EXPLOSION/PRIMAL_POTATOMINE_EXPLOSION.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "grapeshot_hit",
+      "pamPath": "768/INITIAL/EFFECTS/GRAPESHOT_HIT/GRAPESHOT_HIT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "splat_pea",
+      "pamPath": "768/INITIAL/EFFECTS/SPLAT_PEA/SPLAT_PEA.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+      {
+    "id": "firepeashooter_plantfood_fire",
+    "pamPath": "768/INITIAL/EFFECTS/FIREPEASHOOTER_FIRE/FIREPEASHOOTER_FIRE.PAM",
+    "selection": "SEQUENCE",
+    "layer": "FRONT",
+    "followTarget": false,
+    "variants": [
+      { "clip": "idle", "loop": false, "priority": 0, "tag": "DEFAULT" },
+      { "clip": "idle2", "loop": true, "priority": 0, "tag": "DEFAULT" },
+      { "clip": "idle3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+    ]
+  },
+{
+      "id": "jalapeno_fire",
+      "pamPath": "768/INITIAL/EFFECTS/JALAPENO_FIRE/JALAPENO_FIRE.PAM",
+      "selection": "SEQUENCE",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "idle", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "idle2", "loop": true, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "idle3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "doomshroom_explosion",
+      "pamPath": "768/FULL/EFFECTS/CHERRYBOMB_EXPLOSION_REAR/CHERRYBOMB_EXPLOSION_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plant ice block",
+      "pamPath": "768/FULL/EFFECTS/FROSTBITE_ICE_BLOCK_PLANT/FROSTBITE_ICE_BLOCK_PLANT.PAM",
+      "selection": "SEQUENCE",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "freeze_start", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "freeze_idle", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "ice wind",
+      "pamPath": "768/FULL/EFFECTS/FROSTBITE_CHILL_WIND/FROSTBITE_CHILL_WIND.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plant chill1",
+      "pamPath": "768/FULL/EFFECTS/FROSTBITE_CHILL_PLANT/FROSTBITE_CHILL_PLANT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "chill_stage1", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plant chill2",
+      "pamPath": "768/FULL/EFFECTS/FROSTBITE_CHILL_PLANT/FROSTBITE_CHILL_PLANT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "chill_stage2", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "ice block damage",
+      "pamPath": "768/INITIAL/EFFECTS/ICEBLOOM_ICE_BLOCK_ZOMBIE_EFFECT/ICEBLOOM_ICE_BLOCK_ZOMBIE_EFFECT.PAM",
+      "selection": "RANDOM",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation4", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation5", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "ice block death",
+      "pamPath": "768/INITIAL/EFFECTS/ICEBLOOM_ICE_BLOCK_ZOMBIE_EFFECT/ICEBLOOM_ICE_BLOCK_ZOMBIE_EFFECT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "dirt spawn",
+      "pamPath": "768/INITIAL/EFFECTS/GRAVEBUSTER_DIRT/GRAVEBUSTER_DIRT.PAM",
+      "selection": "SEQUENCE",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "gravebuster_dirt_anim", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "idle", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "gravebuster_dirt_fade", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "fire impact start",
+      "pamPath": "768/INITIAL/EFFECTS/POWER_UP_FIRE_IMPACT/POWER_UP_FIRE_IMPACT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "portal",
+      "pamPath": "768/INITIAL/EFFECTS/ZOMBOSS_TELEPORTATION_BALL/ZOMBOSS_TELEPORTATION_BALL.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "loop", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "target",
+      "pamPath": "768/FULL/EFFECTS/ZOMBOSS_MISSILE_EXPLOSION_DARK/ZOMBOSS_MISSILE_EXPLOSION_DARK.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "missile_lock_reticle", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "dark dragon fireball target phase 1",
+      "pamPath": "768/FULL/EFFECTS/ROSE_EFFECTS/ROSE_EFFECTS.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "attack_effects", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "dark dragon fireball target phase 2",
+      "pamPath": "768/FULL/EFFECTS/ROSE_EFFECTS/ROSE_EFFECTS.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "pf_effects", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plantfood pickup",
+      "pamPath": "768/INITIAL/EFFECTS/PLANTFOOD_PICKUP/PLANTFOOD_PICKUP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "repeater plantfood giantpea",
+      "pamPath": "768/INITIAL/EFFECTS/REPEATER_PLANTFOOD_GIANTPEA/REPEATER_PLANTFOOD_GIANTPEA.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snowpea plantfood freeze",
+      "pamPath": "768/INITIAL/EFFECTS/SNOWPEA_PLANTFOOD/SNOWPEA_PLANTFOOD.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "plantfood_on", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snowpea plantfood freeze off",
+      "pamPath": "768/INITIAL/EFFECTS/SNOWPEA_PLANTFOOD/SNOWPEA_PLANTFOOD.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "plantfood_off", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snowpea plantfood slow",
+      "pamPath": "768/INITIAL/EFFECTS/SNOWPEA_PLANTFOOD_SLOW/SNOWPEA_PLANTFOOD_SLOW.PAM",
+      "selection": "SEQUENCE",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "plantfood_on", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "plantfood_idle", "loop": true, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "plantfood_off", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "shark idle",
+      "pamPath": "768/FULL/EFFECTS/ZOMBOSS_SHARK_PROJECTILE/ZOMBOSS_SHARK_PROJECTILE.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "idle", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "shark attack",
+      "pamPath": "768/FULL/EFFECTS/ZOMBOSS_SHARK_PROJECTILE/ZOMBOSS_SHARK_PROJECTILE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "attack", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "king heal",
+      "pamPath": "768/INITIAL/EFFECTS/ALOE_HEAL_EFFECT/ALOE_HEAL_EFFECT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "peashooter shoot",
+      "pamPath": "768/INITIAL/PLANT/PEASHOOTER/PEASHOOTER.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "attack",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "peashooter_stem": false,
+            "peashooter_leaf": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "walnut idle",
+      "pamPath": "768/INITIAL/PLANT/WALLNUT/WALLNUT.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "idle",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "squash idle",
+      "pamPath": "768/INITIAL/PLANT/SQUASH/SQUASH.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "idle",
+          "loop": true,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "won",
+      "pamPath": "768/FULL/UI/JOUST/MATCH_RESULTS/YOU_WON_TEXT/YOU_WON_TEXT.PAM",
+      "selection": "FIRST",
+      "layer": "UI",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "intro",
+          "loop": false,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "you_won_text_spa_es": false,
+            "you_won_text_por_br": false,
+            "you_won_text_ita_it": false,
+            "you_won_text_ger_de": false,
+            "you_won_text_fre_fr": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "lose",
+      "pamPath": "768/FULL/UI/JOUST/MATCH_RESULTS/YOU_LOST_TEXT/YOU_LOST_TEXT.PAM",
+      "selection": "FIRST",
+      "layer": "UI",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "intro",
+          "loop": false,
+          "priority": 0,
+          "tag": "DEFAULT",
+          "visibility": {
+            "you_lost_text_spa_es": false,
+            "you_lost_text_por_br": false,
+            "you_lost_text_ita_it": false,
+            "you_lost_text_ger_de": false,
+            "you_lost_text_fre_fr": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "brain disappear",
+      "pamPath": "768/FULL/EFFECTS/BRAIN_EFFECT/BRAIN_EFFECT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        {
+          "clip": "animation",
+          "loop": false,
+          "priority": 0,
+          "tag": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "phatbeets idle pulse",
+      "pamPath": "768/FULL/EFFECTS/PHATBEETS_IDLE_PULSE/PHATBEETS_IDLE_PULSE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "phatbeets attack pulse",
+      "pamPath": "768/FULL/EFFECTS/PHATBEETS_ATTACK_PULSE/PHATBEETS_ATTACK_PULSE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "phatbeets pf pulse",
+      "pamPath": "768/FULL/EFFECTS/PHATBEETS_PF_PULSE/PHATBEETS_PF_PULSE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "kiwibeast attack pulse",
+      "pamPath": "768/INITIAL/EFFECTS/KIWIBEAST_ATTACK_PULSE/KIWIBEAST_ATTACK_PULSE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "kiwibeast tile hit",
+      "pamPath": "768/INITIAL/EFFECTS/KIWIBEAST_TILE_HIT/KIWIBEAST_TILE_HIT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "kiwibeast pf pulse",
+      "pamPath": "768/INITIAL/EFFECTS/KIWIBEAST_PF_PULSE/KIWIBEAST_PF_PULSE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "garlic plantfood projectile",
+      "pamPath": "768/INITIAL/EFFECTS/GARLIC_PROJECTILE/GARLIC_PROJECTILE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plant planted",
+      "pamPath": "768/INITIAL/EFFECTS/PLANT_PLANTED/PLANT_PLANTED.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plant unplanted",
+      "pamPath": "768/INITIAL/EFFECTS/PLANT_UNPLANTED/PLANT_UNPLANTED.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "plantfood fx",
+      "pamPath": "768/INITIAL/EFFECTS/PLANTFOOD_FX/PLANTFOOD_FX.PAM",
+      "selection": "SEQUENCE",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "plantfood_on", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "plantfood", "loop": true, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "plantfood_off", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "iceshroom fx",
+      "pamPath": "768/INITIAL/EFFECTS/ICESHROOM_FX/ICESHROOM_FX.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "iceshroom tile",
+      "pamPath": "768/FULL/EFFECTS/ICESHROOM_TILE_FX/ICESHROOM_TILE_FX.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "generic explosion front",
+      "pamPath": "768/FULL/EFFECTS/GENERIC_EXPLOSION_FRONT/GENERIC_EXPLOSION_FRONT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "generic explosion back",
+      "pamPath": "768/INITIAL/EFFECTS/GENERIC_EXPLOSION_BACK/GENERIC_EXPLOSION_BACK.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "mower spawn",
+      "pamPath": "768/FULL/EFFECTS/MOWER_SPAWN/MOWER_SPAWN.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "garlic stink",
+      "pamPath": "768/INITIAL/EFFECTS/GARLIC_STINK_LINES/GARLIC_STINK_LINES.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "cherry bomb explosion top",
+      "pamPath": "768/FULL/EFFECTS/CHERRYBOMB_EXPLOSION_TOP/CHERRYBOMB_EXPLOSION_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "explosion", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "egypt tomb damage",
+      "pamPath": "768/INITIAL/EFFECTS/TOMBSTONE_EGYPT_HIEROGLYPH_DAMAGE/TOMBSTONE_EGYPT_HIEROGLYPH_DAMAGE.PAM",
+      "selection": "RANDOM",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation4", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "dark tomb damage",
+      "pamPath": "768/FULL/EFFECTS/TOMBSTONE_DARK_BASE_DAMAGE/TOMBSTONE_DARK_BASE_DAMAGE.PAM",
+      "selection": "RANDOM",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" },
+        { "clip": "animation4", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "sand storm rear start",
+      "pamPath": "768/INITIAL/EFFECTS/SANDSTORM_REAR/SANDSTORM_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": true,
+      "variants": [
+        { "clip": "intro", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "sand storm rear loop",
+      "pamPath": "768/INITIAL/EFFECTS/SANDSTORM_REAR/SANDSTORM_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": true,
+      "variants": [
+        { "clip": "loop", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "sand storm rear finish",
+      "pamPath": "768/INITIAL/EFFECTS/SANDSTORM_REAR/SANDSTORM_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "outro", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    }, {
+      "id": "inferno storm start",
+      "pamPath": "768/INITIAL/EFFECTS/INFERNO_PROJECTILE/INFERNO_PROJECTILE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "inferno storm loop",
+      "pamPath": "768/INITIAL/EFFECTS/INFERNO_PROJECTILE/INFERNO_PROJECTILE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation2", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "inferno storm finish",
+      "pamPath": "768/INITIAL/EFFECTS/INFERNO_PROJECTILE/INFERNO_PROJECTILE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },{
+      "id": "inferno storm back start",
+      "pamPath": "768/INITIAL/EFFECTS/INFERNO_PROJECTILE_BACK/INFERNO_PROJECTILE_BACK.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "inferno storm back loop",
+      "pamPath": "768/INITIAL/EFFECTS/INFERNO_PROJECTILE_BACK/INFERNO_PROJECTILE_BACK.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": true,
+      "variants": [
+        { "clip": "animation2", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "inferno storm back finish",
+      "pamPath": "768/INITIAL/EFFECTS/INFERNO_PROJECTILE_BACK/INFERNO_PROJECTILE_BACK.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation4", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snow storm start",
+      "pamPath": "768/FULL/EFFECTS/SNOWSTORM_TOP/SNOWSTORM_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "intro", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snow storm loop",
+      "pamPath": "768/FULL/EFFECTS/SNOWSTORM_TOP/SNOWSTORM_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": true,
+      "variants": [
+        { "clip": "loop", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snow storm finish",
+      "pamPath": "768/FULL/EFFECTS/SNOWSTORM_TOP/SNOWSTORM_TOP.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "outro", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snow storm rear start",
+      "pamPath": "768/FULL/EFFECTS/SNOWSTORM_REAR/SNOWSTORM_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": true,
+      "variants": [
+        { "clip": "intro", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snow storm rear loop",
+      "pamPath": "768/FULL/EFFECTS/SNOWSTORM_REAR/SNOWSTORM_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": true,
+      "variants": [
+        { "clip": "loop", "loop": true, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "snow storm rear finish",
+      "pamPath": "768/FULL/EFFECTS/SNOWSTORM_REAR/SNOWSTORM_REAR.PAM",
+      "selection": "FIRST",
+      "layer": "BEHIND",
+      "followTarget": false,
+      "variants": [
+        { "clip": "outro", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "zomboss glacier fog",
+      "pamPath": "768/FULL/EFFECTS/ZOMBOSS_GLACIER_FOGGING/ZOMBOSS_GLACIER_FOGGING.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "zomboss iceage boom",
+      "pamPath": "768/FULL/EFFECTS/ZOMBOSS_MISSILE_EXPLOSION_ICEAGE/ZOMBOSS_MISSILE_EXPLOSION_ICEAGE.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "zomboss damage chunks 2",
+      "pamPath": "768/INITIAL/EFFECTS/ZOMBOSS_DAMAGE_CHUNKS/ZOMBOSS_DAMAGE_CHUNKS.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation2", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "zomboss damage chunks 3",
+      "pamPath": "768/INITIAL/EFFECTS/ZOMBOSS_DAMAGE_CHUNKS/ZOMBOSS_DAMAGE_CHUNKS.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation3", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "scoring bonus",
+      "pamPath": "768/FULL/EFFECTS/ZOMBIE_CORPORATE_CONSULTANT_EFFECT/ZOMBIE_CORPORATE_CONSULTANT_EFFECT.PAM",
+      "selection": "FIRST",
+      "layer": "UI",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "citron_plantfood_orb_hit",
+      "pamPath": "768/FULL/EFFECTS/CITRON_PLANTFOOD_ORB_HIT/CITRON_PLANTFOOD_ORB_HIT.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "animation", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    },
+    {
+      "id": "cactus_plantfood_hit",
+      "pamPath": "768/INITIAL/EFFECTS/ELECTRICI_TEA_ATTACK_TOP_EFFECTS/ELECTRICI_TEA_ATTACK_TOP_EFFECTS.PAM",
+      "selection": "FIRST",
+      "layer": "FRONT",
+      "followTarget": false,
+      "variants": [
+        { "clip": "plantfood_end", "loop": false, "priority": 0, "tag": "DEFAULT" }
+      ]
+    }
+  ]
+}
