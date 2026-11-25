@@ -1,0 +1,258 @@
+{
+  "categories": [
+    {
+      "id": "greenhouse",
+      "title": "Greenhouse",
+      "iconPath": "menu/icon/greenhouse_shop.png",
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "currency_conversion",
+      "title": "Currency Conversion",
+      "iconPath": "menu/icon/currency.png",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "seed_pack",
+      "title": "Seed Pack",
+      "iconPath": "menu/icon/seed_shop_category.png",
+      "order": 3,
+      "enabled": true
+    }
+  ],
+  "currencyFilters": [
+    { "id": "all", "label": "All", "currency": null },
+    { "id": "coins", "label": "Coins", "currency": "COIN" },
+    { "id": "gems", "label": "Gems", "currency": "GEM" },
+    { "id": "real_money", "label": "Real Money", "currency": "REAL_MONEY", "enabled": false }
+  ],
+  "dailyOffer": {
+    "resetTime": "00:00:00",
+    "endTime": "23:59:59",
+    "discountValues": [30, 40, 50, 60],
+    "eligibleProductIds": [
+      "pot",
+      "plant_food",
+      "random_seed_packet",
+      "targeted_seed_packet",
+      "buy_coins",
+      "coin_pack",
+      "buy_gems"
+    ],
+    "selectionStrategy": "random"
+  },
+  "advertisements": [
+    {
+      "id": "sharif",
+      "imagePath": "menu/image/poster1.png",
+      "url": "https://sharif.edu/",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "github",
+      "imagePath": "menu/image/poster2.png",
+      "url": "https://github.com/",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "ap",
+      "imagePath": "menu/image/poster3.png",
+      "url": "https://sharif.edu/~ap/",
+      "enabled": true,
+      "weight": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "pot",
+      "title": "Pot",
+      "categoryId": "greenhouse",
+      "imagePath": "menu/image/pot_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Adds a physical pot to the first available greenhouse table slot.\nPlace pots on unlocked tables that do not already have one.\nPots are required before you can plant marigolds or boost plants.\nSlots are filled from top to bottom, then left to right.\nYou cannot buy more pots than you have empty table slots.",
+      "basePrice": 2000,
+      "currency": "COIN",
+      "productType": "pot",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 99,
+      "quantityStep": 1,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "pot_table",
+      "title": "Pot Table",
+      "categoryId": "greenhouse",
+      "imagePath": "menu/image/plant_table_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Unlocks one locked greenhouse table for planting.\nUp to three tables can be unlocked through the shop.\nUnlocked tables start without a pot — buy pots separately.\nTables unlock from top to bottom, then left to right.\nCoin-based table unlock in the greenhouse remains available separately.",
+      "basePrice": 20,
+      "currency": "GEM",
+      "productType": "pot_table",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 3,
+      "quantityStep": 1,
+      "params": { "maxShopTables": 3 },
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "greenhouse_shovel",
+      "title": "Shovel",
+      "categoryId": "greenhouse",
+      "imagePath": "menu/image/shovel_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Bill the shovel lets you plant in empty greenhouse pots.\nReduce Timer: speeds up all shovel cooldowns by 25% for 4000 coins.\nBuy New Shovel: adds another shovel with its own cooldown for 12 gems.\nYou can own up to four shovels.\nShovel timers cannot go below fifteen minutes remaining.",
+      "basePrice": 4000,
+      "currency": "COIN",
+      "productType": "shovel",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 4,
+      "quantityStep": 1,
+      "options": [
+        {
+          "id": "reduce_timer",
+          "label": "Reduce Timer",
+          "currency": "COIN",
+          "unitPrice": 4000,
+          "defaultOption": true
+        },
+        {
+          "id": "new_shovel",
+          "label": "Buy New Shovel",
+          "currency": "GEM",
+          "unitPrice": 12
+        }
+      ],
+      "params": {
+        "maxShovels": 4,
+        "timerReductionPercent": 25,
+        "minimumTimerMinutes": 15
+      },
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "plant_food",
+      "title": "Plant Food",
+      "categoryId": "currency_conversion",
+      "imagePath": "menu/icon/plantfood2.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Adds plant food to your inventory for use during levels.\nEach unit costs three gems.\nYour inventory cannot exceed five plant food.\nPlant food powers up plants with special abilities in battle.",
+      "basePrice": 3,
+      "currency": "GEM",
+      "productType": "plant_food",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 5,
+      "quantityStep": 1,
+      "params": { "maxInventory": 5 },
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "buy_coins",
+      "title": "Coins",
+      "categoryId": "currency_conversion",
+      "imagePath": "menu/image/coin_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Convert gems into coins.\nEach gem gives one hundred coins.\nSelect how many gem bundles to purchase.\nCoins are used for pots, shovel timer reduction, and gem purchases.",
+      "basePrice": 1,
+      "currency": "GEM",
+      "productType": "buy_coins",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 999,
+      "quantityStep": 1,
+      "params": { "coinsPerGem": 100 },
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "coin_pack",
+      "title": "Coin Pack",
+      "categoryId": "currency_conversion",
+      "imagePath": "menu/image/coin2_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Instantly receive ten thousand coins.\nFixed bundle — no quantity selector.\nCosts twenty gems.",
+      "basePrice": 20,
+      "currency": "GEM",
+      "productType": "coin_pack",
+      "quantityMode": "fixed",
+      "defaultQuantity": 1,
+      "params": { "coinsGranted": 10000 },
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "buy_gems",
+      "title": "Gems",
+      "categoryId": "currency_conversion",
+      "imagePath": "menu/image/gem_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Convert coins into gems.\nEach gem costs one hundred fifty coins.\nSelect how many gems to purchase.\nGems unlock premium shop items and speed-ups.",
+      "basePrice": 150,
+      "currency": "COIN",
+      "productType": "buy_gems",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 999,
+      "quantityStep": 1,
+      "params": { "coinsPerGem": 150 },
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "random_seed_packet",
+      "title": "Random|SeedPacket",
+      "categoryId": "seed_pack",
+      "imagePath": "menu/image/seed_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Receive seed packets for a random unlocked plant.\nEach packet costs one hundred coins.\nOnly plants you have already unlocked are eligible.\nUse seed packets in the plant selection screen before levels.",
+      "basePrice": 100,
+      "currency": "COIN",
+      "productType": "random_seed_packet",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 99,
+      "quantityStep": 1,
+      "params": { "packetsPerPurchase": 1 },
+      "enabled": true,
+      "order": 8
+    },
+    {
+      "id": "targeted_seed_packet",
+      "title": "Targeted Seed Packet",
+      "categoryId": "seed_pack",
+      "imagePath": "menu/image/seed2_shop.png",
+      "cardBackgroundPath": "menu/image/product_card_bg.png",
+      "description": "Receive seed packets for a plant you choose.\nEach gem gives two seed packets for the selected plant.\nOnly unlocked plants can be selected.\nPick your target plant in the product detail view.",
+      "basePrice": 1,
+      "currency": "GEM",
+      "productType": "targeted_seed_packet",
+      "quantityMode": "variable",
+      "defaultQuantity": 1,
+      "minQuantity": 1,
+      "maxQuantity": 99,
+      "quantityStep": 1,
+      "requiresPlantSelection": true,
+      "params": { "packetsPerGem": 2 },
+      "enabled": true,
+      "order": 9
+    }
+  ]
+}

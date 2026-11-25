@@ -1,0 +1,141 @@
+{
+  "layout": {
+    "anchor": "bottom",
+    "alignment": "center",
+    "columns": 8,
+    "iconWidth": 72,
+    "iconHeight": 72,
+    "scale": 1.0,
+    "spacingX": 18,
+    "spacingY": 10,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingBottom": 16,
+    "paddingTop": 0,
+    "offsetX": 0,
+    "offsetY": 8,
+    "sectionGap": 0
+  },
+  "hover": {
+    "scale": 1.08,
+    "pressedScale": 0.96,
+    "brightness": 1.12,
+    "offsetY": 2,
+    "duration": 0.08
+  },
+  "popup": {
+    "width": 760,
+    "height": 520,
+    "headerHeight": 56,
+    "contentPadding": 18,
+    "headerPadding": 10,
+    "closeButtonWidth": 110,
+    "closeButtonHeight": 36,
+    "overlayOpacity": 0.72,
+    "fadeInDuration": 0.16,
+    "fadeOutDuration": 0.12,
+    "startScale": 0.95,
+    "scaleDuration": 0.14,
+    "panelDrawable": "image_ui_dialog_asset_inner_bkgd_10",
+    "headerDrawable": "image_ui_quests_panel_edge_to_edge_ten",
+    "titleStyle": "big_outline",
+    "bodyStyle": "default",
+    "closeStyle": "brown",
+    "primaryStyle": "green",
+    "secondaryStyle": "default",
+    "tabStyle": "purple",
+    "titleScale": 0.92,
+    "bodyScale": 0.86,
+    "scrollbarWidth": 8,
+    "margin": 24,
+    "bodyRowSpacing": 8,
+    "contentHeaderGap": 8,
+    "tutorialNavigationWidth": 188,
+    "tutorialNavButtonHeight": 36,
+    "tutorialNavSpacing": 4,
+    "faqAnswerIndent": 12,
+    "faqItemSpacing": 6,
+    "defaultCloseLabel": "Close"
+  },
+  "content": {
+    "calendarPath": "menu/content/calendar.json",
+    "donatePath": "menu/content/donate.json",
+    "socialPath": "menu/content/social_media.json",
+    "aboutPath": "menu/content/about.json",
+    "faqPath": "menu/content/faq.json",
+    "tutorialPath": "menu/content/tutorial.json"
+  },
+  "icons": [
+    {
+      "id": "tutorial",
+      "assetPath": "menu/icon/tutorial.png",
+      "action": "open_popup",
+      "popup": "tutorial",
+      "order": 0,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "faq",
+      "assetPath": "menu/icon/FAQ.png",
+      "action": "open_popup",
+      "popup": "faq",
+      "order": 1,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "about",
+      "assetPath": "menu/icon/about.png",
+      "action": "open_popup",
+      "popup": "about",
+      "order": 2,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "calendar",
+      "assetPath": "menu/icon/calendar.png",
+      "action": "open_popup",
+      "popup": "calendar",
+      "order": 3,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "social_media",
+      "assetPath": "menu/icon/social_media.png",
+      "action": "open_popup",
+      "popup": "social",
+      "order": 4,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "github",
+      "assetPath": "menu/icon/github.png",
+      "action": "open_url",
+      "url": "https://hamgit.ir/azhdarimohammadreza6/group-23.git",
+      "order": 5,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "donate",
+      "assetPath": "menu/icon/donate.png",
+      "action": "open_popup",
+      "popup": "donate",
+      "order": 6,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "exit",
+      "assetPath": "menu/icon/exit.png",
+      "action": "exit",
+      "order": 7,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}
