@@ -1,0 +1,48 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :core:compileJava UP-TO-DATE
+> Task :core:generateAssetList UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :lwjgl3:compileJava UP-TO-DATE
+> Task :lwjgl3:generateAssetList UP-TO-DATE
+> Task :lwjgl3:processResources UP-TO-DATE
+> Task :lwjgl3:classes UP-TO-DATE
+
+> Task :lwjgl3:runServer
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.esotericsoftware.kryo.util.UnsafeUtil (file:/C:/Users/user/.gradle/caches/modules-2/files-2.1/com.esotericsoftware.kryo/kryo/2.24.0/c6b206e80cfd97e66a1364003724491c757b92f/kryo-2.24.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.esotericsoftware.kryo.util.UnsafeUtil
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+00:00  INFO: [kryonet] Server opened.
+[Server] Listening on localhost:54555
+01:31  INFO: [kryonet] Connection 1 connected: /127.0.0.1
+[Server] Client connected: /127.0.0.1:4467
+[Server] Client disconnected: null
+02:34  INFO: [kryonet] Connection 1 disconnected.
+
+> Task :lwjgl3:runServer FAILED
+
+[Incubating] Problems report is available at: file:///E:/Sharif_Univercity/code/AP/Project/project/group-23/Plants%20%20VS%20%20Zombies/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lwjgl3:runServer'.
+> Process 'command 'C:\Program Files\Java\jdk-25.0.2\bin\java.exe'' finished with non-zero exit value -1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 3m 1s
+5 actionable tasks: 1 executed, 4 up-to-date

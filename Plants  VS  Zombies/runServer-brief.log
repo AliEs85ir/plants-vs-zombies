@@ -1,0 +1,45 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :core:compileJava UP-TO-DATE
+> Task :core:generateAssetList UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :lwjgl3:compileJava UP-TO-DATE
+> Task :lwjgl3:generateAssetList UP-TO-DATE
+> Task :lwjgl3:processResources UP-TO-DATE
+> Task :lwjgl3:classes UP-TO-DATE
+
+> Task :lwjgl3:runServer
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.esotericsoftware.kryo.util.UnsafeUtil (file:/C:/Users/user/.gradle/caches/modules-2/files-2.1/com.esotericsoftware.kryo/kryo/2.24.0/c6b206e80cfd97e66a1364003724491c757b92f/kryo-2.24.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.esotericsoftware.kryo.util.UnsafeUtil
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+00:00  INFO: [kryonet] Server closed.
+Failed to start server: Could not bind server on port 54555
+java.io.IOException: Could not bind server on port 54555
+	at server.GameServer.register(GameServer.java:62)
+	at server.GameServer.start(GameServer.java:35)
+	at com.plants_vs_zombies.lwjgl3.ServerLauncher.main(ServerLauncher.java:12)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:522)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:335)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:297)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:72)
+	at com.esotericsoftware.kryonet.Server.bind(Server.java:140)
+	at com.esotericsoftware.kryonet.Server.bind(Server.java:130)
+	at server.GameServer.register(GameServer.java:60)
+	... 2 more
+
+[Incubating] Problems report is available at: file:///E:/Sharif_Univercity/code/AP/Project/project/group-23/Plants%20%20VS%20%20Zombies/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 14s
+5 actionable tasks: 2 executed, 3 up-to-date

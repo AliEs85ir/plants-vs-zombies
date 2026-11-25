@@ -1,0 +1,299 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :core:compileJava UP-TO-DATE
+> Task :core:generateAssetList UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :lwjgl3:compileJava UP-TO-DATE
+> Task :lwjgl3:generateAssetList UP-TO-DATE
+> Task :lwjgl3:processResources UP-TO-DATE
+> Task :lwjgl3:classes UP-TO-DATE
+
+> Task :lwjgl3:runClient
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.badlogic.gdx.utils.SharedLibraryLoader in an unnamed module (file:/C:/Users/user/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-jnigen-loader/2.5.2/f35e90affe07c46b4f5e5958a1a4c1820c4890e2/gdx-jnigen-loader-2.5.2.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.lwjgl.system.MemoryUtil (file:/C:/Users/user/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar)
+WARNING: Please consider reporting this to the maintainers of class org.lwjgl.system.MemoryUtil
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[LoadingScreen] First graphical frame shown
+[PlantInfoRegistry] Loaded info for 69 plants.
+[ZombieInfoRegistry] Loaded info for 87 zombies.
+00:00  INFO: Connecting: localhost/127.0.0.1:54555/54555
+00:00  INFO: [kryonet] Connection 4 connected: localhost/127.0.0.1
+[Client] Connected to server: localhost/127.0.0.1:54555
+00:00 ERROR: [kryonet] Error updating connection: Connection 4
+com.esotericsoftware.kryonet.KryoNetException: Error during deserialization.
+	at com.esotericsoftware.kryonet.TcpConnection.readObject(TcpConnection.java:141)
+	at com.esotericsoftware.kryonet.Client.update(Client.java:255)
+	at com.esotericsoftware.kryonet.Client.run(Client.java:338)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+	at com.esotericsoftware.kryo.io.ByteBufferInput.require(ByteBufferInput.java:197)
+	at com.esotericsoftware.kryo.io.ByteBufferInput.readString(ByteBufferInput.java:465)
+	at com.esotericsoftware.kryo.serializers.UnsafeCacheFields$UnsafeStringField.read(UnsafeCacheFields.java:198)
+[GameClient] Pending session restore failed: Could not connect to server.
+	at com.esotericsoftware.kryo.serializers.FieldSerializer.read(FieldSerializer.java:528)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:764)
+	at com.esotericsoftware.kryonet.KryoSerialization.read(KryoSerialization.java:55)
+	at com.esotericsoftware.kryonet.TcpConnection.readObject(TcpConnection.java:139)
+	... 3 more
+[Client] Disconnected from server
+00:00  INFO: [kryonet] Connection 4 disconnected.
+Exception in thread "Client" com.esotericsoftware.kryonet.KryoNetException: Error during deserialization.
+	at com.esotericsoftware.kryonet.TcpConnection.readObject(TcpConnection.java:141)
+	at com.esotericsoftware.kryonet.Client.update(Client.java:255)
+	at com.esotericsoftware.kryonet.Client.run(Client.java:338)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+	at com.esotericsoftware.kryo.io.ByteBufferInput.require(ByteBufferInput.java:197)
+	at com.esotericsoftware.kryo.io.ByteBufferInput.readString(ByteBufferInput.java:465)
+	at com.esotericsoftware.kryo.serializers.UnsafeCacheFields$UnsafeStringField.read(UnsafeCacheFields.java:198)
+	at com.esotericsoftware.kryo.serializers.FieldSerializer.read(FieldSerializer.java:528)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:764)
+	at com.esotericsoftware.kryonet.KryoSerialization.read(KryoSerialization.java:55)
+	at com.esotericsoftware.kryonet.TcpConnection.readObject(TcpConnection.java:139)
+	... 3 more
+[StartupPipeline] Remembered session restored.
+[StartupPipeline] Startup initialization complete
+[LoadingScreen] Entry button: login
+[ProfileMenu] Missing texture: menu/icon/username_field
+[ProfileMenu] Missing texture: menu/icon/nickname_field
+[ProfileMenu] Missing texture: menu/icon/email_field
+[ProfileMenu] Missing texture: menu/icon/game_field
+[ProfileMenu] Missing texture: menu/icon/game_field.png
+[ProfileMenu] Missing texture: menu/icon/game_field.jpg
+[ProfileMenu] Missing texture: menu/icon/coins_field
+[ProfileMenu] Missing texture: menu/icon/gem_field
+[ProfileMenu] Missing texture: menu/icon/chapter_field
+00:16  INFO: Connecting: localhost/127.0.0.1:54555/54555
+00:16  INFO: [kryonet] Connection 4 connected: localhost/127.0.0.1
+[Client] Connected to server: localhost/127.0.0.1:54555
+[Client] Disconnected from server
+00:16  INFO: [kryonet] Connection 4 disconnected.
+00:19  INFO: Connecting: localhost/127.0.0.1:54555/54555
+[ProfileMenu] Missing texture: menu/icon/username_field
+[ProfileMenu] Missing texture: menu/icon/nickname_field
+[ProfileMenu] Missing texture: menu/icon/email_field
+[ProfileMenu] Missing texture: menu/icon/game_field
+[ProfileMenu] Missing texture: menu/icon/game_field.png
+[ProfileMenu] Missing texture: menu/icon/game_field.jpg
+[ProfileMenu] Missing texture: menu/icon/coins_field
+[ProfileMenu] Missing texture: menu/icon/gem_field
+[ProfileMenu] Missing texture: menu/icon/chapter_field
+00:26  INFO: Connecting: localhost/127.0.0.1:54555/54555
+WORLD: x=1009.21 y=1911.97 | PLAYGROUND: x=1009.21 y=1911.97 width=1102.33 height=728.667
+[PlantAnimationProfileLoader] Resolved plant PAM 768/INITIAL/PLANT/PEAPOD/PEAPOD.PAM -> 768/FULL/PLANT/PEAPOD/PEAPOD.PAM for plants/pea_pod.json
+[PlantAnimationProfileLoader] Resolved plant PAM 768/INITIAL/PLANT/BOWLINGBULB/BOWLINGBULB.PAM -> 768/FULL/PLANT/BOWLINGBULB/BOWLINGBULB.PAM for plants/bowling_bulb.json
+[PlantAnimationProfileLoader] Resolved plant PAM 768/INITIAL/PLANT/MAGNETSHROOM/MAGNETSHROOM.PAM -> 768/FULL/PLANT/MAGNETSHROOM/MAGNETSHROOM.PAM for plants/magnet_shroom.json
+[PlantAnimationProfileLoader] Plant PAM not found: 768/INITIAL/PLANT/CATTAIL/CATTAIL.PAM in plants/cat_tail.json
+[AnimationLibrary] PAM file does not exist: 768/INITIAL/PLANT/CATTAIL/CATTAIL.PAM
+[GraphicsEngine] Missing plant PAM 768/INITIAL/PLANT/CATTAIL/CATTAIL.PAM, using peashooter for Cat-tail
+[PlantAnimationProfileLoader] Using default plant animation profile for Cat-tail
+I set the screen to play screen
+00:39  INFO: Connecting: localhost/127.0.0.1:54555/54555
+[PlantCardConfigLoader] Missing plant texture key: IMAGE_UI_PACKETS_CHERRYBOMB for Cherry Bomb
+[PlantCardConfigLoader] Successfully loaded configs for 69 plants.
+[PlantCardConfigLoader] Missing plant texture key: IMAGE_UI_PACKETS_ICEBERGLETTUCE for Iceberg Lettuce
+[PlantCardConfigLoader] Missing plant texture key: IMAGE_UI_PACKETS_CATTAIL for Cat-tail
+[PlantCardConfigLoader] Missing plant texture key: IMAGE_UI_PACKETS_PIERCEMINT for Pierce-mint
+[PlantCardConfigLoader] Missing plant texture key: IMAGE_UI_PACKETS_CATTAILMINT for catTail-mint
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Twin Sunflower: 768/INITIAL/PLANT/TWINSUNFLOWER/TWINSUNFLOWER.PAM -> 768/INITIAL/PLANT/SUNFLOWER_TWIN/SUNFLOWER_TWIN.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Primal Sunflower: 768/FULL/PLANT/PRIMALSUNFLOWER/PRIMALSUNFLOWER.PAM -> 768/FULL/PLANT/PRIMAL_SUNFLOWER/PRIMAL_SUNFLOWER.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Pea Pod: 768/INITIAL/PLANT/PEAPOD/PEAPOD.PAM -> 768/FULL/PLANT/PEAPOD/PEAPOD.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Bowling Bulb: 768/INITIAL/PLANT/BOWLINGBULB/BOWLINGBULB.PAM -> 768/FULL/PLANT/BOWLINGBULB/BOWLINGBULB.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Mega Gatling Pea: 768/INITIAL/PLANT/MEGAGATLINGPEA/MEGAGATLINGPEA.PAM -> 768/INITIAL/PLANT/MEGAGATLING/MEGAGATLING.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Kernel-pult: 768/INITIAL/PLANT/KERNELPULT/KERNELPULT.PAM -> 768/INITIAL/PLANT/KERNALPULT/KERNALPULT.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Winter Melon: 768/INITIAL/PLANT/WINTERMELON/WINTERMELON.PAM -> 768/FULL/PLANT/WINTERMELON/WINTERMELON.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Pepper-pult: 768/INITIAL/PLANT/PEPPERPULT/PEPPERPULT.PAM -> 768/FULL/PLANT/PEPPERPULT/PEPPERPULT.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Primal Potato Mine: 768/INITIAL/PLANT/PRIMALPOTATOMINE/PRIMALPOTATOMINE.PAM -> 768/FULL/PLANT/PRIMAL_POTATOMINE/PRIMAL_POTATOMINE.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Cherry Bomb: 768/INITIAL/PLANT/CHERRYBOMB/CHERRYBOMB.PAM -> 768/FULL/PLANT/CHERRYBOMB/CHERRYBOMB.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Doom-shroom: 768/INITIAL/PLANT/DOOMSHROOM/DOOMSHROOM.PAM -> 768/FULL/PLANT/DOOMSHROOM/DOOMSHROOM.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Tangle Kelp: 768/INITIAL/PLANT/TANGLEKELP/TANGLEKELP.PAM -> 768/FULL/PLANT/TANGLEKELP/TANGLEKELP.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Iceberg Lettuce: 768/INITIAL/PLANT/ICEBERGLETTUCE/ICEBERGLETTUCE.PAM -> 768/INITIAL/PLANT/ICEBURG/ICEBURG.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Phat Beet: 768/INITIAL/PLANT/PHATBEET/PHATBEET.PAM -> 768/FULL/PLANT/PHATBEETS/PHATBEETS.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Tall-nut: 768/INITIAL/PLANT/TALLNUT/TALLNUT.PAM -> 768/FULL/PLANT/TALLNUT/TALLNUT.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Endurian: 768/INITIAL/PLANT/ENDURIAN/ENDURIAN.PAM -> 768/FULL/PLANT/ENDURIAN/ENDURIAN.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Garlic: 768/INITIAL/PLANT/GARLIC/GARLIC.PAM -> 768/FULL/PLANT/GARLIC/GARLIC.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Sun Bean: 768/INITIAL/PLANT/SUNBEAN/SUNBEAN.PAM -> 768/FULL/PLANT/SUNBEAN/SUNBEAN.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Magnet-shroom: 768/INITIAL/PLANT/MAGNETSHROOM/MAGNETSHROOM.PAM -> 768/FULL/PLANT/MAGNETSHROOM/MAGNETSHROOM.PAM
+[PlantAnimationProfileLoader] Plant PAM not found: 768/INITIAL/PLANT/CATTAIL/CATTAIL.PAM in plants/cat_tail.json
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Ice-shroom: 768/INITIAL/PLANT/ICESHROOM/ICESHROOM.PAM -> 768/FULL/PLANT/ICESHROOM/ICESHROOM.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Lily Pad: 768/INITIAL/PLANT/LILYPAD/LILYPAD.PAM -> 768/FULL/PLANT/LILYPAD/LILYPAD.PAM
+[PlantIdlePreviewConfigLoader] Resolved idle preview PAM for Hot Potato: 768/INITIAL/PLANT/HOTPOTATO/HOTPOTATO.PAM -> 768/FULL/PLANT/HOTPOTATO/HOTPOTATO.PAM
+[PlantIdlePreviewConfigLoader] Loaded idle preview configs for 69 plants.
+00:54  INFO: Connecting: localhost/127.0.0.1:54555/54555
+i gave cone
+I SET BODY
+|EVENT LOG: tick #83|  Zombie spawned at position ( 2230.580078125 , 2578.0 )
+00:54  INFO: Connecting: localhost/127.0.0.1:54555/54555
+00:55  INFO: Connecting: localhost/127.0.0.1:54555/54555
+00:56  INFO: Connecting: localhost/127.0.0.1:54555/54555
+I SET BODY
+I SET BODY
+i gave brick
+I SET BODY
+|EVENT LOG: tick #100|  Zombie spawned at position ( 2230.580078125 , 2578.0 )
+|EVENT LOG: tick #100|  Zombie spawned at position ( 2240.1201171875 , 2004.0 )
+|EVENT LOG: tick #100|  Zombie spawned at position ( 2227.8798828125 , 2452.0830078125 )
+00:57  INFO: Connecting: localhost/127.0.0.1:54555/54555
+|EVENT LOG: tick #120|  New normal sun is dropping at position (<1809>, <1956>)
+|EVENT LOG: tick #121|  New normal Sun reached the ground at position (<1809>, <1944>)
+00:58  INFO: Connecting: localhost/127.0.0.1:54555/54555
+00:59  INFO: Connecting: localhost/127.0.0.1:54555/54555
+|EVENT LOG: tick #145|  zombie die at position>>  X:939.8237915039062 Y:2578.0
+|EVENT LOG: tick #166|  zombie die at position>>  X:1946.52685546875 Y:2578.0
+LINES DIDNT MATCH -> 1, 0
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+LAWN-MOWER OUTSIDE THE MAP!
+type = DynamicBody
+velocity = (0.0,0.0)
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+i gave brick
+I SET BODY
+|EVENT LOG: tick #206|  Zombie spawned at position ( 2229.949951171875 , 2304.906982421875 )
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+called destroy()
+|EVENT LOG: tick #240|  New normal sun is dropping at position (<1365>, <2773>)
+type = DynamicBody
+velocity = (0.0,0.0)
+|EVENT LOG: tick #254|  zombie die at position>>  X:1592.1358642578125 Y:2004.0001220703125
+|EVENT LOG: tick #254|  Basic Halloween took 1800 damage.
+called destroy()
+|EVENT LOG: tick #259|  >>> Plant Squash died (!) at position : ( 1560.3751220703125 , 1984.8365478515625 )
+[AnimationLibrary] Clip 'animation' is not in 768/FULL/EFFECTS/WATER_SPLASH/WATER_SPLASH.PAM, using 'water_splash_01'
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+LINES DIDNT MATCH -> 8, 0
+type = DynamicBody
+velocity = (0.0,0.0)
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+|EVENT LOG: tick #290|  New normal Sun reached the ground at position (<1365>, <2467>)
+called destroy()
+destroyed
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+|EVENT LOG: tick #325|  zombie die at position>>  X:1714.8914794921875 Y:2304.906982421875
+type = DynamicBody
+velocity = (0.0,0.0)
+LINES DIDNT MATCH -> 8, 0
+01:19  INFO: Connecting: localhost/127.0.0.1:54555/54555
+type = DynamicBody
+velocity = (0.0,0.0)
+LINES DIDNT MATCH -> 8, 0
+type = DynamicBody
+velocity = (0.0,0.0)
+LINES DIDNT MATCH -> 8, 0
+|EVENT LOG: tick #360|  New special sun is dropping at position (<1487>, <2616>)
+|EVENT LOG: tick #371|  >>> Plant Peashooter died (!) at position : ( 1070.4505615234375 , 2422.036865234375 )
+|EVENT LOG: tick #392|  Basic Pirate is completely frozen.
+|EVENT LOG: tick #402|  >>> Plant Ice-shroom died (!) at position : ( 1192.9317626953125 , 2276.303466796875 )
+|EVENT LOG: tick #467|  >>> Plant Squash died (!) at position : ( 1070.4505615234375 , 2422.036865234375 )
+i gave cone
+I SET BODY
+|EVENT LOG: tick #470|  Zombie spawned at position ( 2240.1201171875 , 2004.0 )
+|EVENT LOG: tick #472|  zombie die at position>>  X:963.2536010742188 Y:2452.0830078125
+|EVENT LOG: tick #480|  New special sun is dropping at position (<1548>, <2205>)
+LAWN-MOWER OUTSIDE THE MAP!
+|EVENT LOG: tick #523|  New special Sun reached the ground at position (<1548>, <1941>)
+01:39  INFO: Connecting: localhost/127.0.0.1:54555/54555
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+i gave brick
+I SET BODY
+i gave cone
+I SET BODY
+I SET BODY
+i gave cone
+I SET BODY
+|EVENT LOG: tick #550|  Zombie spawned at position ( 2229.949951171875 , 2304.906982421875 )
+|EVENT LOG: tick #550|  Zombie spawned at position ( 2240.1201171875 , 2004.0 )
+|EVENT LOG: tick #550|  Zombie spawned at position ( 2230.580078125 , 2578.0 )
+|EVENT LOG: tick #550|  Zombie spawned at position ( 2227.8798828125 , 2452.0830078125 )
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+type = DynamicBody
+velocity = (0.0,0.0)
+LINES DIDNT MATCH -> 1, 0
+called destroy()
+|EVENT LOG: tick #600|  New radioactive sun is dropping at position (<1406>, <2309>)
+|EVENT LOG: tick #607|  >>> Plant Melon-pult died (!) at position : ( 1070.4505615234375 , 1984.8365478515625 )
+type = DynamicBody
+velocity = (0.0,0.0)
+called destroy()
+LINES DIDNT MATCH -> 16, 8
+|EVENT LOG: tick #650|  New normal Sun reached the ground at position (<1406>, <2003>)
+|EVENT LOG: tick #651|  zombie die at position>>  X:948.3563232421875 Y:2004.0001220703125
+type = DynamicBody
+velocity = (0.0,0.0)
+LINES DIDNT MATCH -> 16, 8
+called destroy()
+|EVENT LOG: tick #668|  zombie die at position>>  X:1724.753173828125 Y:2004.0001220703125
+
+> Task :lwjgl3:runClient FAILED
+
+[Incubating] Problems report is available at: file:///E:/Sharif_Univercity/code/AP/Project/project/group-23/Plants%20%20VS%20%20Zombies/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lwjgl3:runClient'.
+> Process 'command 'C:\Program Files\Java\jdk-25.0.2\bin\java.exe'' finished with non-zero exit value -1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2m 10s
+5 actionable tasks: 1 executed, 4 up-to-date
