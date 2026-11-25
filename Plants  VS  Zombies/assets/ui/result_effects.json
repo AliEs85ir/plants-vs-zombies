@@ -1,0 +1,26 @@
+{
+  "win": {
+    "effectId": "won",
+    "playgroundXFactor": 0.5,
+    "playgroundYFactor": 0.65,
+    "worldOffsetX": -1010,
+    "worldOffsetY": -505,
+    "fallbackX": 640,
+    "fallbackY": 400,
+    "scale": 1.0,
+    "layer": "UI",
+    "musicFadeSeconds": 0.25
+  },
+  "lose": {
+    "effectId": "lose",
+    "playgroundXFactor": 0.5,
+    "playgroundYFactor": 0.65,
+    "worldOffsetX": -1010,
+    "worldOffsetY": -505,
+    "fallbackX": 640,
+    "fallbackY": 400,
+    "scale": 1.0,
+    "layer": "UI",
+    "musicFadeSeconds": 0.25
+  }
+}

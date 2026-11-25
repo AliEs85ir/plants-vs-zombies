@@ -1,0 +1,8 @@
+{
+  "loseSkipDiamondCost": 1000,
+  "popupDelaySeconds": 3.5,
+  "buyWinLabelFormat": "Buy Win ({cost})",
+  "notEnoughDiamonds": "Not enough Diamonds.",
+  "notEnoughDiamondsFormat": "Not enough Diamonds ({cost} required).",
+  "convertFailed": "Could not convert this loss."
+}
