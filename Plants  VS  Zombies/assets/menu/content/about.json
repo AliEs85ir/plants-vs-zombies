@@ -1,0 +1,36 @@
+{
+  "title": "About",
+  "closeLabel": "Close",
+  "sections": [
+    {
+      "id": "game",
+      "title": "About the Game",
+      "body": "Welcome to our Plants vs. Zombies adventure. You plant a living defense, collect sun, and hold the lawn against waves of hungry zombies.\n\nThis build is a student-made homage that keeps the playful tone of the original while growing its own backyard of systems, plants, and world maps."
+    },
+    {
+      "id": "project",
+      "title": "Our Project",
+      "body": "Group 23 of the Sunflower Team is building this game as a full Advanced Programming project: menus, accounts, chapters, combat, and a data-driven UI.\n\nThe Start Screen icons, popups, and content you are reading are loaded from configuration files so the lawn can be re-decorated without rewriting the engine."
+    },
+    {
+      "id": "gameplay",
+      "title": "Gameplay",
+      "body": "Choose plants, spend sun, and place them on the grid before the zombies reach your house. Some plants shoot, some stall, some explode, and some feed the whole row with extra sun.\n\nPlant Food, boosts, lawn mowers, and special boards twist the usual rules. Learn the tools, then mix them."
+    },
+    {
+      "id": "technology",
+      "title": "Technology",
+      "body": "The game runs on Java and libGDX, with Scene2D for menus, a custom world simulation for combat, and PAM/atlas art from the classic PVZ look.\n\nUI chrome comes from the project skin. Layouts, copy, and icon placement live in JSON so designers can tune the backyard without a full rebuild."
+    },
+    {
+      "id": "team",
+      "title": "Team",
+      "body": "Sunflower Team / Group 23\nAli Esmaeili\nMohammadreza Ajdari\nAmirreza Najarian\n\nWe plant, we debug, we water, we repeat."
+    },
+    {
+      "id": "thanks",
+      "title": "Acknowledgements",
+      "body": "Thanks to PopCap and the original Plants vs. Zombies crew for the garden we grew up in.\nThanks to our course staff, playtesters, and anyone who sent a bug with a smile.\n\nThis project is a fan-made academic work and is not an official EA or PopCap product."
+    }
+  ]
+}

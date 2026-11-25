@@ -1,0 +1,40 @@
+{
+  "title": "Find Us Online",
+  "closeLabel": "Close",
+  "intro": "Follow the Sunflower Team for patches, lawn tips, and the occasional zombie sighting.",
+  "openLabel": "Open",
+  "platforms": [
+    {
+      "id": "telegram",
+      "displayName": "Telegram",
+      "username": "@sunflower-team",
+      "url": "https://t.me/sunflower_team",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "instagram",
+      "displayName": "Instagram",
+      "username": "@sunflower.pvz",
+      "url": "https://instagram.com/sunflower.pvz",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "discord",
+      "displayName": "Discord",
+      "username": "Sunflower Lawn",
+      "url": "https://discord.gg/sunflower-lawn",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "youtube",
+      "displayName": "YouTube",
+      "username": "Sunflower Team",
+      "url": "https://youtube.com/@sunflowerteam",
+      "enabled": true,
+      "order": 3
+    }
+  ]
+}

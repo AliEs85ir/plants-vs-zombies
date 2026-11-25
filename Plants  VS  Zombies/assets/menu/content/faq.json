@@ -1,0 +1,44 @@
+{
+  "title": "Lawn FAQ",
+  "closeLabel": "Close",
+  "hint": "Tap a question to open it. Only one answer stays open at a time.",
+  "collapsedPrefix": "▸ ",
+  "expandedPrefix": "▾ ",
+  "items": [
+    {
+      "id": "play",
+      "question": "How do I play?",
+      "answer": "Collect sun, pick plants from your seed bank, and plant them on the lawn. Zombies walk from the right. If they eat your plants and reach the house, the lawn falls. Keep rows covered and save sun for emergencies."
+    },
+    {
+      "id": "sun",
+      "question": "How do I earn Sun?",
+      "answer": "Sunflowers produce sun over time. Falling sun can also appear on some boards. Click sun to collect it, then spend it on seed packets. More sun producers mean a stronger late game."
+    },
+    {
+      "id": "plant-food",
+      "question": "What is Plant Food?",
+      "answer": "Plant Food is a one-shot supercharge. Feed it to a planted plant to trigger a powerful effect: a burst of shots, a board-wide buff, extra sun, or a unique ability. Save it for packed waves."
+    },
+    {
+      "id": "boost",
+      "question": "How do Boosted Plants work?",
+      "answer": "Boosted plants hit harder or work faster for that level. Boosts are a temporary edge, not a permanent upgrade. Use them on plants that carry your defense, not on fillers."
+    },
+    {
+      "id": "cards",
+      "question": "How do seed cards recharge?",
+      "answer": "After you plant a card it goes on cooldown. Wait for the packet to refill before planting another of the same plant. Expensive plants usually recharge more slowly."
+    },
+    {
+      "id": "mowers",
+      "question": "What do lawn mowers do?",
+      "answer": "Each row has a mower. The first zombie that reaches the house in that row triggers it and clears the line. Each mower works once, so treat it as a last chance, not a plan."
+    },
+    {
+      "id": "tips",
+      "question": "Any beginner tips?",
+      "answer": "Start with sun. Plant a full column of producers before you over-spend on offense. Cover every lane. Keep one stall plant for surprises. Do not dump Plant Food on the first zombie you see."
+    }
+  ]
+}

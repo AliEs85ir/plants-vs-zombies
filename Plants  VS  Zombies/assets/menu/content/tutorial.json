@@ -1,0 +1,68 @@
+{
+  "title": "Lawn Tutorial",
+  "closeLabel": "Close",
+  "previousLabel": "Back",
+  "nextLabel": "Next",
+  "sections": [
+    {
+      "id": "start",
+      "title": "Getting Started",
+      "body": "This hub is your backyard briefing. Pick a topic on the left, or step through with Back and Next.\n\nYour goal is simple: plant a living wall, collect sun, and stop zombies from reaching the house. Everything else is flavor on top of that loop."
+    },
+    {
+      "id": "gameplay",
+      "title": "Basic Gameplay",
+      "body": "The lawn is a grid. Zombies pick a row and walk left. Plants occupy tiles and fight in their own way.\n\n1. Collect sun.\n2. Choose a seed packet.\n3. Plant it on an empty tile.\n4. Watch the row. Replant what gets eaten.\n\nIf a zombie reaches the left edge, that row's mower may save you once. After that, the house is open."
+    },
+    {
+      "id": "plants",
+      "title": "Plants",
+      "body": "Every plant has a job.\n\nProducers make sun.\nShooters attack down their row.\nWalls buy time.\nInstant plants explode, freeze, or clear a surprise.\nSpecial plants change the board: oil, water, graves, and more.\n\nRead the seed packet before you plant. A peashooter in the wrong row is just a snack."
+    },
+    {
+      "id": "zombies",
+      "title": "Zombies",
+      "body": "Basic zombies chew plants. Armored zombies take more hits. Special zombies break rules: they jump, fly, crush, or spawn friends.\n\nWatch the seed bar and the wave banner. When the flag comes, spend your savings. Do not wait for the last tile."
+    },
+    {
+      "id": "sun",
+      "title": "Sun",
+      "body": "Sun is your only planting currency on most boards. Click every sun you see. Missed sun is a missed wall.\n\nEarly game: plant producers first.\nMid game: keep producing while you fill lanes.\nLate game: you should have spare sun for emergencies.\n\nIf you are broke, you are already losing the next wave."
+    },
+    {
+      "id": "plant-food",
+      "title": "Plant Food",
+      "body": "Plant Food is rare and loud. It makes one plant do something spectacular.\n\nUse it to break a jammed row, to harvest a burst of sun, or to stall a zombie that slipped through.\n\nIt is not a substitute for a real defense. A well-placed wall plus a shooter still wins more games than a panic feed."
+    },
+    {
+      "id": "boost",
+      "title": "Boost",
+      "body": "Boosts supercharge a plant type for a level. Boost the plants that define your plan, not the ones you plant once.\n\nIf your board is built around a stall-and-shoot lane, boost the shooter. If you need sun, boost the producer."
+    },
+    {
+      "id": "cards",
+      "title": "Cards",
+      "body": "Seed cards are your hand. Each has a sun cost and a recharge.\n\nYou cannot spam the same plant instantly. After planting, wait for the packet to glow again.\n\nA good hand covers sun, stall, damage, and one answer to the board's gimmick."
+    },
+    {
+      "id": "battlefield",
+      "title": "Battlefield",
+      "body": "Not every lawn is grass. Some rows are water, oil, graves, or rails. Those tiles reject the usual plants or need special ones.\n\nLook at the board before the first zombie. If a row is water, pack a water plant. If graves block tiles, clear or work around them."
+    },
+    {
+      "id": "special",
+      "title": "Special Mechanics",
+      "body": "Lawn mowers, Plant Food, conveyor cards, locked tiles, and chapter gimmicks all change the script.\n\nRead the level intro. If the board gives you free cards, plant faster. If it hides sun, protect your producers."
+    },
+    {
+      "id": "tips",
+      "title": "Tips & Tricks",
+      "body": "Plant sun first.\nNever leave a lane empty.\nKeep one stall plant ready.\nSpend Plant Food on the wave, not the scout.\nClick sun the moment it appears.\nIf a mower fires, rebuild that row immediately."
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced Gameplay",
+      "body": "Late boards reward plans, not panic. Count the sun you will have when the flag hits. Leave tiles for instant answers.\n\nStack roles in a lane: producer, stall, damage. When a zombie type counters your damage, swap the answer before the wave, not during it.\n\nMost losses start as a greedy early plant. Slow down, then snowball."
+    }
+  ]
+}

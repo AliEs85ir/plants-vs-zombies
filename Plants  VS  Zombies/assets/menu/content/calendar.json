@@ -1,0 +1,12 @@
+{
+  "title": "Almanac Calendar",
+  "closeLabel": "Close",
+  "yearLabel": "Year",
+  "monthLabel": "Month",
+  "dayLabel": "Day",
+  "timeLabel": "Local Time",
+  "lastVisitLabel": "Last Visit",
+  "guestMessage": "No logged-in user found.",
+  "firstVisitMessage": "This is your first visit. Welcome to the lawn!",
+  "datePattern": "yyyy-MM-dd HH:mm"
+}
