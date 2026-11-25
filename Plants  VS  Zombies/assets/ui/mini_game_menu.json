@@ -1,0 +1,88 @@
+{
+  "mapPath": "Maps/mini_game.tmx",
+  "bgLayer": "bg",
+  "mapLayer": "map",
+  "miniGamesLayer": "miniGames",
+  "mapPixelWidth": 0,
+  "mapPixelHeight": 0,
+  "defaultHoverAnimations": [
+    {
+      "id": "electricity",
+      "pamPath": "768/INITIAL/EFFECTS/ELECTRICI_TEA_ATTACK_TOP_EFFECTS/ELECTRICI_TEA_ATTACK_TOP_EFFECTS.PAM",
+      "clip": "plantfood_end",
+      "loop": true,
+      "offsetX": 65,
+      "offsetY": -180,
+      "scale": 3.2,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "rotation": 90,
+      "alpha": 1.0,
+      "originX": 0.5,
+      "originY": 0.5,
+      "originOffsetX": 0,
+      "originOffsetY": 0,
+      "scaleWithMap": true,
+      "visible": true
+    },
+    {
+      "id": "cloud",
+      "pamPath": "768/INITIAL/EFFECTS/ELECTRICBLUEBERRY_CLOUD_PROJECTILE/ELECTRICBLUEBERRY_CLOUD_PROJECTILE.PAM",
+      "startClip": "start",
+      "loopClip": "attack",
+      "endClip": "death",
+      "loop": true,
+      "offsetX": 0,
+      "offsetY": 350,
+      "scale": 1.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "rotation": 0,
+      "alpha": 1.0,
+      "originX": 0.5,
+      "originY": 0.5,
+      "originOffsetX": 0,
+      "originOffsetY": 0,
+      "scaleWithMap": true,
+      "visible": true
+    }
+  ],
+  "games": [
+    {
+      "id": "Walnut Bowling",
+      "action": "start_chapter",
+      "chapter": "WALLNUT_BOWLING",
+      "order": 0,
+      "enabled": true,
+      "visible": true,
+      "aliases": ["walnut bowling", "WALLNUT_BOWLING"]
+    },
+    {
+      "id": "Vase Breaker",
+      "action": "start_chapter",
+      "chapter": "VASE_BREAKER",
+      "order": 1,
+      "enabled": true,
+      "visible": true,
+      "aliases": ["vase breaker", "VASE_BREAKER"]
+    },
+    {
+      "id": "Plant zombies",
+      "action": "start_chapter",
+      "chapter": "PLANT_ZOMBIES",
+      "order": 2,
+      "enabled": true,
+      "visible": true,
+      "aliases": ["plant zombies", "PLANT_ZOMBIES", "Plant Zombies"]
+    },
+    {
+      "id": "Beghouled",
+      "action": "start_chapter",
+      "chapter": "BEGHOULED",
+      "order": 3,
+      "enabled": true,
+      "visible": true,
+      "aliases": ["beghouled", "BEGHOULED"]
+    }
+  ]
+}

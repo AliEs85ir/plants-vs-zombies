@@ -1,0 +1,177 @@
+{
+  "background": {
+    "path": "menu/bg/main.png",
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "scaleMode": "cover",
+    "offsetX": 0,
+    "offsetY": 0
+  },
+  "defaultTab": "game",
+  "tabTitle": {
+    "layout": {
+      "titleWidth": 480,
+      "titleHeight": 78,
+      "titleScale": 1.0,
+      "titleOffsetX": 0,
+      "titleOffsetY": 0,
+      "titleTopPadding": 10,
+      "titleBottomPadding": 16,
+      "titleAlignment": "top",
+      "keepAspectRatio": true
+    },
+    "news": {
+      "assetPath": "menu/image/news_title.png"
+    },
+    "game": {
+      "assetPath": "menu/image/game_title.png"
+    },
+    "profile": {
+      "assetPath": "menu/image/profile_title.png"
+    },
+    "settings": {
+      "assetPath": "menu/image/options_title.png"
+    }
+  },
+  "content": {
+    "paddingLeft": 48,
+    "paddingRight": 48,
+    "paddingTop": 28,
+    "paddingBottom": 118,
+    "offsetX": 0,
+    "offsetY": 0
+  },
+  "navigation": {
+    "layout": {
+      "startX": 160,
+      "endX": 1120,
+      "bottomOffset": 18,
+      "iconWidth": 72,
+      "iconHeight": 72,
+      "scale": 1.0,
+      "iconSpacing": 0,
+      "horizontalOffset": 0,
+      "verticalOffset": 0,
+      "alignment": "center"
+    },
+    "appearance": {
+      "normalDarkness": 0.35,
+      "selectedDarkness": 0.0,
+      "selectedScaleIncrease": 0.05,
+      "selectedVerticalOffset": 10,
+      "hoverScale": 1.04,
+      "pressedScale": 0.96,
+      "hoverDuration": 0.08,
+      "selectedDuration": 0.12,
+      "easing": "sineOut"
+    },
+    "icons": [
+      {
+        "id": "back",
+        "assetPath": "menu/icon/back.png",
+        "action": "go_start_menu",
+        "order": 0,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "news",
+        "assetPath": "menu/icon/news.png",
+        "action": "show_tab",
+        "tab": "news",
+        "order": 1,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "game",
+        "assetPath": "menu/icon/game.png",
+        "action": "show_tab",
+        "tab": "game",
+        "order": 2,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "profile",
+        "assetPath": "menu/icon/profile.png",
+        "action": "show_tab",
+        "tab": "profile",
+        "order": 3,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "settings",
+        "assetPath": "menu/icon/settings.png",
+        "action": "show_tab",
+        "tab": "settings",
+        "order": 4,
+        "enabled": true,
+        "visible": true
+      }
+    ],
+    "unreadWarning": {
+      "assetPath": "menu/icon/warning.png",
+      "enabled": true,
+      "size": 26,
+      "anchorOffsetX": 18,
+      "anchorOffsetY": 18,
+      "pulseMinScale": 0.94,
+      "pulseMaxScale": 1.06,
+      "pulseMinAlpha": 0.8,
+      "pulseMaxAlpha": 1.0,
+      "pulseDurationSec": 1.1
+    }
+  },
+  "gameMenu": {
+    "layout": {
+      "firstCardX": 0,
+      "firstCardY": 430,
+      "cardWidth": 860,
+      "cardHeight": 220,
+      "scale": 1.0,
+      "cardSpacing": 0,
+      "cardOverlap": 78,
+      "horizontalOffset": 0,
+      "verticalOffset": -40,
+      "alignment": "center",
+      "keepAspectRatio": true
+    },
+    "appearance": {
+      "normalDarkness": 0.35,
+      "hoverDarkness": 0.0,
+      "hoverScale": 1.06,
+      "hoverOffsetX": 0,
+      "hoverOffsetY": 8,
+      "hoverDuration": 0.12,
+      "easing": "sineOut"
+    },
+    "cards": [
+      {
+        "id": "adventure",
+        "assetPath": "menu/image/adventure.png",
+        "action": "open_adventure",
+        "order": 0,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "mini_game",
+        "assetPath": "menu/image/mini_game.png",
+        "action": "open_minigame",
+        "order": 1,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "network",
+        "assetPath": "menu/image/network.png",
+        "action": "open_network",
+        "order": 2,
+        "enabled": true,
+        "visible": true
+      }
+    ]
+  }
+}

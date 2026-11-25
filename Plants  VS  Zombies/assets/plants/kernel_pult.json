@@ -1,0 +1,62 @@
+{
+  "plant": "KERNEL_PULT",
+
+  "pamPath":
+  "768/INITIAL/PLANT/KERNALPULT/KERNALPULT.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "ATTACK":[
+
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "ATTACK_2":[
+
+      {
+        "clip":"attack2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

@@ -1,0 +1,104 @@
+{
+  "emojis": [
+    {
+      "id": "emoji_angry",
+      "glyph": ">:(",
+      "drawable": "ui/emojis/angry.png"
+    },
+    {
+      "id": "emoji_appreciation",
+      "glyph": "<3",
+      "drawable": "ui/emojis/appreciation.png"
+    },
+    {
+      "id": "emoji_attack",
+      "glyph": "⚔",
+      "drawable": "ui/emojis/attack.png"
+    },
+    {
+      "id": "emoji_cry",
+      "glyph": ":'(",
+      "drawable": "ui/emojis/cry.png"
+    },
+    {
+      "id": "emoji_happy",
+      "glyph": ":)",
+      "drawable": "ui/emojis/happy.png"
+    },
+    {
+      "id": "emoji_honor",
+      "glyph": "o7",
+      "drawable": "ui/emojis/honor.png"
+    },
+    {
+      "id": "emoji_poker",
+      "glyph": ":|",
+      "drawable": "ui/emojis/poker.png"
+    },
+    {
+      "id": "emoji_power",
+      "glyph": "💪",
+      "drawable": "ui/emojis/power.png"
+    },
+    {
+      "id": "emoji_sad",
+      "glyph": ":(",
+      "drawable": "ui/emojis/sad.png"
+    },
+    {
+      "id": "emoji_smile",
+      "glyph": ":D",
+      "drawable": "ui/emojis/smile.png"
+    },
+    {
+      "id": "emoji_smile2",
+      "glyph": "^_^",
+      "drawable": "ui/emojis/smile2.png"
+    },
+    {
+      "id": "emoji_text2",
+      "glyph": "T2",
+      "drawable": "ui/emojis/text2.png"
+    },
+    {
+      "id": "emoji_text3",
+      "glyph": "T3",
+      "drawable": "ui/emojis/text3.png"
+    },
+    {
+      "id": "emoji_text4",
+      "glyph": "T4",
+      "drawable": "ui/emojis/text4.png"
+    },
+    {
+      "id": "emoji_text5",
+      "glyph": "T5",
+      "drawable": "ui/emojis/text5.png"
+    },
+    {
+      "id": "emoji_text6",
+      "glyph": "T6",
+      "drawable": "ui/emojis/text6.png"
+    },
+    {
+      "id": "emoji_text7",
+      "glyph": "T7",
+      "drawable": "ui/emojis/text7.png"
+    },
+    {
+      "id": "emoji_text8",
+      "glyph": "T8",
+      "drawable": "ui/emojis/text8.png"
+    },
+    {
+      "id": "emoji_thanks",
+      "glyph": "TY",
+      "drawable": "ui/emojis/thanks.png"
+    },
+    {
+      "id": "emoji_thanks_text",
+      "glyph": "Thanks!",
+      "drawable": "ui/emojis/thanks_text.png"
+    }
+  ]
+}

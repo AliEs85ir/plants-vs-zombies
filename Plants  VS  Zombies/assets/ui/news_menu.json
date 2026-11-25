@@ -1,0 +1,116 @@
+{
+  "scrollArea": {
+    "scrollAreaWidth": 0,
+    "scrollAreaHeight": 0,
+    "scrollAreaOffsetX": 0,
+    "scrollAreaOffsetY": 0,
+    "scrollAreaTopPadding": 8,
+    "scrollAreaBottomPadding": 12,
+    "scrollAreaHorizontalInset": 0.2,
+    "scrollSpeed": 220,
+    "scrollSensitivity": 1.35
+  },
+  "newsItem": {
+    "newsItemWidth": 0,
+    "newsItemPaddingLeft": 12,
+    "newsItemPaddingRight": 12,
+    "newsItemPaddingTop": 8,
+    "newsItemPaddingBottom": 6,
+    "newsItemSpacing": 12,
+    "firstNewsTopPadding": 4,
+    "lastNewsBottomPadding": 18
+  },
+  "newsTitle": {
+    "titleFont": "FBUSV8C5EI_1_outline",
+    "titleFontFallback": "FBUSV8C5EI_1",
+    "titleFontSize": 0.88,
+    "titleColor": "F4E7B0",
+    "titleLineSpacing": 1.05,
+    "titleMessageSpacing": 4,
+    "titleAlignment": "left",
+    "titleMaxWidth": 0
+  },
+  "newsMessage": {
+    "messageFont": "AVENIRNEXTLTPRO-DEMICN",
+    "messageFontFallback": "AVENIRNEXTLTPRO_DEMICN",
+    "messageFontSize": 0.78,
+    "messageColor": "E4DCC4",
+    "messageLineSpacing": 1.08,
+    "messageTimeSpacing": 6,
+    "messageAlignment": "left",
+    "messageMaxWidth": 0
+  },
+  "newsTime": {
+    "timeFont": "PICO12",
+    "timeFontFallback": "PICO12_",
+    "timeFontSize": 0.7,
+    "timeColor": "E8C84A",
+    "timeTopPadding": 2,
+    "timeBottomPadding": 2,
+    "timeAlignment": "left",
+    "timePattern": "yyyy-MM-dd HH:mm",
+    "timeOffsetX": 0,
+    "timeOffsetY": 0
+  },
+  "separator": {
+    "enabled": true,
+    "height": 1,
+    "color": "FFFFFF33",
+    "topPadding": 6,
+    "bottomPadding": 4
+  },
+  "checkbox": {
+    "checkboxPositionX": 0,
+    "checkboxPositionY": 0,
+    "checkboxSize": 32,
+    "checkboxTopPadding": 6,
+    "checkboxBottomPadding": 10,
+    "checkboxOffsetX": 0,
+    "checkboxOffsetY": 0,
+    "checkboxAlignment": "center",
+    "checkboxLabel": "Show all news",
+    "checkboxLabelFont": "BRIANNETOD",
+    "checkboxLabelFontSize": 0.99,
+    "checkboxLabelColor": "F2E7C4",
+    "checkboxStyle": "default",
+    "checkboxHoverColor": "FFF4C0"
+  },
+  "emptyState": {
+    "unreadEmptyMessage": "No unread news.",
+    "allEmptyMessage": "No news to show.",
+    "emptyMessageFont": "AVENIRNEXTLTPRO-DEMICN",
+    "emptyMessageFontFallback": "AVENIRNEXTLTPRO_DEMICN",
+    "emptyMessageFontSize": 0.92,
+    "emptyMessageColor": "E4DCC4",
+    "emptyMessageAlignment": "center",
+    "emptyMessageTopPadding": 24
+  },
+  "sorting": {
+    "defaultShowUnreadOnly": true,
+    "defaultNewsOrder": "NEWEST_FIRST"
+  },
+  "layoutMode": "listDetail",
+  "listPane": {
+    "widthRatio": 0.42,
+    "previewMaxChars": 90,
+    "unreadMarker": "\u2022",
+    "selectedTint": "FFF4C055"
+  },
+  "detailPane": {
+    "headerTitle": "Neighborhood Newspaper",
+    "statusUnread": "Unread",
+    "statusRead": "Read",
+    "backLabel": "Back to list"
+  },
+  "warningBadge": {
+    "assetPath": "menu/icon/warning.png",
+    "size": 28,
+    "offsetX": 22,
+    "offsetY": 22,
+    "pulseMinScale": 0.92,
+    "pulseMaxScale": 1.08,
+    "pulseMinAlpha": 0.75,
+    "pulseMaxAlpha": 1.0,
+    "pulseDuration": 0.9
+  }
+}

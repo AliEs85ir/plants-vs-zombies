@@ -1,0 +1,22 @@
+{
+  "obstacle": "PUDDLE",
+  "pamPath": "768/FULL/BACKGROUNDS/WATER_ZOMBIE_RIPPLE/WATER_ZOMBIE_RIPPLE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "ripple",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "ripple_exit",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

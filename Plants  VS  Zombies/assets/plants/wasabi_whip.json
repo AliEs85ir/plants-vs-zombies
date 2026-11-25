@@ -1,0 +1,76 @@
+{
+  "plant": "WASABI_WHIP",
+
+  "pamPath":
+  "768/INITIAL/PLANT/WASABIWHIP/WASABIWHIP.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+
+      {
+        "clip":"idle2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK"
+      },
+
+      {
+        "clip":"idle3",
+        "loop":true,
+        "priority":0,
+        "tag":"SPECIAL"
+      }
+
+    ],
+
+
+
+    "ATTACK":[
+
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "ATTACK_2":[
+
+      {
+        "clip":"attack2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood",
+        "loop":true,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

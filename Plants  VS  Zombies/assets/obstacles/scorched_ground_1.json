@@ -1,0 +1,14 @@
+{
+  "obstacle": "PERMANENT_SCORCHED",
+  "pamPath": "768/FULL/EFFECTS/SCORCHED_EARTH/SCORCHED_EARTH.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "SUNFLOWER": {
+    "pamPath": "768/INITIAL/PLANT/SUNFLOWER/SUNFLOWER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "TWIN_SUNFLOWER": {
+    "pamPath": "768/INITIAL/PLANT/TWINSUNFLOWER/TWINSUNFLOWER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SUN_SHROOM": {
+    "pamPath": "768/FULL/PLANT/SUNSHROOM/SUNSHROOM.PAM",
+    "clip": "idle_stage1",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PRIMAL_SUNFLOWER": {
+    "pamPath": "768/FULL/PLANT/PRIMALSUNFLOWER/PRIMALSUNFLOWER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "GOLD_BLOOM": {
+    "pamPath": "768/INITIAL/PLANT/GOLDBLOOM/GOLDBLOOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PEASHOOTER": {
+    "pamPath": "768/INITIAL/PLANT/PEASHOOTER/PEASHOOTER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "REPEATER": {
+    "pamPath": "768/INITIAL/PLANT/REPEATER/REPEATER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "THREEPEATER": {
+    "pamPath": "768/INITIAL/PLANT/THREEPEATER/THREEPEATER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SNOW_PEA": {
+    "pamPath": "768/INITIAL/PLANT/SNOWPEA/SNOWPEA.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ROTOBAGA": {
+    "pamPath": "768/FULL/PLANT/ROTORUTABAGA/ROTORUTABAGA.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PEA_POD": {
+    "pamPath": "768/INITIAL/PLANT/PEAPOD/PEAPOD.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SPLIT_PEA": {
+    "pamPath": "768/FULL/PLANT/SPLITPEA/SPLITPEA.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CITRON": {
+    "pamPath": "768/FULL/PLANT/CITRON/CITRON.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CAULIPOWER": {
+    "pamPath": "768/INITIAL/PLANT/CAULIPOWER/CAULIPOWER.PAM",
+    "clip": "idle3_1",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ELECTRIC_BLUEBERRY": {
+    "pamPath": "768/INITIAL/PLANT/ELECTRICBLUEBERRY/ELECTRICBLUEBERRY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "BOWLING_BULB": {
+    "pamPath": "768/INITIAL/PLANT/BOWLINGBULB/BOWLINGBULB.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CACTUS": {
+    "pamPath": "768/INITIAL/PLANT/CACTUS/CACTUS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "FIRE_PEASHOOTER": {
+    "pamPath": "768/INITIAL/PLANT/FIREPEASHOOTER/FIREPEASHOOTER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "STARFRUIT": {
+    "pamPath": "768/INITIAL/PLANT/STARFRUIT/STARFRUIT.PAM",
+    "clip": "idle2",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "GOO_PEASHOOTER": {
+    "pamPath": "768/INITIAL/PLANT/GOOPEASHOOTER/GOOPEASHOOTER.PAM",
+    "clip": "idle2",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "MEGA_GATLING_PEA": {
+    "pamPath": "768/INITIAL/PLANT/MEGAGATLINGPEA/MEGAGATLINGPEA.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SEA_SHROOM": {
+    "pamPath": "768/FULL/PLANT/SEASHROOM/SEASHROOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PUFF_SHROOM": {
+    "pamPath": "768/INITIAL/PLANT/PUFFSHROOM/PUFFSHROOM.PAM",
+    "clip": "idle_stage1",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "FUME_SHROOM": {
+    "pamPath": "768/INITIAL/PLANT/FUMESHROOM/FUMESHROOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CABBAGE_PULT": {
+    "pamPath": "768/INITIAL/PLANT/CABBAGEPULT/CABBAGEPULT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "KERNEL_PULT": {
+    "pamPath": "768/INITIAL/PLANT/KERNELPULT/KERNELPULT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "MELON_PULT": {
+    "pamPath": "768/INITIAL/PLANT/MELONPULT/MELONPULT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "WINTER_MELON": {
+    "pamPath": "768/INITIAL/PLANT/WINTERMELON/WINTERMELON.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PEPPER_PULT": {
+    "pamPath": "768/INITIAL/PLANT/PEPPERPULT/PEPPERPULT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "POTATO_MINE": {
+    "pamPath": "768/INITIAL/PLANT/POTATOMINE/POTATOMINE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PRIMAL_POTATO_MINE": {
+    "pamPath": "768/INITIAL/PLANT/PRIMALPOTATOMINE/PRIMALPOTATOMINE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CHERRY_BOMB": {
+    "pamPath": "768/INITIAL/PLANT/CHERRYBOMB/CHERRYBOMB.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SQUASH": {
+    "pamPath": "768/INITIAL/PLANT/SQUASH/SQUASH.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "GRAPESHOT": {
+    "pamPath": "768/INITIAL/PLANT/GRAPESHOT/GRAPESHOT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "JALAPENO": {
+    "pamPath": "768/INITIAL/PLANT/JALAPENO/JALAPENO.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "DOOM_SHROOM": {
+    "pamPath": "768/INITIAL/PLANT/DOOMSHROOM/DOOMSHROOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "TANGLE_KELP": {
+    "pamPath": "768/INITIAL/PLANT/TANGLEKELP/TANGLEKELP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ICEBERG_LETTUCE": {
+    "pamPath": "768/INITIAL/PLANT/ICEBERGLETTUCE/ICEBERGLETTUCE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "BONK_CHOY": {
+    "pamPath": "768/INITIAL/PLANT/BONKCHOY/BONKCHOY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PHAT_BEET": {
+    "pamPath": "768/INITIAL/PLANT/PHATBEET/PHATBEET.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CHOMPER": {
+    "pamPath": "768/INITIAL/PLANT/CHOMPER/CHOMPER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "WASABI_WHIP": {
+    "pamPath": "768/INITIAL/PLANT/WASABIWHIP/WASABIWHIP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "KIWIBEAST": {
+    "pamPath": "768/INITIAL/PLANT/KIWIBEAST/KIWIBEAST.PAM",
+    "clip": "idle_stage1_",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "WALL_NUT": {
+    "pamPath": "768/INITIAL/PLANT/WALLNUT/WALLNUT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "TALL_NUT": {
+    "pamPath": "768/INITIAL/PLANT/TALLNUT/TALLNUT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ENDURIAN": {
+    "pamPath": "768/INITIAL/PLANT/ENDURIAN/ENDURIAN.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "GARLIC": {
+    "pamPath": "768/INITIAL/PLANT/GARLIC/GARLIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SWEET_POTATO": {
+    "pamPath": "768/INITIAL/PLANT/SWEETPOTATO/SWEETPOTATO.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "EXPLODE_O_NUT": {
+    "pamPath": "768/INITIAL/PLANT/EXPLODEONUT/EXPLODEONUT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PUMPKIN": {
+    "pamPath": "768/INITIAL/PLANT/PUMPKIN/PUMPKIN.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SUN_BEAN": {
+    "pamPath": "768/INITIAL/PLANT/SUNBEAN/SUNBEAN.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "TORCHWOOD": {
+    "pamPath": "768/INITIAL/PLANT/TORCHWOOD/TORCHWOOD.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "MAGNET_SHROOM": {
+    "pamPath": "768/INITIAL/PLANT/MAGNETSHROOM/MAGNETSHROOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "HYPNO_SHROOM": {
+    "pamPath": "768/INITIAL/PLANT/HYPNOSHROOM/HYPNOSHROOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CAT_TAIL": {
+    "pamPath": "768/INITIAL/PLANT/CATTAIL/CATTAIL.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "IMITATER": {
+    "pamPath": "768/INITIAL/PLANT/IMITATER/IMITATER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ICE_SHROOM": {
+    "pamPath": "768/INITIAL/PLANT/ICESHROOM/ICESHROOM.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "LILY_PAD": {
+    "pamPath": "768/INITIAL/PLANT/LILYPAD/LILYPAD.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "HOT_POTATO": {
+    "pamPath": "768/INITIAL/PLANT/HOTPOTATO/HOTPOTATO.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "GRAVE_BUSTER": {
+    "pamPath": "768/INITIAL/PLANT/GRAVEBUSTER/GRAVEBUSTER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ENLIGHTEN_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/ENLIGHTENMINT/ENLIGHTENMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "APPEASE_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/APPEASEMINT/APPEASEMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ARMA_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/ARMAMINT/ARMAMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "BOMBARD_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/BOMBARDMINT/BOMBARDMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ENFORCE_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/ENFORCEMINT/ENFORCEMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "REINFORCE_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/REINFORCEMINT/REINFORCEMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ENCHANT_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/ENCHANTMINT/ENCHANTMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PIERCE_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/CONCEALMINT/CONCEALMINT.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CAT_TAIL_MINT": {
+    "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/MINT_FX/MINT_FX.PAM",
+    "clip": "loop",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  }
+}

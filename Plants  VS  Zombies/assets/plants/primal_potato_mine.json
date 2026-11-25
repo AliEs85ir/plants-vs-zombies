@@ -1,0 +1,68 @@
+{
+  "plant": "PRIMAL_POTATO_MINE",
+  "pamPath": "768/FULL/PLANT/PRIMAL_POTATOMINE/PRIMAL_POTATOMINE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "plant",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "phase",
+          "phase": "UNARMED"
+        }
+      },
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "phase",
+          "phase": "ARMED"
+        }
+      },
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "phase",
+          "phase": "ATTACKING"
+        }
+      },
+      {
+        "clip": "plant",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "RECOVER": [
+      {
+        "clip": "recover",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "attack",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plant": "PUFF_SHROOM",
+
+  "pamPath": "768/INITIAL/PLANT/PUFFSHROOM/PUFFSHROOM.PAM",
+
+  "states": {
+    "IDLE":[
+      {
+        "clip":"idle_stage1",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "ATTACK":[
+      {
+        "clip":"special_stage1",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "PLANT_FOOD":[
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

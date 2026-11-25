@@ -1,0 +1,23 @@
+{
+  "plant": "MELON_PULT",
+  "pamPath": "768/INITIAL/EFFECTS/T_MELON_PROJECTILE/T_MELON_PROJECTILE.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/INITIAL/EFFECTS/T_SPLAT_MELONPULT/T_SPLAT_MELONPULT.PAM"
+      }
+    ]
+  }
+}

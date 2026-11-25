@@ -1,0 +1,71 @@
+{
+  "plant": "WALL_NUT",
+
+  "pamPath":
+  "768/INITIAL/PLANT/WALLNUT/WALLNUT.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 0, "count": 4 }
+      },
+      {
+        "clip":"idle2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "health_segment", "segment": 0, "count": 4 }
+      },
+      {
+        "clip":"damage",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 1, "count": 4 }
+      },
+      {
+        "clip":"damage2",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 2, "count": 4 }
+      },
+      {
+        "clip":"damage3",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 3, "count": 4 }
+      },
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood_on",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

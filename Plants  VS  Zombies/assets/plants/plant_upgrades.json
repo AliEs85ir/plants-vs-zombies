@@ -1,0 +1,2003 @@
+{
+  "plants": {
+    "SUNFLOWER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 10,
+          "requiredCoins": 1000,
+          "modifiers": {
+            "productionTimeReductionSeconds": 2.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 2000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 3000,
+          "modifiers": {
+            "hasDoubleSunChance": true
+          }
+        }
+      ]
+    },
+    "TWIN_SUNFLOWER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 5000,
+          "modifiers": {
+            "productionTimeReductionSeconds": 2.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "SUN_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 10,
+          "requiredCoins": 2500,
+          "modifiers": {
+            "growTimeReductionSeconds": 5.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 5000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 7500,
+          "modifiers": {
+            "hasDoubleSunChance": true
+          }
+        }
+      ]
+    },
+    "PRIMAL_SUNFLOWER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "productionTimeReductionSeconds": 2.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "GOLD_BLOOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraImmediateSun": 50
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "PEASHOOTER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "REPEATER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 5000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "THREEPEATER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        }
+      ]
+    },
+    "SNOW_PEA": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraFreezeOrChillTime": 2
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 45000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "ROTOBAGA": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 7500,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 90,
+          "requiredCoins": 22500,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "PEA_POD": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 8000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 80,
+          "requiredCoins": 16000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 120,
+          "requiredCoins": 24000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "SPLIT_PEA": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 25,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 75,
+          "requiredCoins": 18000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "CITRON": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "chargeTimeReductionSeconds": 1.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraAttackerDamage": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 50
+          }
+        }
+      ]
+    },
+    "CAULIPOWER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 250,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 500,
+          "requiredCoins": 100000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 750,
+          "requiredCoins": 150000,
+          "modifiers": {
+            "costReduction": 50
+          }
+        }
+      ]
+    },
+    "ELECTRIC_BLUEBERRY": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 250,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 500,
+          "requiredCoins": 100000,
+          "modifiers": {
+            "hasTargetPriorityUp": true
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 750,
+          "requiredCoins": 150000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "BOWLING_BULB": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "regenTimeReductionSeconds": 1.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraAttackerDamage": 15
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "CACTUS": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraPierce": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "FIRE_PEASHOOTER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "STARFRUIT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 75,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "attackSpeedBoostPercentage": 0.1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 225,
+          "requiredCoins": 45000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "GOO_PEASHOOTER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraPoisonDamageTick": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 450,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "MEGA_GATLING_PEA": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 250,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 500,
+          "requiredCoins": 100000,
+          "modifiers": {
+            "extraPlantFoodChance": 0.05
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 750,
+          "requiredCoins": 150000,
+          "modifiers": {
+            "costReduction": 50
+          }
+        }
+      ]
+    },
+    "SEA_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 15,
+          "requiredCoins": 3000,
+          "modifiers": {
+            "extraRange": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraAttackerDamage": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 45,
+          "requiredCoins": 9000,
+          "modifiers": {
+            "extraLifeSpan": 10
+          }
+        }
+      ]
+    },
+    "PUFF_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraLifeSpan": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraRange": 1
+          }
+        }
+      ]
+    },
+    "FUME_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 4000,
+          "modifiers": {
+            "extraRange": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 8000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "CABBAGE_PULT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "attackSpeedBoostPercentage": 0.15
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraHp": 150
+          }
+        }
+      ]
+    },
+    "KERNEL_PULT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 15,
+          "requiredCoins": 3000,
+          "modifiers": {
+            "extraButterChance": 0.05
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 45,
+          "requiredCoins": 9000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        }
+      ]
+    },
+    "MELON_PULT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraAoEDamage": 15
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraAttackerDamage": 30
+          }
+        }
+      ]
+    },
+    "WINTER_MELON": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "costReduction": 50
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraAoEDamage": 15
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "PEPPER_PULT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraAttackerDamage": 15
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "extraWarmthRadius": 1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 90,
+          "requiredCoins": 18000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "POTATO_MINE": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "armTimeReductionSeconds": 3.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraAttackerDamage": 600
+          }
+        }
+      ]
+    },
+    "PRIMAL_POTATO_MINE": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "armTimeReductionSeconds": 1.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "cooldownReductionSeconds": 3
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraAttackerDamage": 400
+          }
+        }
+      ]
+    },
+    "CHERRY_BOMB": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 5000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "extraAttackerDamage": 600
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "SQUASH": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "cooldownReductionSeconds": 3
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraAttackerDamage": 600
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "canCrushTwice": true
+          }
+        }
+      ]
+    },
+    "GRAPESHOT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraAttackerDamage": 600
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraBounces": 1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "JALAPENO": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraAttackerDamage": 600
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "DOOM_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "extraAttackerDamage": 800
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 450,
+          "requiredCoins": 90000,
+          "modifiers": {
+            "costReduction": 50
+          }
+        }
+      ]
+    },
+    "TANGLE_KELP": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 10,
+          "requiredCoins": 2000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 4000,
+          "modifiers": {
+            "extraTargets": 1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "ICEBERG_LETTUCE": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraFreezeOrChillTime": 2
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {}
+        }
+      ]
+    },
+    "BONK_CHOY": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 5000,
+          "modifiers": {
+            "extraAttackerDamage": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "attackSpeedBoostPercentage": 0.1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        }
+      ]
+    },
+    "PHAT_BEET": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "attackSpeedBoostPercentage": 0.1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 90,
+          "requiredCoins": 18000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        }
+      ]
+    },
+    "CHOMPER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "digestTimeReductionSeconds": 2.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "digestTimeReductionSeconds": 3.0
+          }
+        }
+      ]
+    },
+    "WASABI_WHIP": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "extraRange": 1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 450,
+          "requiredCoins": 90000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        }
+      ]
+    },
+    "KIWIBEAST": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "extraAttackerDamage": 15
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 450,
+          "requiredCoins": 90000,
+          "modifiers": {
+            "extraMaxSize": 1
+          }
+        }
+      ]
+    },
+    "WALL_NUT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraHp": 1000
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraHp": 1500
+          }
+        }
+      ]
+    },
+    "TALL_NUT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraHp": 2000
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 90,
+          "requiredCoins": 18000,
+          "modifiers": {
+            "extraHp": 3000
+          }
+        }
+      ]
+    },
+    "ENDURIAN": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 8000,
+          "modifiers": {
+            "extraReflectDamage": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 80,
+          "requiredCoins": 16000,
+          "modifiers": {
+            "extraHp": 1000
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 120,
+          "requiredCoins": 24000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "GARLIC": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 4000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 40,
+          "requiredCoins": 8000,
+          "modifiers": {
+            "cooldownReductionSeconds": 3
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "extraHp": 250
+          }
+        }
+      ]
+    },
+    "SWEET_POTATO": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "extraHp": 1000
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraHp": 1500
+          }
+        }
+      ]
+    },
+    "EXPLODE_O_NUT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraHp": 1000
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "extraExplodeDamage": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "PUMPKIN": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 75,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "extraHp": 1000
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 225,
+          "requiredCoins": 45000,
+          "modifiers": {
+            "extraHp": 1500
+          }
+        }
+      ]
+    },
+    "SUN_BEAN": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 25,
+          "requiredCoins": 5000,
+          "modifiers": {
+            "extraSunDrop": 5
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 50,
+          "requiredCoins": 10000,
+          "modifiers": {
+            "extraHp": 150
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 75,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "TORCHWOOD": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "extraHp": 300
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "hasAoEOnDeath": true
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "MAGNET_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "extraRange": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 60,
+          "requiredCoins": 12000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 90,
+          "requiredCoins": 18000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        }
+      ]
+    },
+    "HYPNO_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 20000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 40000,
+          "modifiers": {
+            "zombieHpBuffLevel": 1
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "zombieDmgBuffLevel": 1
+          }
+        }
+      ]
+    },
+    "CAT_TAIL": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 75,
+          "requiredCoins": 15000,
+          "modifiers": {
+            "extraAttackerDamage": 10
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 225,
+          "requiredCoins": 45000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        }
+      ]
+    },
+    "IMITATER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 250,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 500,
+          "requiredCoins": 100000,
+          "modifiers": {
+            "costReduction": 25
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 750,
+          "requiredCoins": 150000,
+          "modifiers": {
+            "hasPlantFoodOnEntrance": true
+          }
+        }
+      ]
+    },
+    "ICE_SHROOM": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 150,
+          "requiredCoins": 30000,
+          "modifiers": {
+            "extraFreezeOrChillTime": 2
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 60000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 450,
+          "requiredCoins": 90000,
+          "modifiers": {
+            "extraAttackerDamage": 50
+          }
+        }
+      ]
+    },
+    "LILY_PAD": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "costReduction": 25
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "extraHp": 200
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 0,
+          "requiredCoins": 0,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        }
+      ]
+    },
+    "HOT_POTATO": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 10,
+          "requiredCoins": 2000,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 4000,
+          "modifiers": {
+            "hasMeltArea3x3": true
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "hasExplodeOnFinish": true
+          }
+        }
+      ]
+    },
+    "GRAVE_BUSTER": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 10,
+          "requiredCoins": 2000,
+          "modifiers": {
+            "eatTimeReductionSeconds": 1.0
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 20,
+          "requiredCoins": 4000,
+          "modifiers": {
+            "cooldownReductionSeconds": 2
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 30,
+          "requiredCoins": 6000,
+          "modifiers": {
+            "hasExplodeOnFinish": true
+          }
+        }
+      ]
+    },
+    "ENLIGHTEN_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "APPEASE_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "ARMA_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "BOMBARD_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "ENFORCE_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "REINFORCE_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "ENCHANT_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "PIERCE_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    },
+    "CAT_TAIL_MINT": {
+      "maxLevel": 4,
+      "levels": [
+        {
+          "level": 2,
+          "requiredSeedPackets": 100,
+          "requiredCoins": 25000,
+          "modifiers": {
+            "extraMintDuration": 1
+          }
+        },
+        {
+          "level": 3,
+          "requiredSeedPackets": 200,
+          "requiredCoins": 50000,
+          "modifiers": {
+            "cooldownReductionSeconds": 5
+          }
+        },
+        {
+          "level": 4,
+          "requiredSeedPackets": 300,
+          "requiredCoins": 75000,
+          "modifiers": {
+            "canResetFamilyCooldowns": true
+          }
+        }
+      ]
+    }
+  }
+}

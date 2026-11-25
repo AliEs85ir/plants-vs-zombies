@@ -1,0 +1,14 @@
+{
+  "obstacle": "SNOW_PEA",
+  "pamPath": "768/INITIAL/EFFECTS/T_SNOW_PEA/T_SNOW_PEA.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

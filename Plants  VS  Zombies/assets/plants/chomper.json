@@ -1,0 +1,117 @@
+{
+  "plant": "CHOMPER",
+
+  "pamPath":
+  "768/INITIAL/PLANT/CHOMPER/CHOMPER.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": {
+          "type": "phase",
+          "phase": "DEFAULT"
+        }
+      },
+
+      {
+        "clip":"idle2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": {
+          "type": "phase",
+          "phase": "DEFAULT"
+        }
+      },
+
+      {
+        "clip":"idle3",
+        "loop":true,
+        "priority":0,
+        "tag":"SPECIAL",
+        "condition": {
+          "type": "phase",
+          "phase": "DEFAULT"
+        }
+      },
+
+      {
+        "clip":"idle4",
+        "loop":true,
+        "priority":0,
+        "tag":"SPECIAL",
+        "condition": {
+          "type": "phase",
+          "phase": "DEFAULT"
+        }
+      },
+
+      {
+        "clip":"special_idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": {
+          "type": "phase",
+          "phase": "DIGESTING"
+        }
+      }
+
+    ],
+
+
+
+    "ATTACK":[
+
+      {
+        "clip":"bite",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+
+      {
+        "clip":"special",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "RECOVER":[
+
+      {
+        "clip":"special_end",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

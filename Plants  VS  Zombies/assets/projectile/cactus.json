@@ -1,0 +1,30 @@
+{
+  "plant": "CACTUS",
+  "pamPath": "768/INITIAL/EFFECTS/T_CACTUS_PROJECTILE/T_CACTUS_PROJECTILE.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 1,
+        "tag": "PLANT_FOOD",
+        "pamPath": "768/INITIAL/EFFECTS/CACTUS_PROJECTILE_PLANTFOOD/CACTUS_PROJECTILE_PLANTFOOD.PAM"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/INITIAL/EFFECTS/CACTUS_PROJECTILE_HIT/CACTUS_PROJECTILE_HIT.PAM"
+      }
+    ]
+  }
+}

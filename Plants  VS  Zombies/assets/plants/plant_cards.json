@@ -1,0 +1,426 @@
+{
+  "SUNFLOWER": {
+    "bgKey": "IMAGE_UI_PACKETS_EGYPT",
+    "textureKey": "IMAGE_UI_PACKETS_SUNFLOWER",
+    "offsetX": -0.0,
+    "offsetY": -2.0
+  },
+  "TWIN_SUNFLOWER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_TWINSUNFLOWER",
+    "offsetX": 5.0,
+    "offsetY": 0.0
+  },
+  "SUN_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_SUNSHROOM",
+    "scale": 1.3,
+    "offsetX": -0.0,
+    "offsetY": -8,
+    "cropLeft": 0.0,
+    "cropRight": 0.0,
+    "cropTop": 0.0,
+    "cropBottom": 12.0
+  },
+  "PRIMAL_SUNFLOWER": {
+    "bgKey": "IMAGE_UI_PACKETS_DINO",
+    "textureKey": "IMAGE_UI_PACKETS_PRIMALSUNFLOWER",
+    "offsetX": 10,
+    "offsetY": 0.0
+  },
+  "GOLD_BLOOM": {
+    "bgKey": "IMAGE_UI_PACKETS_LOSTCITY",
+    "textureKey": "IMAGE_UI_PACKETS_GOLDBLOOM",
+    "offsetX": 20.0,
+    "offsetY": -7.0
+  },
+  "PEASHOOTER": {
+    "bgKey": "IMAGE_UI_PACKETS_EGYPT",
+    "textureKey": "IMAGE_UI_PACKETS_PEASHOOTER",
+    "offsetX": 8.0,
+    "offsetY": -4.0
+  },
+  "REPEATER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_REPEATER",
+    "offsetX": 9.0,
+    "offsetY": 0.0
+  },
+  "THREEPEATER": {
+    "bgKey": "IMAGE_UI_PACKETS_PIRATE",
+    "textureKey": "IMAGE_UI_PACKETS_THREEPEATER",
+    "offsetX": 18.0,
+    "offsetY": 0.0
+  },
+  "SNOW_PEA": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_SNOWPEA",
+    "offsetX": 8.0,
+    "offsetY": -2.0
+  },
+  "ROTOBAGA": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_XSHOT",
+    "offsetX": 8.0,
+    "offsetY": 0.0
+  },
+  
+  "PEA_POD": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_PEAPOD",
+    "offsetX": 7.0,
+    "offsetY": -1.5
+  },
+  "SPLIT_PEA": {
+    "bgKey": "IMAGE_UI_PACKETS_COWBOY",
+    "textureKey": "IMAGE_UI_PACKETS_SPLITPEA",
+    "offsetX": 17.0,
+    "offsetY": -4.4
+  },
+  "CITRON": {
+    "bgKey": "IMAGE_UI_PACKETS_FUTURE",
+    "textureKey": "IMAGE_UI_PACKETS_CITRON",
+    "offsetX": 6.0,
+    "offsetY": 0.0
+  },
+  "CAULIPOWER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_CAULIPOWER",
+    "offsetX": 4.0,
+    "offsetY": 1.0
+  },
+  "ELECTRIC_BLUEBERRY": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_ELECTRICBLUEBERRY",
+    "offsetX": 4.0,
+    "offsetY": -0.5
+  },
+  "BOWLING_BULB": {
+    "bgKey": "IMAGE_UI_PACKETS_FUTURE",
+    "textureKey": "IMAGE_UI_PACKETS_BOWLINGBULB",
+    "offsetX": 5.0,
+    "offsetY": 0.0
+  },
+  "CACTUS": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_CACTUS",
+    "offsetX": 17.0,
+    "offsetY": 1.0
+  },
+  "FIRE_PEASHOOTER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_FIREPEASHOOTER",
+    "offsetX": 6.4,
+    "offsetY": -6.9
+  },
+  "STARFRUIT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_STARFRUIT",
+    "offsetX": 12.7,
+    "offsetY": -3.8
+  },
+  "GOO_PEASHOOTER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_POISONPEASHOOTER",
+    "offsetX": 5.0,
+    "offsetY": -13.0
+  },
+  "MEGA_GATLING_PEA": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_MEGAGATLING",
+    "offsetX": 1.0,
+    "offsetY": -5.0
+  },
+  "SEA_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_BEACH",
+    "textureKey": "IMAGE_UI_PACKETS_SEASHROOM",
+    "offsetX": 0.0,
+    "offsetY": -3.0
+  },
+  "PUFF_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_PUFFSHROOM",
+    "offsetX": 1.0,
+    "offsetY": -8.0
+  },
+  "FUME_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_FUMESHROOM",
+    "offsetX": 7.0,
+    "offsetY": 0.0
+  },
+
+  "CABBAGE_PULT": {
+    "bgKey": "IMAGE_UI_PACKETS_EGYPT",
+    "textureKey": "IMAGE_UI_PACKETS_CABBAGEPULT",
+    "offsetX": 6.0,
+    "offsetY": -8.0
+  },
+  "KERNEL_PULT": {
+    "bgKey": "IMAGE_UI_PACKETS_PIRATE",
+    "textureKey": "IMAGE_UI_PACKETS_KERNELPULT",
+    "offsetX": 6.0,
+    "offsetY": -1.0
+  },
+  "MELON_PULT": {
+    "bgKey": "IMAGE_UI_PACKETS_MODERNDAY",
+    "textureKey": "IMAGE_UI_PACKETS_MELONPULT",
+    "offsetX": 15.0,
+    "offsetY": -4.0
+  },
+  "WINTER_MELON": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_WINTERMELON",
+    "offsetX": 15.0,
+    "offsetY": -4.0
+  },
+  "PEPPER_PULT": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_PEPPERPULT",
+    "offsetX": 10.0,
+    "offsetY": -8.0
+  },
+  "POTATO_MINE": {
+    "bgKey": "IMAGE_UI_PACKETS_COWBOY",
+    "textureKey": "IMAGE_UI_PACKETS_POTATOMINE",
+    "offsetX": 11.0,
+    "offsetY": 0.0
+  },
+  "PRIMAL_POTATO_MINE": {
+    "bgKey": "IMAGE_UI_PACKETS_DINO",
+    "textureKey": "IMAGE_UI_PACKETS_PRIMALPOTATOMINE",
+    "offsetX": 11.0,
+    "offsetY": 0.0
+  },
+  "CHERRY_BOMB": {
+    "bgKey": "IMAGE_UI_PACKETS_PIRATE",
+    "textureKey": "IMAGE_UI_PACKETS_CHERRY_BOMB",
+    "offsetX": 5.0,
+    "offsetY": 0.0
+  },
+  "SQUASH": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_SQUASH",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "GRAPESHOT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_GRAPESHOT",
+    "offsetX": 14.0,
+    "offsetY": -10.0
+  },
+  "JALAPENO": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_JALAPENO",
+    "offsetX": -4.0,
+    "offsetY": 0.0
+  },
+  "DOOM_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_DOOMSHROOM",
+    "offsetX": 5.0,
+    "offsetY": -12.0
+  },
+  "TANGLE_KELP": {
+    "bgKey": "IMAGE_UI_PACKETS_PIRATE",
+    "textureKey": "IMAGE_UI_PACKETS_TANGLEKELP",
+    "offsetX": 7.0,
+    "offsetY": 0.0
+  },
+  "ICEBERG_LETTUCE": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_ICEBURG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "BONK_CHOY": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_BONKCHOY",
+    "offsetX": 20.0,
+    "offsetY": 1.0
+  },
+  "PHAT_BEET": {
+    "bgKey": "IMAGE_UI_PACKETS_EIGHTIES",
+    "textureKey": "IMAGE_UI_PACKETS_PHATBEET",
+    "scale": 0.9,
+    "offsetX": 10.0,
+    "offsetY": -7.0
+  },
+  "CHOMPER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_CHOMPER",
+    "offsetX": 15.0,
+    "offsetY": -2.0
+  },
+  "WASABI_WHIP": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_WASABIWHIP",
+    "offsetX": 8.0,
+    "offsetY": 0.0
+  },
+  "KIWIBEAST": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_KIWIBEAST",
+    "scale": 0.9,
+    "offsetX": 7.0,
+    "offsetY": -8.0
+  },
+  "WALL_NUT": {
+    "bgKey": "IMAGE_UI_PACKETS_COWBOY",
+    "textureKey": "IMAGE_UI_PACKETS_WALLNUT",
+    "offsetX": 7.0,
+    "offsetY": -2.0
+  },
+  "TALL_NUT": {
+    "bgKey": "IMAGE_UI_PACKETS_COWBOY",
+    "textureKey": "IMAGE_UI_PACKETS_TALLNUT",
+    "offsetX": 7.0,
+    "offsetY": 0.0
+  },
+  "ENDURIAN": {
+    "bgKey": "IMAGE_UI_PACKETS_LOSTCITY",
+    "textureKey": "IMAGE_UI_PACKETS_ENDURIAN",
+    "offsetX": 7.0,
+    "offsetY": 0.0
+  },
+  "GARLIC": {
+    "bgKey": "IMAGE_UI_PACKETS_EIGHTIES",
+    "textureKey": "IMAGE_UI_PACKETS_GARLIC",
+    "offsetX": 10.5,
+    "offsetY": -6.0
+  },
+  "SWEET_POTATO": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_SWEETPOTATO",
+    "offsetX": 3.5,
+    "offsetY": 0.0
+  },
+  "EXPLODE_O_NUT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_EXPLODEONUT",
+    "offsetX": 10.0,
+    "offsetY": -4.0
+  },
+  "PUMPKIN": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_PUMPKIN",
+    "offsetX": 4.0,
+    "offsetY": -4.0
+  },
+  "SUN_BEAN": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_SUNBEAN",
+    "offsetX": 5.0,
+    "offsetY": -5.0
+  },
+  "TORCHWOOD": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_TORCHWOOD",
+    "offsetX": 15.0,
+    "offsetY": -5.0
+  },
+  "MAGNET_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_MAGNETSHROOM",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "HYPNO_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_HYPNOSHROOM",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CAT_TAIL": {
+    "bgKey": "IMAGE_UI_PACKETS_PIRATE",
+    "textureKey": "IMAGE_UI_PACKETS_CATTAIL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "IMITATER": {
+    "bgKey": "IMAGE_UI_PACKETS_READY_PREMIUM",
+    "textureKey": "IMAGE_UI_PACKETS_IMITATER",
+    "offsetX": 7.0,
+    "offsetY": 0.0
+  },
+  "ICE_SHROOM": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_ICESHROOM",
+    "offsetX": 4.0,
+    "offsetY": -2.0
+  },
+  "LILY_PAD": {
+    "bgKey": "IMAGE_UI_PACKETS_BEACH",
+    "textureKey": "IMAGE_UI_PACKETS_LILYPAD",
+    "offsetX": 7.0,
+    "offsetY": -5.0
+  },
+  "HOT_POTATO": {
+    "bgKey": "IMAGE_UI_PACKETS_ICEAGE",
+    "textureKey": "IMAGE_UI_PACKETS_HOTPOTATO",
+    "offsetX": 12.0,
+    "offsetY": 0.0
+  },
+  "GRAVE_BUSTER": {
+    "bgKey": "IMAGE_UI_PACKETS_DARK",
+    "textureKey": "IMAGE_UI_PACKETS_GRAVEBUSTER",
+    "offsetX": 5.0,
+    "offsetY": 0.0
+  },
+  "ENLIGHTEN_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_ENLIGHTENMINT",
+    "offsetX": 12.0,
+    "offsetY": 0.0
+  },
+  "APPEASE_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_APPEASEMINT",
+    "offsetX": 12.0,
+    "offsetY": -5.0
+  },
+  "ARMA_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_ARMAMINT",
+    "offsetX": 12.0,
+    "offsetY": 0.0
+  },
+  "BOMBARD_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_BOMBARDMINT",
+    "offsetX": 10.0,
+    "offsetY": -5.0
+  },
+  "ENFORCE_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_ENFORCEMINT",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "REINFORCE_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_REINFORCEMINT",
+    "offsetX": 10.0,
+    "offsetY": 1.0
+  },
+  "ENCHANT_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_ENCHANTMINT",
+    "offsetX": 9.0,
+    "offsetY": -1.5
+  },
+  "PIERCE_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_UI_PACKETS_CONCEALMINT",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "CAT_TAIL_MINT": {
+    "bgKey": "IMAGE_UI_PACKETS_READY",
+    "textureKey": "IMAGE_EMPOWERMINTS_PLANT_MINT_FX_MINT_FX_37X34",
+    "scale": 2.5,
+    "offsetX": 6.0,
+    "offsetY": -10.0
+  }
+}

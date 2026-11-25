@@ -1,0 +1,259 @@
+{
+  "overlay": {
+    "color": "0000008C",
+    "closeOnOutsideClick": false
+  },
+  "panel": {
+    "backgroundDrawable": "image_ui_quests_panel_edge_to_edge_ten",
+    "backgroundFallback": "image_ui_quests_panel_edge_to_edge_ten",
+    "widthRatio": 0.72,
+    "heightRatio": 0.74,
+    "minWidth": 720,
+    "minHeight": 420,
+    "offsetX": 0,
+    "offsetY": 12,
+    "padTop": 18,
+    "padLeft": 22,
+    "padBottom": 18,
+    "padRight": 18
+  },
+  "closeButton": {
+    "skinStyle": "generic_close",
+    "width": 44,
+    "height": 44,
+    "offsetX": -6,
+    "offsetY": -6
+  },
+  "tabs": {
+    "height": 40,
+    "spacing": 8,
+    "offsetX": 0,
+    "offsetY": 0,
+    "padRightForClose": 52,
+    "daily": {
+      "id": "DAILY",
+      "text": "DAILY",
+      "style": "green",
+      "selectedStyle": "green"
+    },
+    "world": {
+      "id": "WORLD",
+      "text": "WORLD",
+      "style": "brown",
+      "selectedStyle": "green"
+    },
+    "events": {
+      "id": "EVENTS",
+      "text": "EVENTS",
+      "style": "blue",
+      "selectedStyle": "green"
+    }
+  },
+  "timer": {
+    "text": "Daily Activities refresh in {time}",
+    "font": "BRIANNETOD",
+    "fontFallback": "BRIANNETOD",
+    "fontSize": 0.82,
+    "color": "F8D84A",
+    "alignment": "left",
+    "offsetX": 4,
+    "offsetY": 0,
+    "height": 28,
+    "topPadding": 8
+  },
+  "list": {
+    "spacing": 10,
+    "padTop": 8,
+    "padBottom": 8,
+    "emptyDailyMessage": "No daily quests right now.",
+    "emptyWorldMessage": "",
+    "emptyEventsMessage": "No event quests right now.",
+    "emptyFont": "BRIANNETOD",
+    "emptyFontFallback": "BRIANNETOD",
+    "emptyFontSize": 0.86,
+    "emptyColor": "E4DCC4",
+    "showUnlistedDailyQuests": false
+  },
+  "card": {
+    "backgroundDrawable": "image_ui_powerups_powerup_cost_10",
+    "backgroundFallback": "image_ui_powerups_powerup_cost_10",
+    "height": 110,
+    "padLeft": 10,
+    "padRight": 10,
+    "padTop": 8,
+    "padBottom": 8,
+    "iconSize": 64,
+    "iconToTextGap": 12,
+    "titleFont": "BRIANNETOD",
+    "titleFontFallback": "BRIANNETOD",
+    "titleFontSize": 0.86,
+    "titleColor": "2A1C10",
+    "titleAlignment": "left",
+    "progressHeight": 20,
+    "progressToRewardGap": 10,
+    "rewardSize": 42,
+    "claimWidth": 118,
+    "claimHeight": 42,
+    "claimReadyStyle": "green",
+    "claimLockedStyle": "brown",
+    "claimText": "CLAIM",
+    "claimLabelScale": 0.92,
+    "progressLabelFont": "BRIANNETOD",
+    "progressLabelFontFallback": "BRIANNETOD",
+    "progressLabelFontSize": 0.72,
+    "progressLabelColor": "FFFFFF"
+  },
+  "progressStyles": [
+    "xp_green",
+    "xp_fuschia",
+    "default-horizontal",
+    "xp_yellow",
+    "xp_teal"
+  ],
+  "quests": [
+    {
+      "id": "DAILY_SUN_COLLECTOR",
+      "title": "Collect sun throughout the day!",
+      "leftImagePath": "ui/quests/quest_sun_collector.png",
+      "rightImagePath": "ui/quests/reward_coin_x100.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "WIN_STREAK",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_win_streak.png",
+      "rightImagePath": "ui/quests/reward_coin_x5000.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "PLANT_EXPERT",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_plant_expert.png",
+      "rightImagePath": "ui/quests/reward_plant_unlock.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "CACTUS_ONLY",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_cactus_only.png",
+      "rightImagePath": "ui/quests/reward_gem_x20.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "DEMOLITION_EXPERT",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_demolition_expert.png",
+      "rightImagePath": "ui/quests/reward_coin_x100.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "SYMMETRY",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_symmetry.png",
+      "rightImagePath": "ui/quests/reward_coin_x500.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "FAMILY_HUNTER",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_family_hunter.png",
+      "rightImagePath": "ui/quests/reward_coin_x1000.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "LIMITED_BLOOM",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_limited_bloom.png",
+      "rightImagePath": "ui/quests/reward_gem_x100.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "OCD_MASTER",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_ocd_master.png",
+      "rightImagePath": "ui/quests/reward_coin_x800.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "CLOUDY_DAY",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_cloudy_day.png",
+      "rightImagePath": "ui/quests/reward_gem_x10.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "ONE_COLUMN_LESS",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_one_column_less.png",
+      "rightImagePath": "ui/quests/reward_gem_x10.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "DEFENSELESS_ROW",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_defenseless_row.png",
+      "rightImagePath": "ui/quests/reward_gem_x20.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "DEFENSELESS_CROSS",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_defenseless_cross.png",
+      "rightImagePath": "ui/quests/reward_gem_x25.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "ECONOMICAL_GARDENER",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_economical_gardener.png",
+      "rightImagePath": "ui/quests/reward_seed_packet.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "DEFENSE_MASTER",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_defense_master.png",
+      "rightImagePath": "ui/quests/reward_gem_x200.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "QUICK_ACTION",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_quick_action.png",
+      "rightImagePath": "ui/quests/reward_coin_x500.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "DAY_OR_NIGHT",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_day_or_night.png",
+      "rightImagePath": "ui/quests/reward_gem_x20.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    },
+    {
+      "id": "LAWN_MOWER_TIME",
+      "title": "",
+      "leftImagePath": "ui/quests/quest_lawn_mower_time.png",
+      "rightImagePath": "ui/quests/reward_gem_x10.png",
+      "progressStyle": "",
+      "backgroundDrawable": ""
+    }
+  ]
+}

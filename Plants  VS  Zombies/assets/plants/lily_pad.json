@@ -1,0 +1,49 @@
+{
+  "plant": "LILY_PAD",
+
+  "pamPath":
+  "768/FULL/PLANT/LILYPAD/LILYPAD.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle5",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "ATTACK":[
+
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

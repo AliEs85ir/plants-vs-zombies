@@ -1,0 +1,57 @@
+{
+  "plant": "TALL_NUT",
+
+  "pamPath":
+  "768/FULL/PLANT/TALLNUT/TALLNUT.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"water",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 0, "count": 3 }
+      },
+      {
+        "clip":"damage",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 1, "count": 3 }
+      },
+      {
+        "clip":"damage2",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 2, "count": 3 }
+      },
+      {
+        "clip":"water",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"water",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

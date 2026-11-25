@@ -1,0 +1,36 @@
+{
+  "obstacle": "RANDOM_VASE",
+  "pamPath": "768/FULL/VASEBREAKER/VASE_BROWN/VASE_BROWN.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "drop",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "VASE_DROP"
+        }
+      },
+      {
+        "clip": "break",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "VASE_BREAK"
+        }
+      }
+    ]
+  }
+}

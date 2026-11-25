@@ -1,0 +1,132 @@
+{
+  "plant": "SUN_SHROOM",
+  "pamPath": "768/FULL/PLANT/SUNSHROOM/SUNSHROOM.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle_stage1",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 1
+        }
+      },
+      {
+        "clip": "growth_stage1",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 2
+        }
+      },
+      {
+        "clip": "idle_stage2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 2
+        }
+      },
+      {
+        "clip": "growth_stage2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 3
+        }
+      },
+      {
+        "clip": "idle_stage3",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 3
+        }
+      },
+      {
+        "clip": "idle_stage1",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "special_stage1",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 1
+        }
+      },
+      {
+        "clip": "special_stage2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 2
+        }
+      },
+      {
+        "clip": "special_stage3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 3
+        }
+      },
+      {
+        "clip": "special_stage1",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "growth_stage2",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      },
+      {
+        "clip": "plantfood_stage3",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  },
+  "sunLaunch": {
+    "durationTicks": 7,
+    "arcHeight": 30,
+    "sources": [
+      {
+        "x": 0,
+        "y": 30
+      }
+    ],
+    "plantFoodSources": [
+      {
+        "x": 0,
+        "y": 30
+      }
+    ]
+  }
+}

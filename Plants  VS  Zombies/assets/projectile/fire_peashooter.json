@@ -1,0 +1,23 @@
+{
+  "plant": "FIRE_PEASHOOTER",
+  "pamPath": "768/INITIAL/EFFECTS/T_FIRE_PEA/T_FIRE_PEA.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/INITIAL/EFFECTS/T_SPLAT_FIRE_PEA/T_SPLAT_FIRE_PEA.PAM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plant": "ROTOBAGA",
+
+  "pamPath": "768/FULL/PLANT/ROTORUTABAGA/ROTORUTABAGA.PAM",
+
+  "states": {
+    "IDLE":[
+      {
+        "clip":"idle",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "ATTACK":[
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "PLANT_FOOD":[
+      {
+        "clip":"plantfood_on",
+        "loop":true,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

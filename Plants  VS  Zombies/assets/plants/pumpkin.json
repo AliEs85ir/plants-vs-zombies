@@ -1,0 +1,44 @@
+{
+  "plant": "PUMPKIN",
+
+  "pamPath":
+  "768/INITIAL/PLANT/PUMPKIN/PUMPKIN.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 0, "count": 3 }
+      },
+      {
+        "clip":"idle2",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 1, "count": 3 }
+      },
+      {
+        "clip":"idle3",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 2, "count": 3 }
+      },
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ]
+
+  }
+
+}

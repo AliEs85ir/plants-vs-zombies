@@ -1,0 +1,14 @@
+{
+  "obstacle": "PEASHOOTER",
+  "pamPath": "768/INITIAL/EFFECTS/PVINE_PROJECTILE/PVINE_PROJECTILE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

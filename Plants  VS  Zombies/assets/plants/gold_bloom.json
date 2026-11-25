@@ -1,0 +1,52 @@
+{
+  "plant": "GOLD_BLOOM",
+  "pamPath": "768/INITIAL/PLANT/GOLDBLOOM/GOLDBLOOM.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "attack",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  },
+  "sunLaunch": {
+    "durationTicks": 7,
+    "arcHeight": 30,
+    "sources": [
+      {
+        "x": 0,
+        "y": 240
+      }
+    ]
+  }
+}

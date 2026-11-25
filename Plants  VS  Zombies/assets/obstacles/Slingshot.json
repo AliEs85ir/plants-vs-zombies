@@ -1,0 +1,22 @@
+{
+  "obstacle": "SLINGSHOT",
+  "pamPath": "768/FULL/EFFECTS/ZOMBOSS_MISSILE_EXPLOSION_ICEAGE/ZOMBOSS_MISSILE_EXPLOSION_ICEAGE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "missile",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "missile_explosion",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

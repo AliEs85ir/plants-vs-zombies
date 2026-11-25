@@ -1,0 +1,37 @@
+{
+  "plant": "CITRON",
+  "pamPath": "768/FULL/EFFECTS/T_CITRON_CITRUS_ORB/T_CITRON_CITRUS_ORB.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "Citron_Citrus_Orb",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "Plantfood_Citron_Plasma_Orb",
+        "loop": true,
+        "priority": 1,
+        "tag": "PLANT_FOOD",
+        "pamPath": "768/FULL/EFFECTS/CITRON_PLANTFOOD_ORB/CITRON_PLANTFOOD_ORB.PAM"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/FULL/EFFECTS/T_CITRON_CITRUS_ORB_HIT/T_CITRON_CITRUS_ORB_HIT.PAM"
+      },
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 1,
+        "tag": "PLANT_FOOD",
+        "pamPath": "768/FULL/EFFECTS/CITRON_PLANTFOOD_ORB_HIT/CITRON_PLANTFOOD_ORB_HIT.PAM"
+      }
+    ]
+  }
+}

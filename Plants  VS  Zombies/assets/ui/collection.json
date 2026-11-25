@@ -1,0 +1,367 @@
+{
+  "backgroundPath": "menu/bg/collection.png",
+  "titlePath": "menu/image/collection_title.png",
+  "lockIconId": "IMAGE_ZEN_GARDEN_LOCKED_POT_ICON",
+  "defaultDetailsBackground": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_MODERN",
+  "boostDetailsBackground": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_BOOST",
+  "title": {
+    "anchorX": 0.5,
+    "anchorY": 1.0,
+    "originX": 0.5,
+    "originY": 1.0,
+    "offsetX": 0,
+    "offsetY": -6,
+    "width": 230,
+    "height": 92,
+    "scale": 1.0,
+    "alpha": 1.0,
+    "rotation": 0,
+    "keepAspect": true
+  },
+  "panel": {
+    "drawable": "image_ui_quests_panel_edge_to_edge_ten",
+    "fallback": "image_ui_generic_guaranteed_bg_10",
+    "alpha": 0.75,
+    "widthRatio": 1.0,
+    "heightRatio": 0.7,
+    "anchorX": 0.5,
+    "anchorY": 0.0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "sidePad": 20,
+    "padTop": 16,
+    "padBottom": 14,
+    "marginTop": 0
+  },
+  "topBar": {
+    "visible": true,
+    "padTop": 8,
+    "padLeft": 10,
+    "padRight": 10,
+    "buttonSize": 68,
+    "iconSize": 34,
+    "valueWidth": 70,
+    "gap": 4,
+    "coinIconPath": "menu/icon/coin2.png",
+    "gemIconPath": "menu/icon/gem.png",
+    "backNormalId": "IMAGE_UI_ALMANAC_BUTTONS_HUD_BACK_NORMAL",
+    "backHoverId": "IMAGE_UI_ALMANAC_BUTTONS_HUD_BACK_SELECTED",
+    "shopNormalId": "IMAGE_UI_HUD_WORLDMAP_BUTTONS_HUD_STORE_NORMAL",
+    "shopHoverId": "IMAGE_UI_HUD_WORLDMAP_BUTTONS_HUD_STORE_SELECTED"
+  },
+  "tabs": {
+    "selectedAlpha": 1.0,
+    "unselectedAlpha": 0.55,
+    "selectedScale": 1.0,
+    "unselectedScale": 0.92,
+    "hoverLift": 8,
+    "hoverAlpha": 0.82,
+    "hoverSpeed": 10,
+    "browse": {
+      "plants": {
+        "plants": {
+          "alpha": 0.7,
+          "dim": 0.2
+        },
+        "zombies": {
+          "alpha": 0.3,
+          "dim": 0.5
+        }
+      },
+      "zombies": {
+        "plants": {
+          "alpha": 0.3,
+          "dim": 0.5
+        },
+        "zombies": {
+          "alpha": 0.7,
+          "dim": 0.2
+        }
+      }
+    },
+    "plants": {
+      "path": "menu/image/plants_element.png",
+      "anchorX": 0.32,
+      "anchorY": 0.46,
+      "originX": 0.5,
+      "originY": 0.5,
+      "offsetX": -5,
+      "offsetY": 105,
+      "width": 200,
+      "height": 300,
+      "scale": 1.0,
+      "alpha": 1.0,
+      "rotation": 0,
+      "keepAspect": true
+    },
+    "zombies": {
+      "path": "menu/image/zombie_element.png",
+      "anchorX": 0.68,
+      "anchorY": 0.46,
+      "originX": 0.5,
+      "originY": 0.5,
+      "offsetX": -5,
+      "offsetY": 115,
+      "width": 200,
+      "height": 300,
+      "scale": 1.0,
+      "alpha": 1.0,
+      "rotation": 0,
+      "keepAspect": true
+    }
+  },
+  "plantGrid": {
+    "columns": 7,
+    "autoFit": true,
+    "minCardWidth": 48,
+    "gapX": 40,
+    "gapY": 14,
+    "sidePad": 0,
+    "padTop": 4,
+    "padBottom": 88,
+    "showCardProgress": true,
+    "progressPadX": 0,
+    "progressPadY": -1
+  },
+  "zombieGrid": {
+    "columns": 7,
+    "autoFit": true,
+    "minCardWidth": 48,
+    "gapX": 10,
+    "gapY": 12,
+    "sidePad": 0,
+    "padTop": 4,
+    "padBottom": 88,
+    "showCardProgress": false
+  },
+  "details": {
+    "previewWidth": 230,
+    "previewHeight": 230,
+    "previewPad": 10,
+    "columnGap": 18,
+    "statColumns": 2,
+    "statRowGap": 8,
+    "statColGap": 16,
+    "statIconSize": 41,
+    "statIconPad": 8,
+    "statTitleScale": 1.16,
+    "titleScale": 1.55,
+    "bodyScale": 1.16,
+    "valueScale": 1.22,
+    "plantFoodScale": 1.16,
+    "plantDescriptionLines": 2,
+    "zombieDescriptionLines": 7,
+    "descriptionLineHeight": 24,
+    "arrowSize": 58,
+    "progressBarHeight": 22,
+    "progressPadX": 0,
+    "progressPadY": 3,
+    "arrowPreviousId": "IMAGE_UI_ALMANAC_STATS_SCREEN_NAV_ARROW_PREVIOUS",
+    "arrowPreviousDownId": "IMAGE_UI_ALMANAC_STATS_SCREEN_NAV_ARROW_PREVIOUS_DOWN",
+    "arrowNextId": "IMAGE_UI_ALMANAC_STATS_SCREEN_NAV_ARROW_NEXT",
+    "arrowNextDownId": "IMAGE_UI_ALMANAC_STATS_SCREEN_NAV_ARROW_NEXT_DOWN",
+    "upgradeStyle": "green",
+    "upgradeWidth": 168,
+    "upgradeHeight": 44,
+    "buyStyle": "green",
+    "buyWidth": 168,
+    "buyHeight": 44,
+    "buyGemIconPath": "menu/icon/gem3.png",
+    "buyGemIconSize": 28,
+    "buyGemGap": 8,
+    "previewSeparator": "  >  ",
+    "previewValueGap": 4,
+    "previewSeparatorScale": 1.22,
+    "lockedPreviewAlpha": 0.42,
+    "padTop": 8,
+    "padBottom": 8,
+    "padLeft": 0,
+    "padRight": 0,
+    "bottomGap": 12,
+    "bottomColumnGap": 18,
+    "titlePad": 4,
+    "arrowPad": 8,
+    "statsPadTop": 8,
+    "descriptionPadTop": 8,
+    "infoWidth": 360
+  },
+  "card": {
+    "font": "FBUSV8C5EI_1",
+    "levelFormat": "Lv.%d",
+    "levelPadX": 7,
+    "levelPadY": 6,
+    "levelFontScale": 0.72,
+    "categoryPadX": 5,
+    "categoryPadY": 6,
+    "categoryOffsetX": -5,
+    "categoryOffsetY": -5,
+    "categorySizeRatio": 0.28,
+    "lockSizeRatio": 0.46,
+    "lockedTint": 0.58,
+    "lockedOverlayAlpha": 0.55
+  },
+  "cardHover": {
+    "hoverLift": 5,
+    "hoverScale": 1.06,
+    "hoverSpeed": 10
+  },
+  "scrollPane": {
+    "scrollBarWidth": 7,
+    "fadeScrollBars": false,
+    "scrollSpeed": 48
+  },
+  "progress": {
+    "barHeight": 14,
+    "iconSize": 18,
+    "iconGap": 2,
+    "textScale": 0.62,
+    "yellowStyle": "xp_yellow",
+    "greenStyle": "xp_green",
+    "yellowIcon": "IMAGE_UI_GENERIC_XP_PROGRESS_ICON_YELLOW_LARGE",
+    "greenIcon": "IMAGE_UI_GENERIC_XP_PROGRESS_ICON_GREEN_LARGE",
+    "countFormat": "%d/%d",
+    "maxText": "MAX"
+  },
+  "labels": {
+    "upgrade": "Upgrade",
+    "buy": "Buy",
+    "buyFormat": "Buy %d",
+    "maxLevel": "Max Level",
+    "locked": "Locked",
+    "lockedPlantBody": "Unlock this plant to view its stats.",
+    "lockedZombieBody": "Encounter this zombie to view its stats.",
+    "plantFoodPrefix": "Plant Food: ",
+    "noPlantFood": "This plant has no Plant Food ability.",
+    "levelFormat": "LEVEL %d",
+    "levelNextFormat": "LEVEL %d → %d",
+    "filterAllCategories": "All categories",
+    "filterUnlockAll": "All",
+    "filterUnlockUnlocked": "Unlocked",
+    "filterUnlockLocked": "Locked",
+    "filterDiscoverAll": "All",
+    "filterDiscoverDiscovered": "Discovered",
+    "filterDiscoverUndiscovered": "Undiscovered",
+    "filterUpgradeableOnly": "Upgradeable only",
+    "filterApply": "Apply",
+    "filterEmpty": "No items match these filters."
+  },
+  "colors": {
+    "currentValue": "FFFFFF",
+    "nextValue": "D4F5C0",
+    "separator": "F0E6D0",
+    "title": "FFF4D6",
+    "body": "FFFFFF",
+    "muted": "F2EBDD",
+    "statTitle": "E8D9B0",
+    "lockedOverlay": "141414AD"
+  },
+  "interaction": {
+    "fadeDuration": 0.16
+  },
+  "overlay": {
+    "color": "#000000",
+    "alpha": 0.3
+  },
+  "categoryIcons": {
+    "SUN_PRODUCER": "IMAGE_UI_PACKETS_MINTFAM_SUN",
+    "SHOOTER": "IMAGE_UI_PACKETS_MINTFAM_PEASHOOTER",
+    "HOMING": "IMAGE_UI_PACKETS_MINTFAM_TRAP",
+    "STRIKE_THROUGH": "IMAGE_UI_PACKETS_MINTFAM_SHADOW",
+    "LOBBER": "IMAGE_UI_PACKETS_MINTFAM_LOBBER",
+    "EXPLOSIVE": "IMAGE_UI_PACKETS_MINTFAM_EXPLOSIVE",
+    "MELEE": "IMAGE_UI_PACKETS_MINTFAM_MELEE",
+    "WALL_NUT": "IMAGE_UI_PACKETS_MINTFAM_DEFENSE",
+    "MODIFIER": "IMAGE_UI_PACKETS_MINTFAM_POISON"
+  },
+  "packetToDetailsBackground": {
+    "IMAGE_UI_PACKETS_EGYPT": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_EGYPT",
+    "IMAGE_UI_PACKETS_DARK": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_DARK",
+    "IMAGE_UI_PACKETS_DINO": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_DINO",
+    "IMAGE_UI_PACKETS_LOSTCITY": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_LOSTCITY",
+    "IMAGE_UI_PACKETS_PIRATE": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_PIRATE",
+    "IMAGE_UI_PACKETS_ICEAGE": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_ICEAGE",
+    "IMAGE_UI_PACKETS_COWBOY": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_COWBOY",
+    "IMAGE_UI_PACKETS_MODERNDAY": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_MODERN",
+    "IMAGE_UI_PACKETS_FUTURE": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_FUTURE",
+    "IMAGE_UI_PACKETS_BEACH": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_BEACH",
+    "IMAGE_UI_PACKETS_EIGHTIES": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_EIGHTIES",
+    "IMAGE_UI_PACKETS_CARNIVAL": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_CARNIVAL",
+    "IMAGE_UI_PACKETS_WARP": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_WARP",
+    "IMAGE_UI_PACKETS_ZCORP": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_ZCORP",
+    "IMAGE_UI_PACKETS_ROMAN": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_ROMAN",
+    "IMAGE_UI_PACKETS_BOOST": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_BOOST"
+  },
+  "stats": [
+    {
+      "id": "sunCost",
+      "title": "Cost",
+      "icon": "IMAGE_UI_ALMANAC_PLANTS_POWERAREA_ICON"
+    },
+    {
+      "id": "maxHealth",
+      "title": "Toughness",
+      "icon": "IMAGE_UI_ALMANAC_PLANTS_TOUGHNESS_ICON"
+    },
+    {
+      "id": "attackDamage",
+      "title": "Damage",
+      "icon": "IMAGE_UI_ALMANAC_PLANTS_DAMAGE_ICON"
+    },
+    {
+      "id": "cooldownTicks",
+      "title": "Recharge",
+      "icon": "IMAGE_UI_ALMANAC_PLANTS_RECHARGE_ICON"
+    },
+    {
+      "id": "category",
+      "title": "Category",
+      "icon": "IMAGE_UI_ALMANAC_ALMANAC_PIERCE"
+    },
+    {
+      "id": "tags",
+      "title": "Tags",
+      "icon": "IMAGE_UI_ALMANAC_PLANTS_VARIABLE_ICON"
+    }
+  ],
+  "zombieStats": [
+    {
+      "id": "hp",
+      "title": "Toughness",
+      "icon": "IMAGE_UI_ALMANAC_PLANTS_TOUGHNESS_ICON"
+    },
+    {
+      "id": "speed",
+      "title": "Speed",
+      "icon": "IMAGE_UI_ALMANAC_ALMANAC_BOOST"
+    }
+  ],
+  "filterPanel": {
+    "width": 860,
+    "height": 72,
+    "bottomOffset": 18,
+    "xOffset": 0,
+    "background": "image_ui_mainmenu_mm_settings_tab_10",
+    "alpha": 0.92,
+    "padTop": 8,
+    "padBottom": 8,
+    "padLeft": 16,
+    "padRight": 16,
+    "iconPath": "menu/icon/filter.png",
+    "iconSize": 35,
+    "iconPadding": 6,
+    "iconOffsetX": 0,
+    "iconOffsetY": 0,
+    "dropdownWidth": 170,
+    "dropdownHeight": 36,
+    "controlSpacing": 12,
+    "popupOffset": 4,
+    "popupDirection": "up",
+    "applyButtonWidth": 110,
+    "applyButtonHeight": 40,
+    "applyButtonSpacing": 14,
+    "checkboxSize": 28,
+    "checkboxLabelSpacing": 8,
+    "contentPadLeft": 6,
+    "applyPadRight": 6
+  }
+}

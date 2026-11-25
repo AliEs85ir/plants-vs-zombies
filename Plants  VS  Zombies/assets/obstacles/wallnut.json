@@ -1,0 +1,14 @@
+{
+  "obstacle": "WALLNUT",
+  "pamPath": "768/INITIAL/PLANT/WALLNUT/WALLNUT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

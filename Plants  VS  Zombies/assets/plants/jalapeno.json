@@ -1,0 +1,22 @@
+{
+  "plant": "JALAPENO",
+  "pamPath": "768/INITIAL/PLANT/JALAPENO/JALAPENO.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "ilde",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "attack",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

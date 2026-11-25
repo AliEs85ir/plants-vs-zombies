@@ -1,0 +1,46 @@
+{
+  "plant": "CITRON",
+
+  "pamPath": "768/FULL/PLANT/CITRON/CITRON.PAM",
+
+  "states": {
+    "IDLE":[
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "ATTACK":[
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      } ,
+      {
+        "clip":"recovery",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      } ,
+      {
+        "clip":"charge",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "PLANT_FOOD":[
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

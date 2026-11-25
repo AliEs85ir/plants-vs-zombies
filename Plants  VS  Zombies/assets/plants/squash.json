@@ -1,0 +1,72 @@
+{
+  "plant": "SQUASH",
+  "pamPath": "768/INITIAL/PLANT/SQUASH/SQUASH.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "TURN": [
+      {
+        "clip": "turn",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "jump_up_right",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "facing",
+          "facing": "right"
+        }
+      },
+      {
+        "clip": "jump_down_right",
+        "loop": false,
+        "priority": 1,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "facing",
+          "facing": "right"
+        }
+      },
+      {
+        "clip": "jump_up_left",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "facing",
+          "facing": "left"
+        }
+      },
+      {
+        "clip": "jump_down_left",
+        "loop": false,
+        "priority": 1,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "facing",
+          "facing": "left"
+        }
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "plant": "FIRE_PEASHOOTER",
+  "pamPath": "768/INITIAL/PLANT/FIREPEASHOOTER/FIREPEASHOOTER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "attack",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      },
+      {
+        "clip": "plantfood_loop",
+        "loop": true,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      },
+      {
+        "clip": "plantfood_end",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

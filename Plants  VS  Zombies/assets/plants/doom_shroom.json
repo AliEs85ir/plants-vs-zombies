@@ -1,0 +1,98 @@
+{
+  "plant": "DOOM_SHROOM",
+  "pamPath": "768/FULL/PLANT/DOOMSHROOM/DOOMSHROOM.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "stage1_idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 1
+        }
+      },
+      {
+        "clip": "stage2_idle2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 2
+        }
+      },
+      {
+        "clip": "stage3_idle2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 3
+        }
+      },
+      {
+        "clip": "stage1_idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK_2": [
+      {
+        "clip": "stage1_transform",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 1
+        }
+      },
+      {
+        "clip": "stage2_transform",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 2
+        }
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "stage1_explode",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 1
+        }
+      },
+      {
+        "clip": "stage2_explode",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 2
+        }
+      },
+      {
+        "clip": "stage3_explode",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "stage",
+          "stage": 3
+        }
+      }
+    ]
+  }
+}

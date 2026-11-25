@@ -1,0 +1,44 @@
+{
+  "obstacle": "OCTOPUS",
+  "pamPath": "768/FULL/EFFECTS/ZOMBIE_OCTOPUS_PROJECTILE/ZOMBIE_OCTOPUS_PROJECTILE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation3",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "FLY"
+        }
+      },
+      {
+        "clip": "animation2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "LAND"
+        }
+      }
+    ],
+    "DEATH" : [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

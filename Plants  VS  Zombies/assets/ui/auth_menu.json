@@ -1,0 +1,213 @@
+{
+  "background": {
+    "path": "menu/bg/signup.png",
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "offsetX": 0,
+    "offsetY": 0
+  },
+  "mainPanel": {
+    "x": 48,
+    "y": 10,
+    "width": 624,
+    "height": 520,
+    "offsetX": 0,
+    "offsetY": 0,
+    "marginLeft": 48,
+    "verticalAlign": "top",
+    "padLeft": 52,
+    "padRight": 52,
+    "padTop": 48,
+    "padBottom": 48,
+    "background": "image_ui_powerups_powerup_cost_10",
+    "alpha": 0.8,
+    "cornerRadius": 8,
+    "alignToLeft": true
+  },
+  "secondaryPanel": {
+    "x": 48,
+    "y": 40,
+    "width": 624,
+    "height": 64,
+    "offsetX": 0,
+    "offsetY": 0,
+    "marginLeft": 48,
+    "padLeft": 28,
+    "padRight": 28,
+    "padTop": 16,
+    "padBottom": 16,
+    "background": "image_ui_powerups_powerup_cost_10",
+    "alpha": 0.8,
+    "cornerRadius": 8,
+    "alignToLeft": true,
+    "anchorToMain": true,
+    "gapFromMain": 16
+  },
+  "title": {
+    "font": "FBUSV8C5EI_1_outline",
+    "fontFallback": "FBUSV8C5EI_1",
+    "fontSize": 1.40,
+    "color": "F4E7B0",
+    "alignment": "left",
+    "offsetX": 0,
+    "offsetY": 0,
+    "bottomGap": 10
+  },
+  "stepIndicator": {
+    "visible": true,
+    "format": "{current} / {total}",
+    "font": "BRIANNETOD",
+    "fontFallback": "BRIANNETOD",
+    "fontSize": 1.20,
+    "color": "E4DCC4",
+    "alignment": "left",
+    "padLeft": 24,
+    "bottomGap": 12
+  },
+  "field": {
+    "layout": "row",
+    "width": 236,
+    "height": 36,
+    "iconSize": 34,
+    "iconOffsetX": 0,
+    "iconOffsetY": 0,
+    "iconTitleGap": 10,
+    "titleWidth": 148,
+    "titleValueGap": 12,
+    "fieldPadding": 2,
+    "fieldSpacing": 8,
+    "labelFont": "BRIANNETOD",
+    "labelFontFallback": "BRIANNETOD",
+    "labelFontSize": 1.35,
+    "labelColor": "004e0b",
+    "placeholderFont": "BRIANNETOD",
+    "placeholderFontFallback": "BRIANNETOD",
+    "placeholderFontSize": 1.00,
+    "placeholderColor": "8A8A8A",
+    "placeholderAlpha": 0.72,
+    "inputFont": "BRIANNETOD",
+    "inputFontFallback": "BRIANNETOD",
+    "inputFontSize": 1.00,
+    "inputColor": "28211a",
+    "inputBackgroundDrawable": "image_ui_if_bundle_reward_multiplier_bg_10",
+    "inputBackgroundColor": "F7EED8FF",
+    "focusedBackgroundColor": "FFF6D8FF",
+    "inputCornerRadius": 6,
+    "inputPadLeft": 14,
+    "inputPadRight": 14,
+    "inputPadTop": 6,
+    "inputPadBottom": 6,
+    "errorFont": "BRIANNETOD",
+    "errorFontFallback": "BRIANNETOD",
+    "errorFontSize": 0.90,
+    "errorColor": "990033",
+    "errorHeight": 22,
+    "errorSpacing": 2,
+    "maskCharacter": "*",
+    "validationEnabled": true
+  },
+  "editing": {
+    "cursorBlinkSeconds": 0.32,
+    "cursorWidth": 2,
+    "cursorHeight": 22,
+    "cursorColor": "1A140E",
+    "focusTraversal": true,
+    "enterAdvances": true
+  },
+  "error": {
+    "font": "BRIANNETOD",
+    "fontFallback": "BRIANNETOD",
+    "fontSize": 0.90,
+    "color": "990033",
+    "alignment": "left",
+    "topPadding": 10,
+    "height": 48,
+    "offsetX": 0,
+    "offsetY": 0,
+    "nearField": true,
+    "showOnPanel": false
+  },
+  "button": {
+    "width": 200,
+    "height": 36,
+    "spacing": 12,
+    "padX": 8,
+    "padY": 2,
+    "labelScale": 0.70,
+    "hoverScale": 1.05,
+    "hoverDuration": 0.10,
+    "style": "brown",
+    "disabledColor": "8A8A8AEE",
+    "topPadding": 14
+  },
+  "checkbox": {
+    "size": 28,
+    "style": "default",
+    "labelFont": "BRIANNETOD",
+    "labelFontSize": 0.90,
+    "labelColor": "183319",
+    "hoverColor": "148925",
+    "topPadding": 4,
+    "spacing": 6
+  },
+  "terms": {
+    "font": "BRIANNETOD",
+    "fontFallback": "BRIANNETOD",
+    "fontSize": 1.25,
+    "color": "F2E7C4",
+    "alignment": "left",
+    "height": 210,
+    "scrollSensitivity": 28,
+    "path": "ui/registration_terms.json",
+    "checkboxLabel": "I accept the lawn laws and gardener terms."
+  },
+  "transition": {
+    "duration": 0.18,
+    "slideAmount": 0,
+    "fadeMin": 0
+  },
+  "secondary": {
+    "signUpPrompt": "If you have already registered, ",
+    "signUpAction": "click to enter the garden.",
+    "loginPrompt": "If you haven't registered yet as a new gardener, ",
+    "loginAction": "click to go to the registration menu.",
+    "forgotPrompt": "Click to ",
+    "forgotAction": "return to the login menu.",
+    "forgotActionHighlight": "return to the login menu.",
+    "resetPrompt": "Click to ",
+    "resetAction": "return to the login menu.",
+    "resetActionHighlight": "return to the login menu.",
+    "promptFont": "BRIANNETOD",
+    "promptFontSize": 1.25,
+    "promptColor": "366e7c",
+    "actionColor": "004e0b",
+    "actionHoverColor": "28a0be",
+    "gap": 4,
+    "wrap": true
+  },
+  "pages": {
+    "signUpStep1": {
+      "title": "Sign Up",
+      "stepLabel": "1 / 3"
+    },
+    "signUpStep2": {
+      "title": "Sign Up",
+      "stepLabel": "2 / 3"
+    },
+    "signUpStep3": {
+      "title": "Sign Up",
+      "stepLabel": "3 / 3",
+      "termsVisible": true,
+      "termsCheckboxLabel": "I accept the lawn laws and gardener terms."
+    },
+    "login": {
+      "title": "Login"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password"
+    },
+    "passwordReset": {
+      "title": "Change Password"
+    }
+  }
+}

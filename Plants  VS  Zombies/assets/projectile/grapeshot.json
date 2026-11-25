@@ -1,0 +1,23 @@
+{
+  "plant": "GRAPESHOT",
+  "pamPath": "768/INITIAL/EFFECTS/GRAPESHOT_PROJECTILE/GRAPESHOT_PROJECTILE.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "animation_forward",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/INITIAL/EFFECTS/GRAPESHOT_HIT/GRAPESHOT_HIT.PAM"
+      }
+    ]
+  }
+}

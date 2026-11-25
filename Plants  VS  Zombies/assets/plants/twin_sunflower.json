@@ -1,0 +1,54 @@
+{
+  "plant": "TWIN_SUNFLOWER",
+  "pamPath": "768/INITIAL/PLANT/SUNFLOWER_TWIN/SUNFLOWER_TWIN.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "special",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": true,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  },
+  "sunLaunch": {
+    "durationTicks": 7,
+    "arcHeight": 30,
+    "sources": [
+      {
+        "x": 40,
+        "y": 40
+      },
+      {
+        "x": -25,
+        "y": 30
+      }
+    ],
+    "plantFoodSources": [
+      {
+        "x": 40,
+        "y": 40
+      },
+      {
+        "x": -25,
+        "y": 30
+      }
+    ]
+  }
+}

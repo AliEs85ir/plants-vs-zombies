@@ -1,0 +1,22 @@
+{
+  "obstacle": "GARGANTUAR_PUDDLE",
+  "pamPath": "768/FULL/BACKGROUNDS/WATER_GARGANTUAR_RIPPLE/WATER_GARGANTUAR_RIPPLE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "ripple",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "ripple_exit",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

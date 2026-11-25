@@ -1,0 +1,28 @@
+{
+  "obstacle": "GOLD_TILE",
+  "pamPath": "768/FULL/BACKGROUNDS/GOLDTILE/GOLDTILE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "inactive_unused",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "inactive_unused2",
+        "loop": false,
+        "priority": 0,
+        "tag": "SHINE"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "active",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "obstacle": "TALLNUT",
+  "pamPath": "768/FULL/PLANT/TALLNUT/TALLNUT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

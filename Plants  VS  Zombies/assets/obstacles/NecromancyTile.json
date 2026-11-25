@@ -1,0 +1,34 @@
+{
+  "obstacle": "NECROMANCY_TILE",
+  "pamPath": "768/INITIAL/BACKGROUNDS/LINKTILE_02/LINKTILE_02.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "SHINE"
+      },
+      {
+        "clip": "animation4",
+        "loop": false,
+        "priority": 0,
+        "tag": "SHINE"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "animation2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sunType": "RADIOACTIVE",
+  "pamPath": "768/FULL/EFFECTS/SUN_BOMB/SUN_BOMB.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      } ,
+      {
+        "clip": "animation2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ] ,
+    "EXPLODE": [
+      {
+        "clip": "attack",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}
+

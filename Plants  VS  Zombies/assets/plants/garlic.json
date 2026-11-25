@@ -1,0 +1,78 @@
+{
+  "plant": "GARLIC",
+
+  "pamPath":
+  "768/FULL/PLANT/GARLIC/GARLIC.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 0, "count": 3 }
+      },
+      {
+        "clip":"idle2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "health_segment", "segment": 0, "count": 3 }
+      },
+      {
+        "clip":"idle_damage",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 1, "count": 3 }
+      },
+      {
+        "clip":"idle2_damage",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "health_segment", "segment": 1, "count": 3 }
+      },
+      {
+        "clip":"idle_damage2",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "health_segment", "segment": 2, "count": 3 }
+      },
+      {
+        "clip":"idle2_damage2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "health_segment", "segment": 2, "count": 3 }
+      },
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

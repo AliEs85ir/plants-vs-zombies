@@ -1,0 +1,14 @@
+{
+  "obstacle": "BOSS_ICE",
+  "pamPath": "768/FULL/EFFECTS/ZOMBOSS_GLACIER_BLOCK/ZOMBOSS_GLACIER_BLOCK.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

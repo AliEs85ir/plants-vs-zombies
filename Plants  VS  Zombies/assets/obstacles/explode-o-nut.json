@@ -1,0 +1,14 @@
+{
+  "obstacle": "EXPLODE_O_NUT",
+  "pamPath": "768/INITIAL/PLANT/EXPLODEONUT/EXPLODEONUT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

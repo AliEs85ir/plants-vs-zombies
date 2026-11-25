@@ -1,0 +1,20 @@
+{
+  "sunType": "SPECIAL",
+  "pamPath": "768/INITIAL/EFFECTS/SUN/SUN.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "transition_blue",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      } ,
+      {
+        "clip": "blue",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "plant": "TANGLE_KELP",
+  "pamPath": "768/FULL/PLANT/TANGLEKELP/TANGLEKELP.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle2",
+        "loop": true,
+        "priority": 0,
+        "tag": "BLINK"
+      },
+      {
+        "clip": "idle3",
+        "loop": true,
+        "priority": 0,
+        "tag": "SPECIAL"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "attack_submerge",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "attack",
+        "loop": false,
+        "priority": 1,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "plant": "TORCHWOOD",
+
+  "pamPath":
+  "768/INITIAL/PLANT/TORCHWOOD/TORCHWOOD.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+      {
+        "clip":"idle2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood_on",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      },
+      {
+        "clip":"plantfood",
+        "loop":true,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ],
+
+    "DEATH":[
+
+      {
+        "clip":"explosion",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ]
+
+  }
+
+}

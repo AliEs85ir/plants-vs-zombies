@@ -1,0 +1,157 @@
+{
+  "plant": "KIWIBEAST",
+
+  "pamPath":
+  "768/INITIAL/PLANT/KIWIBEAST/KIWIBEAST.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle_stage1_",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 1 }
+      },
+      {
+        "clip":"idle_stage1_2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "stage", "stage": 1 }
+      },
+      {
+        "clip":"idle_stage1_3",
+        "loop":true,
+        "priority":0,
+        "tag":"SPECIAL",
+        "condition": { "type": "stage", "stage": 1 }
+      },
+
+      {
+        "clip":"idle_stage2_",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 2 }
+      },
+      {
+        "clip":"idle_stage2_2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "stage", "stage": 2 }
+      },
+      {
+        "clip":"idle_stage2_3",
+        "loop":true,
+        "priority":0,
+        "tag":"SPECIAL",
+        "condition": { "type": "stage", "stage": 2 }
+      },
+
+      {
+        "clip":"idle_stage3_",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 3 }
+      },
+      {
+        "clip":"idle_stage3_2",
+        "loop":true,
+        "priority":0,
+        "tag":"BLINK",
+        "condition": { "type": "stage", "stage": 3 }
+      },
+      {
+        "clip":"idle_stage3_3",
+        "loop":true,
+        "priority":0,
+        "tag":"SPECIAL",
+        "condition": { "type": "stage", "stage": 3 }
+      },
+
+      {
+        "clip":"idle_stage1_",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "ATTACK":[
+
+      {
+        "clip":"attack_stage1",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 1 }
+      },
+      {
+        "clip":"attack_stage2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 2 }
+      },
+      {
+        "clip":"attack_stage3",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 3 }
+      },
+      {
+        "clip":"attack_stage1",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "ATTACK_2":[
+
+      {
+        "clip":"growth_stage1",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 1 }
+      },
+      {
+        "clip":"growth_stage2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "stage", "stage": 2 }
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood_stage3",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

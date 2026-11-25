@@ -1,0 +1,29 @@
+{
+  "plant": "GOO_PEASHOOTER",
+  "pamPath": "768/INITIAL/EFFECTS/GOOPEASHOOTER_PROJECTILES/GOOPEASHOOTER_PROJECTILES.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "projectile_t1",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 1,
+        "tag": "PLANT_FOOD",
+        "pamPath": "768/INITIAL/EFFECTS/GOOPEASHOOTER_PLANTFOOD/GOOPEASHOOTER_PLANTFOOD.PAM"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "hit_t1",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

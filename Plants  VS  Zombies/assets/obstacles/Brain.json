@@ -1,0 +1,22 @@
+{
+  "obstacle": "BRAIN",
+  "pamPath": "768/FULL/EFFECTS/BRAINSTEM_EFFECT/BRAINSTEM_EFFECT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "mezzmerized_fx",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH" : [
+      {
+        "clip": "disappear_fx",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

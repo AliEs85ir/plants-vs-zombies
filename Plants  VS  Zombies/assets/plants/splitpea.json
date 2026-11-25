@@ -1,0 +1,34 @@
+{
+  "plant": "SPLIT_PEA",
+
+  "pamPath": "768/FULL/PLANT/SPLITPEA/SPLITPEA.PAM",
+
+  "states": {
+    "IDLE":[
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "ATTACK":[
+      {
+        "clip":"attack2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "PLANT_FOOD":[
+      {
+        "clip":"plantfood",
+        "loop":true,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

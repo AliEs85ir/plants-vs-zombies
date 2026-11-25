@@ -1,0 +1,23 @@
+{
+  "plant": "FUME_SHROOM",
+  "pamPath": "768/INITIAL/EFFECTS/FUMESHROOM_BUBBLES/FUMESHROOM_BUBBLES.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "special",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/INITIAL/EFFECTS/FUMESHROOM_BUBBLES_HIT/FUMESHROOM_BUBBLES_HIT.PAM"
+      }
+    ]
+  }
+}

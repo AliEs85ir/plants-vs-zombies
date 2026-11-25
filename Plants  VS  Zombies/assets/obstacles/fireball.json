@@ -1,0 +1,22 @@
+{
+  "obstacle": "FIREBALL",
+  "pamPath": "768/FULL/EFFECTS/ZOMBOSS_DARK_FIREBALL/ZOMBOSS_DARK_FIREBALL.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "fall",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "impact",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "plant": "REPEATER",
+
+  "pamPath": "768/INITIAL/PLANT/REPEATER/REPEATER.PAM",
+
+  "states": {
+    "IDLE":[
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "ATTACK":[
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+    ],
+
+    "PLANT_FOOD":[
+      {
+        "clip":"plantfood",
+        "loop":true,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      },
+      {
+        "clip":"plantfood2",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

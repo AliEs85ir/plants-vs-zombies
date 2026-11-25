@@ -1,0 +1,22 @@
+{
+  "obstacle": "CABINET",
+  "pamPath": "768/FULL/EFFECTS/80S_ARCADE_CABINET/80S_ARCADE_CABINET.PAM",
+  "states": {
+    "IDLE" : [
+      {
+        "clip": "active",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH" : [
+      {
+        "clip": "death",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

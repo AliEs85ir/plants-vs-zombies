@@ -1,0 +1,534 @@
+{
+  "defaultPlant": {
+    "pamPath": "768/INITIAL/PLANT/MARIGOLD/MARIGOLD.PAM",
+    "clip": "idle",
+    "scale": 0.7,
+    "offsetX": 0,
+    "offsetY": 20,
+    "rotation": 0,
+    "alpha": 1,
+    "loop": true
+  },
+  "plants": {
+    "MARIGOLD": {
+      "pamPath": "768/INITIAL/PLANT/MARIGOLD/MARIGOLD.PAM",
+      "clip": "idle",
+      "scale": 0.7,
+      "offsetX": 0,
+      "offsetY": 20,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SUNFLOWER": {
+      "pamPath": "768/INITIAL/PLANT/SUNFLOWER/SUNFLOWER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "TWIN_SUNFLOWER": {
+      "pamPath": "768/INITIAL/PLANT/TWINSUNFLOWER/TWINSUNFLOWER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SUN_SHROOM": {
+      "pamPath": "768/FULL/PLANT/SUNSHROOM/SUNSHROOM.PAM",
+      "clip": "idle_stage1",
+      "scale": 0.65,
+      "offsetX": 0.0,
+      "offsetY": 50.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PRIMAL_SUNFLOWER": {
+      "pamPath": "768/FULL/PLANT/PRIMALSUNFLOWER/PRIMALSUNFLOWER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PEASHOOTER": {
+      "pamPath": "768/INITIAL/PLANT/PEASHOOTER/PEASHOOTER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "REPEATER": {
+      "pamPath": "768/INITIAL/PLANT/REPEATER/REPEATER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "THREEPEATER": {
+      "pamPath": "768/INITIAL/PLANT/THREEPEATER/THREEPEATER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SNOW_PEA": {
+      "pamPath": "768/INITIAL/PLANT/SNOWPEA/SNOWPEA.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "ROTOBAGA": {
+      "pamPath": "768/FULL/PLANT/ROTORUTABAGA/ROTORUTABAGA.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PEA_POD": {
+      "pamPath": "768/INITIAL/PLANT/PEAPOD/PEAPOD.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SPLIT_PEA": {
+      "pamPath": "768/FULL/PLANT/SPLITPEA/SPLITPEA.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "CITRON": {
+      "pamPath": "768/FULL/PLANT/CITRON/CITRON.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "CAULIPOWER": {
+      "pamPath": "768/INITIAL/PLANT/CAULIPOWER/CAULIPOWER.PAM",
+      "clip": "idle3_1",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "ELECTRIC_BLUEBERRY": {
+      "pamPath": "768/INITIAL/PLANT/ELECTRICBLUEBERRY/ELECTRICBLUEBERRY.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "BOWLING_BULB": {
+      "pamPath": "768/INITIAL/PLANT/BOWLINGBULB/BOWLINGBULB.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "CACTUS": {
+      "pamPath": "768/INITIAL/PLANT/CACTUS/CACTUS.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "FIRE_PEASHOOTER": {
+      "pamPath": "768/INITIAL/PLANT/FIREPEASHOOTER/FIREPEASHOOTER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "STARFRUIT": {
+      "pamPath": "768/INITIAL/PLANT/STARFRUIT/STARFRUIT.PAM",
+      "clip": "idle2",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "GOO_PEASHOOTER": {
+      "pamPath": "768/INITIAL/PLANT/GOOPEASHOOTER/GOOPEASHOOTER.PAM",
+      "clip": "idle2",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "MEGA_GATLING_PEA": {
+      "pamPath": "768/INITIAL/PLANT/MEGAGATLINGPEA/MEGAGATLINGPEA.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SEA_SHROOM": {
+      "pamPath": "768/FULL/PLANT/SEASHROOM/SEASHROOM.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PUFF_SHROOM": {
+      "pamPath": "768/INITIAL/PLANT/PUFFSHROOM/PUFFSHROOM.PAM",
+      "clip": "idle_stage1",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "FUME_SHROOM": {
+      "pamPath": "768/INITIAL/PLANT/FUMESHROOM/FUMESHROOM.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "CABBAGE_PULT": {
+      "pamPath": "768/INITIAL/PLANT/CABBAGEPULT/CABBAGEPULT.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "KERNEL_PULT": {
+      "pamPath": "768/INITIAL/PLANT/KERNELPULT/KERNELPULT.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "MELON_PULT": {
+      "pamPath": "768/INITIAL/PLANT/MELONPULT/MELONPULT.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "WINTER_MELON": {
+      "pamPath": "768/INITIAL/PLANT/WINTERMELON/WINTERMELON.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PEPPER_PULT": {
+      "pamPath": "768/INITIAL/PLANT/PEPPERPULT/PEPPERPULT.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "POTATO_MINE": {
+      "pamPath": "768/INITIAL/PLANT/POTATOMINE/POTATOMINE.PAM",
+      "clip": "idle",
+      "scale": 0.525,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PRIMAL_POTATO_MINE": {
+      "pamPath": "768/INITIAL/PLANT/PRIMALPOTATOMINE/PRIMALPOTATOMINE.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SQUASH": {
+      "pamPath": "768/INITIAL/PLANT/SQUASH/SQUASH.PAM",
+      "clip": "idle",
+      "scale": 0.525,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "TANGLE_KELP": {
+      "pamPath": "768/INITIAL/PLANT/TANGLEKELP/TANGLEKELP.PAM",
+      "clip": "idle",
+      "scale": 0.525,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "ICEBERG_LETTUCE": {
+      "pamPath": "768/INITIAL/PLANT/ICEBERGLETTUCE/ICEBERGLETTUCE.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "BONK_CHOY": {
+      "pamPath": "768/INITIAL/PLANT/BONKCHOY/BONKCHOY.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PHAT_BEET": {
+      "pamPath": "768/INITIAL/PLANT/PHATBEET/PHATBEET.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "CHOMPER": {
+      "pamPath": "768/INITIAL/PLANT/CHOMPER/CHOMPER.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "WASABI_WHIP": {
+      "pamPath": "768/INITIAL/PLANT/WASABIWHIP/WASABIWHIP.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "KIWIBEAST": {
+      "pamPath": "768/INITIAL/PLANT/KIWIBEAST/KIWIBEAST.PAM",
+      "clip": "idle_stage1_",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "WALL_NUT": {
+      "pamPath": "768/INITIAL/PLANT/WALLNUT/WALLNUT.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "TALL_NUT": {
+      "pamPath": "768/INITIAL/PLANT/TALLNUT/TALLNUT.PAM",
+      "clip": "idle",
+      "scale": 0.525,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "ENDURIAN": {
+      "pamPath": "768/INITIAL/PLANT/ENDURIAN/ENDURIAN.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "GARLIC": {
+      "pamPath": "768/INITIAL/PLANT/GARLIC/GARLIC.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SWEET_POTATO": {
+      "pamPath": "768/INITIAL/PLANT/SWEETPOTATO/SWEETPOTATO.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "EXPLODE_O_NUT": {
+      "pamPath": "768/INITIAL/PLANT/EXPLODEONUT/EXPLODEONUT.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "PUMPKIN": {
+      "pamPath": "768/INITIAL/PLANT/PUMPKIN/PUMPKIN.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "SUN_BEAN": {
+      "pamPath": "768/INITIAL/PLANT/SUNBEAN/SUNBEAN.PAM",
+      "clip": "idle",
+      "scale": 0.525,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "TORCHWOOD": {
+      "pamPath": "768/INITIAL/PLANT/TORCHWOOD/TORCHWOOD.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "MAGNET_SHROOM": {
+      "pamPath": "768/INITIAL/PLANT/MAGNETSHROOM/MAGNETSHROOM.PAM",
+      "clip": "idle",
+      "scale": 0.525,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "HYPNO_SHROOM": {
+      "pamPath": "768/INITIAL/PLANT/HYPNOSHROOM/HYPNOSHROOM.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "CAT_TAIL": {
+      "pamPath": "768/INITIAL/PLANT/CATTAIL/CATTAIL.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    },
+    "LILY_PAD": {
+      "pamPath": "768/INITIAL/PLANT/LILYPAD/LILYPAD.PAM",
+      "clip": "idle",
+      "scale": 1.05,
+      "offsetX": 0.0,
+      "offsetY": 20.0,
+      "rotation": 0,
+      "alpha": 1,
+      "loop": true
+    }
+  }
+}

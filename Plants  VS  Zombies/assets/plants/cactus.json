@@ -1,0 +1,74 @@
+{
+  "plant": "CACTUS",
+
+  "pamPath": "768/INITIAL/PLANT/CACTUS/CACTUS.PAM",
+
+  "states": {
+    "IDLE":[
+      {
+        "clip":"idle",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+      {
+        "clip":"idle2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+      {
+        "clip":"idle3",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+      {
+        "clip":"idle_plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "plant_food", "active": true }
+      },
+      {
+        "clip":"idle_plantfood2",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "plant_food", "active": true }
+      },
+      {
+        "clip":"idle_plantfood3",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "plant_food", "active": true }
+      }
+    ],
+
+    "ATTACK":[
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+      {
+        "clip":"attack_plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT",
+        "condition": { "type": "plant_food", "active": true }
+      }
+    ],
+
+    "PLANT_FOOD":[
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+    ]
+  }
+}

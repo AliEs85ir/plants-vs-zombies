@@ -1,0 +1,56 @@
+{
+  "obstacle": "TUTORIAL_GRAVE",
+  "pamPath": "768/INITIAL/GRAVESTONES/TUTORIAL_GRAVESTONE/TUTORIAL_GRAVESTONE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "undamaged",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "damage1",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "DAMAGE1"
+        }
+      },
+      {
+        "clip": "damage2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "DAMAGE2"
+        }
+      },
+      {
+        "clip": "damage3",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "DAMAGE3"
+        }
+      },
+      {
+        "clip": "damage4",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "DAMAGE4"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "plant": "ARMA_MINT",
+  "pamPath": "768/INITIAL/EMPOWERMINTS/PLANT/ARMAMINT/ARMAMINT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "loop",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "intro",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK_2": [
+      {
+        "clip": "outro",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

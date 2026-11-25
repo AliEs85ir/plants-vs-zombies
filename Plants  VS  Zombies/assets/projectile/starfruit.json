@@ -1,0 +1,23 @@
+{
+  "plant": "STARFRUIT",
+  "pamPath": "768/INITIAL/EFFECTS/T_STARFRUIT_PROJECTILE/T_STARFRUIT_PROJECTILE.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "idle3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/INITIAL/EFFECTS/T_STARFRUIT_PROJECTILE_HIT/T_STARFRUIT_PROJECTILE_HIT.PAM"
+      }
+    ]
+  }
+}

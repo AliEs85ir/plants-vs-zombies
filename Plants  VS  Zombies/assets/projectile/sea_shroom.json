@@ -1,0 +1,23 @@
+{
+  "plant": "SEA_SHROOM",
+  "pamPath": "768/FULL/EFFECTS/SEASHROOM_PROJECTILE/SEASHROOM_PROJECTILE.PAM",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "animation",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "pamPath": "768/FULL/EFFECTS/SHADOWSHROOM_CONTAGION_EFFECT/SHADOWSHROOM_CONTAGION_EFFECT.PAM"
+      }
+    ]
+  }
+}

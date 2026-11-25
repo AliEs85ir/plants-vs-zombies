@@ -1,0 +1,46 @@
+{
+  "plant": "SUNFLOWER",
+  "pamPath": "768/INITIAL/PLANT/SUNFLOWER/SUNFLOWER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "special",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": true,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  },
+  "sunLaunch": {
+    "durationTicks": 7,
+    "arcHeight": 30,
+    "sources": [
+      {
+        "x": 0,
+        "y": 40
+      }
+    ],
+    "plantFoodSources": [
+      {
+        "x": 0,
+        "y": 40
+      }
+    ]
+  }
+}

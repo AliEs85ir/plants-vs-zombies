@@ -1,0 +1,28 @@
+{
+  "plant": "CITRON",
+  "pamPath": "768/FULL/EFFECTS/CITRON_PLANTFOOD_ORB/CITRON_PLANTFOOD_ORB.PAM",
+  "unstoppable": true,
+  "pierceAll": true,
+  "instantKill": true,
+  "enemyOnly": true,
+  "hitEffectId": "citron_plantfood_orb_hit",
+  "states": {
+    "FLYING": [
+      {
+        "clip": "Plantfood_Citron_Plasma_Orb",
+        "loop": true,
+        "priority": 0,
+        "tag": "PLANT_FOOD"
+      }
+    ],
+    "IMPACT": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "PLANT_FOOD",
+        "pamPath": "768/FULL/EFFECTS/CITRON_PLANTFOOD_ORB_HIT/CITRON_PLANTFOOD_ORB_HIT.PAM"
+      }
+    ]
+  }
+}

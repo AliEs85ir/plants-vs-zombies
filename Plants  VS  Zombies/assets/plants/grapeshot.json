@@ -1,0 +1,22 @@
+{
+  "plant": "GRAPESHOT",
+  "pamPath": "768/INITIAL/PLANT/GRAPESHOT/GRAPESHOT.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "attack_t2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

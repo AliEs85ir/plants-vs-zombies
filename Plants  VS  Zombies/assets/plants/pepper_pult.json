@@ -1,0 +1,63 @@
+{
+  "plant": "PEPPER_PULT",
+
+  "pamPath":
+  "768/FULL/PLANT/PEPPERPULT/PEPPERPULT.PAM",
+
+
+  "states": {
+
+    "IDLE":[
+
+      {
+        "clip":"idle",
+        "loop":true,
+        "priority":0,
+        "tag":"DEFAULT"
+      },
+
+      {
+        "clip":"idle2",
+        "loop":false,
+        "priority":0,
+        "tag":"SPECIAL"
+      },
+
+      {
+        "clip":"idle3",
+        "loop":false,
+        "priority":0,
+        "tag":"SPECIAL"
+      }
+
+    ],
+
+
+
+    "ATTACK":[
+
+      {
+        "clip":"attack",
+        "loop":false,
+        "priority":0,
+        "tag":"DEFAULT"
+      }
+
+    ],
+
+
+
+    "PLANT_FOOD":[
+
+      {
+        "clip":"plantfood",
+        "loop":false,
+        "priority":0,
+        "tag":"PLANT_FOOD_STAGE"
+      }
+
+    ]
+
+  }
+
+}

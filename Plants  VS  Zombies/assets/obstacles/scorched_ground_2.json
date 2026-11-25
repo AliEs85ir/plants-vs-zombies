@@ -1,0 +1,36 @@
+{
+  "obstacle": "TEMPORARY_SCORCH",
+  "pamPath": "768/FULL/EFFECTS/SCORCHED_EARTH_TILE/SCORCHED_EARTH_TILE.PAM",
+  "states": {
+    "ABILITY": [
+      {
+        "clip": "animation",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SCORCH_START"
+        }
+      },
+      {
+        "clip": "animation2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SCORCH_LOOP"
+        }
+      }
+    ],
+    "DEATH" : [
+      {
+        "clip": "animation3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

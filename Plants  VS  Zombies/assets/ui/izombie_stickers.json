@@ -1,0 +1,44 @@
+{
+  "stickers": [
+    {
+      "id": "sticker_angry",
+      "label": "ANGRY",
+      "drawable": "ui/stickers/angry"
+    },
+    {
+      "id": "sticker_attack",
+      "label": "ATTACK",
+      "drawable": "ui/stickers/attack"
+    },
+    {
+      "id": "sticker_banana",
+      "label": "BANANA",
+      "drawable": "ui/stickers/banana"
+    },
+    {
+      "id": "sticker_cat",
+      "label": "CAT",
+      "drawable": "ui/stickers/cat"
+    },
+    {
+      "id": "sticker_fear",
+      "label": "FEAR",
+      "drawable": "ui/stickers/fear"
+    },
+    {
+      "id": "sticker_like",
+      "label": "LIKE",
+      "drawable": "ui/stickers/like"
+    },
+    {
+      "id": "sticker_smile",
+      "label": "SMILE",
+      "drawable": "ui/stickers/smile"
+    },
+    {
+      "id": "sticker_zombie",
+      "label": "ZOMBIE",
+      "drawable": "ui/stickers/zombie"
+    }
+  ]
+}

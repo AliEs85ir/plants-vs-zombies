@@ -1,0 +1,52 @@
+{
+  "plant": "PRIMAL_SUNFLOWER",
+  "pamPath": "768/FULL/PLANT/PRIMAL_SUNFLOWER/PRIMAL_SUNFLOWER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "special",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "PLANT_FOOD": [
+      {
+        "clip": "plantfood",
+        "loop": true,
+        "priority": 0,
+        "tag": "PLANT_FOOD_STAGE"
+      }
+    ]
+  },
+  "sunLaunch": {
+    "durationTicks": 7,
+    "arcHeight": 30,
+    "sources": [
+      {
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "plantFoodSources": [
+      {
+        "x": 65,
+        "y": 0
+      }
+    ]
+  }
+}

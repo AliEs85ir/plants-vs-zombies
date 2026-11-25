@@ -1,0 +1,16 @@
+{
+  "messages": [
+    { "id": "nice_try", "text": "Nice try!" },
+    { "id": "well_played", "text": "Well played!" },
+    { "id": "get_off_lawn", "text": "Get off my lawn!" },
+    { "id": "brains", "text": "Braaaaaains!" },
+    { "id": "too_easy", "text": "Too easy." },
+    { "id": "plants_toast", "text": "Your plants are toast!" },
+    { "id": "stay_back", "text": "Stay back, zombie!" },
+    { "id": "need_sun", "text": "I need more sun..." },
+    { "id": "incoming", "text": "Incoming!" },
+    { "id": "oops", "text": "Oops." },
+    { "id": "lucky", "text": "That was lucky." },
+    { "id": "gg", "text": "GG" }
+  ]
+}

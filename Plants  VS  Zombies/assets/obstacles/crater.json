@@ -1,0 +1,14 @@
+{
+  "obstacle": "CRATER",
+  "pamPath": "768/FULL/EFFECTS/CRATER/CRATER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "NO_CLIP",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

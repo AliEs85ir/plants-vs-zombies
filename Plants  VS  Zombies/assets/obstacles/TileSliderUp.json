@@ -1,0 +1,46 @@
+{
+  "obstacle": "SLIDING_TILE_UP",
+  "pamPath": "768/FULL/EFFECTS/TILESLIDER_ICEAGE_UP/TILESLIDER_ICEAGE_UP.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY" : [
+      {
+        "clip": "active_start",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SLIDING_UP_START"
+        }
+      },
+      {
+        "clip": "active_idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SLIDING_UP_LOOP"
+        }
+      },
+      {
+        "clip": "active_end",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SLIDING_UP_END"
+        }
+      }
+    ]
+  }
+}

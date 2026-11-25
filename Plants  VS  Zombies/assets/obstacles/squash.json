@@ -1,0 +1,28 @@
+{
+  "obstacle": "SQUASH",
+  "pamPath": "768/INITIAL/PLANT/SQUASH/SQUASH.PAM",
+  "states": {
+    "ABILITY" : [
+      {
+        "clip": "jump_up_left",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SQUASH_JUMP_UP"
+        }
+      },
+      {
+        "clip": "jump_down_left",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "event",
+          "eventType" : "SQUASH_JUMP_DOWN"
+        }
+      }
+    ]
+  }
+}
