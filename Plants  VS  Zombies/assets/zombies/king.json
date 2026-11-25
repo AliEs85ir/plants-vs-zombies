@@ -1,0 +1,44 @@
+{
+  "zombie": "ZombieDarkKing",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_KING/ZOMBIE_DARK_KING.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle2",
+        "loop": false,
+        "priority": 0,
+        "tag": "BLINK"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "special",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "INTRO": [
+      {
+        "clip": "intro",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

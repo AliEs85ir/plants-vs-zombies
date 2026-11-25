@@ -1,0 +1,48 @@
+package app.enums.obstacle;
+
+public enum ObstacleType {
+    EGYPT_GRAVE,
+    VASE,
+    PERMANENT_SCORCHED,
+    TEMPORARY_SCORCH,
+    OCTOPUS,
+    MISSILE,
+    PROTECT_TILE,
+    FLOWER_LINE,
+    GOLD_TILE,
+    SNOWBALL,
+    FIREBALL,
+    SLIDING_TILE_DOWN,
+    SLIDING_TILE_UP,
+    ICE_BLOCK,
+    TUTORIAL_GRAVE,
+    SUN_GRAVE,
+    PLANTFOOD_GRAVE,
+    NECROMANCY_TILE,
+    PUDDLE,
+    GARGANTUAR_PUDDLE,
+    CRATER,
+    MAMMOTH_GLACIER,
+    BOSS_ICE,
+    SLINGSHOT,
+
+    RANDOM_VASE,
+    PLANT_VASE,
+    GARGANTUAR_VASE,
+
+    WALLNUT,
+    TALLNUT,
+    EXPLODE_O_NUT,
+
+    CABINET,
+    PUSHABLE_ICE,
+    HOOK,
+
+    // projectiles :
+    PEASHOOTER,
+    PEA_POD,
+    SNOW_PEA,
+
+    SQUASH,
+    BRAIN,
+}

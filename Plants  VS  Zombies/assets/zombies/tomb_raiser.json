@@ -1,0 +1,46 @@
+{
+  "zombie": "ZombieTombRaiser",
+  "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_TOMBRAISER/ZOMBIE_EGYPT_TOMBRAISER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "power",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

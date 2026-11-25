@@ -1,0 +1,46 @@
+{
+  "zombie": "ZombieArcade",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_80S_ARCADE/ZOMBIE_80S_ARCADE.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "push",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

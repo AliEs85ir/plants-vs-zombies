@@ -1,0 +1,198 @@
+{
+  "zombie": "ZombieBossEgypt",
+  "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_ZOMBOSS/ZOMBIE_EGYPT_ZOMBOSS.PAM",
+  "states": {
+    "INTRO" : [
+      {
+        "clip": "intro",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "stomp",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "STOMP"
+        }
+      },
+      {
+        "clip": "zombie_portal_start",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "PORTAL_START"
+        }
+      },
+      {
+        "clip": "zombie_portal_loop",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "PORTAL_LOOP"
+        }
+      },
+      {
+        "clip": "zombie_portal_end",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "PORTAL_END"
+        }
+      },
+      {
+        "clip": "missile_start",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MISSILE_START"
+        }
+      },
+      {
+        "clip": "rocket_launch",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MISSILE"
+        }
+      },
+      {
+        "clip": "stun_start",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "STUN_START"
+        }
+      },
+      {
+        "clip": "stun_loop",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "STUN_LOOP"
+        }
+      },
+      {
+        "clip": "stun_end",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "STUN_END"
+        }
+      }
+    ],
+    "WALK" : [
+      {
+        "clip": "walk_forward",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "WALK_FORWARD"
+        }
+      },
+      {
+        "clip": "walk_backwards",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "WALK_BACKWARD"
+        }
+      },
+      {
+        "clip": "walk_down",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "WALK_DOWN"
+        }
+      },
+      {
+        "clip": "walk_up",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "WALK_UP"
+        }
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "EGYPT_DIE1"
+        }
+      },
+      {
+        "clip": "die_idle",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "EGYPT_DIE2"
+        }
+      },
+      {
+        "clip": "die_talk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "EGYPT_TALK"
+        }
+      },
+      {
+        "clip": "die_exit",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "EGYPT_EXIT"
+        }
+      }
+    ]
+  }
+}

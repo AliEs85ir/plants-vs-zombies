@@ -1,0 +1,70 @@
+{
+  "zombie": "jester4",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_80S_BREAKDANCER/ZOMBIE_80S_BREAKDANCER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "jam_walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "jam_transition_start",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "SPINUP"
+        }
+      },
+      {
+        "clip": "jam_spin",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "SPIN"
+        }
+      },
+      {
+        "clip": "jam_transition_end",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "SPINDOWN"
+        }
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

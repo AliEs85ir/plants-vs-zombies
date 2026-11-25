@@ -1,0 +1,506 @@
+{
+  "Basic Egypt": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_MUMMY",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic Halloween": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic IceAge": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic Pirate": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_PIRATE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic West": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic West2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_ARMOR1",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Birthday Basic": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CAKETANK",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Birthday Basic2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CAKETANK",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Birthday Basic3": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CAKETANKFEASTIVUS",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Canon1": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CARNIE_CANNON",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Egypt Camel": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CAMEL_ALMANAC",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Egypt Flag": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_MUMMY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Egypt Flag2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_MUMMY_FLAG_VETERAN",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar1": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_VASE_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar11": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_EIGHTIES_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar12": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar13": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_LOSTCITY_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar4": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DINO_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar5": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_BEACH_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar7": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CARNIE_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar8": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ZCORP_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Halloween Flag": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Ice Yeti": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_TREASUREYETI",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp1": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_PIRATE_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp10": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp11": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_EIGHTIES_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp12": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp13": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_LOSTCITY_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp3": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_LUNAR_SUPERFANIMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp4": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DINO_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp5": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_BEACH_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp6": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CARNIE_IMP",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp7": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_CARNIE_IMP_TWINS",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp8": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ZCORP_GARGANTUAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp9": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_IMP_DRAGON",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester1": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_JUGGLER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_JUGGLER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester3": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_JUGGLER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester4": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_JUGGLER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PeashooterZombie": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_TUTORIAL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SquashZombie": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_TUTORIAL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SunProducer": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_RA",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Tutorial Flag": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_TUTORIAL_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Valentines Basic": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_SPRING",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "WalnutZombie": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_TUTORIAL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag10": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag11": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG_VETERAN",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag2": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag3": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag4": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag5": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag6": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG_VETERAN",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag7": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag8": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag9": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_COWBOY_FLAG",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieArcade": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_EIGHTIES_ARCADE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBarrel": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_PIRATE_BARREL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBeachFisherman": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_BEACH_FISHERMAN",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBeachOctopus": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_BEACH_OCTOPUS",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBeachSnorkel": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_BEACH_SNORKEL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossBeach": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ZOMBOSSMECH_BEACH",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossDragon": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ZOMBOSSMECH_DARK",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossEgypt": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ZOMBOSSMECH_EGYPT",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossMammoth": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ZOMBOSSMECH_ICEAGE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieCrystalSkull": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_LOSTCITY_CRYSTALSKULL",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieDarkArmor3": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_ARMOR3",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieDarkImpDragon": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_IMP_DRAGON",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieDarkKing": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_KING",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieExplorer": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_EXPLORER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieFrozen": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieIceAgeDodo": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE_DODO",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieIceAgeHunter": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE_HUNTER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieIceAgeTroglobite": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_ICEAGE_TROGLOBITE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieLostCityJane": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_LOSTCITY_JANE",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieModernAllStar": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_MODERN_ALLSTAR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieNewspaper": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_MODERN_NEWSPAPER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombiePiano": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_PIANO",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieProspector": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_PROSPECTOR",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieRa": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_RA",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieTombRaiser": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_TOMB_RAISER",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieWizard": {
+    "bgKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+    "textureKey": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_DARK_WIZARD",
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  }
+}

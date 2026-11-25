@@ -1,0 +1,10 @@
+package app.enums.quest;
+
+public enum EventType {
+    SUN_COLLECTED,
+    ZOMBIE_KILLED,
+    PLANT_EXPLODED,
+    LAWN_MOWER_TRIGGERED,
+    LEVEL_WON,
+    ZOMBIE_KILLED_FIRST_COL_NO_MOWER, LEVEL_LOST
+}

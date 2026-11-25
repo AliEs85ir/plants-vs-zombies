@@ -1,0 +1,338 @@
+{
+  "Basic Egypt": {
+    "rarity": "Common",
+    "description": "A mummy zombie from Ancient Egypt. Slow, steady, and hungry for brains."
+  },
+  "Basic Halloween": {
+    "rarity": "Common",
+    "description": "A Halloween-dressed zombie. Same appetite, spookier outfit."
+  },
+  "Basic IceAge": {
+    "rarity": "Common",
+    "description": "A frostbitten cave zombie that trudges through the ice age lawn."
+  },
+  "Basic Pirate": {
+    "rarity": "Common",
+    "description": "A pirate zombie that shambles down the plank toward your plants."
+  },
+  "Basic West": {
+    "rarity": "Common",
+    "description": "A cowboy zombie from the Wild West. Standard toughness, dusty walk."
+  },
+  "Basic West2": {
+    "rarity": "Common",
+    "description": "A cowboy variant with a bit more grit than the basic west walker."
+  },
+  "Birthday Basic": {
+    "rarity": "Common",
+    "description": "A costume zombie with the same bite as a basic walker."
+  },
+  "Birthday Basic2": {
+    "rarity": "Common",
+    "description": "A costume zombie with the same bite as a basic walker."
+  },
+  "Birthday Basic3": {
+    "rarity": "Common",
+    "description": "A costume zombie with the same bite as a basic walker."
+  },
+  "Canon1": {
+    "rarity": "Epic",
+    "description": "A carnival cannon that loads imps and fires them across the lawn."
+  },
+  "Egypt Camel": {
+    "rarity": "Rare",
+    "description": "A camel-hump zombie. Destroy every segment to finish it off."
+  },
+  "Egypt Flag": {
+    "rarity": "Rare",
+    "description": "Leads a mummy wave. Expect more zombies behind this banner."
+  },
+  "Egypt Flag2": {
+    "rarity": "Rare",
+    "description": "A veteran flag mummy that rallies a heavier Egypt assault."
+  },
+  "Gargantuar1": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar11": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar12": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar13": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar2": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar4": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar5": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar7": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Gargantuar8": {
+    "rarity": "Epic",
+    "description": "A gargantuar that smashes plants and throws an imp when wounded."
+  },
+  "Halloween Flag": {
+    "rarity": "Rare",
+    "description": "Marks a huge Halloween wave. Tougher than a regular flag zombie."
+  },
+  "Ice Yeti": {
+    "rarity": "Epic",
+    "description": "A rare yeti with huge health. Hard to freeze and harder to ignore."
+  },
+  "Imp1": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp10": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp11": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp12": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp13": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp2": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp3": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp4": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp5": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp6": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp7": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp8": {
+    "rarity": "Rare",
+    "description": "A tiny imp. Low health, but faster and harder to notice."
+  },
+  "Imp9": {
+    "rarity": "Rare",
+    "description": "A Dark Ages imp dragon. Small, fiery, and fire-resistant."
+  },
+  "jester1": {
+    "rarity": "Epic",
+    "description": "A Dark Ages jester that reflects many projectiles back at you."
+  },
+  "jester2": {
+    "rarity": "Epic",
+    "description": "A Dark Ages jester that reflects many projectiles back at you."
+  },
+  "jester3": {
+    "rarity": "Epic",
+    "description": "A Dark Ages jester that reflects many projectiles back at you."
+  },
+  "jester4": {
+    "rarity": "Epic",
+    "description": "A Dark Ages jester that reflects many projectiles back at you."
+  },
+  "PeashooterZombie": {
+    "rarity": "Rare",
+    "description": "A zombie plant that shoots peas at your defenses."
+  },
+  "SquashZombie": {
+    "rarity": "Rare",
+    "description": "A squash zombie that slams plants the same way the plant does."
+  },
+  "SunProducer": {
+    "rarity": "Rare",
+    "description": "A Ra-style sun thief used as a special producer zombie."
+  },
+  "Tutorial Flag": {
+    "rarity": "Rare",
+    "description": "Leads the first big wave. Take it down to thin the crowd."
+  },
+  "Valentines Basic": {
+    "rarity": "Common",
+    "description": "A costume zombie with the same bite as a basic walker."
+  },
+  "WalnutZombie": {
+    "rarity": "Epic",
+    "description": "A wall-nut zombie with enormous health that soaks damage."
+  },
+  "West Flag": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag10": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag11": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag2": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag3": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag4": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag5": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag6": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag7": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag8": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "West Flag9": {
+    "rarity": "Rare",
+    "description": "A flag zombie that signals a large wave of reinforcements."
+  },
+  "ZombieArcade": {
+    "rarity": "Epic",
+    "description": "Pushes an arcade cabinet that jams the lawn with 8-bit trouble."
+  },
+  "ZombieBarrel": {
+    "rarity": "Rare",
+    "description": "Rolls a barrel that can dump pirate imps onto the lawn."
+  },
+  "ZombieBeachFisherman": {
+    "rarity": "Epic",
+    "description": "Hooks plants from deep water and reels them toward the tide."
+  },
+  "ZombieBeachOctopus": {
+    "rarity": "Epic",
+    "description": "Hurls octopi that bind plants and take them out of the fight."
+  },
+  "ZombieBeachSnorkel": {
+    "rarity": "Rare",
+    "description": "Dives underwater, then pops up to eat. Hard to hit while submerged."
+  },
+  "ZombieBossBeach": {
+    "rarity": "Legendary",
+    "description": "Dr. Zomboss in the Sharktronic Sub. Vacuums plants and summons sharks."
+  },
+  "ZombieBossDragon": {
+    "rarity": "Legendary",
+    "description": "Dr. Zomboss in the Dark Dragon. Fireballs, imps, and lane-clearing flame."
+  },
+  "ZombieBossEgypt": {
+    "rarity": "Legendary",
+    "description": "Dr. Zomboss in the Sphinx-inator. Three-phase Egypt boss fight."
+  },
+  "ZombieBossMammoth": {
+    "rarity": "Legendary",
+    "description": "Dr. Zomboss in the Tuskmaster. Ice winds, ice blocks, and a glacier shield."
+  },
+  "ZombieCrystalSkull": {
+    "rarity": "Epic",
+    "description": "Charges a crystal skull laser that can wipe a whole column."
+  },
+  "ZombieDarkArmor3": {
+    "rarity": "Epic",
+    "description": "A knighted Dark Ages zombie wearing crown and shoulder armor."
+  },
+  "ZombieDarkImpDragon": {
+    "rarity": "Rare",
+    "description": "A flying imp dragon that shrugs off fire damage."
+  },
+  "ZombieDarkKing": {
+    "rarity": "Epic",
+    "description": "Stays put and knights nearby zombies with extra armor."
+  },
+  "ZombieExplorer": {
+    "rarity": "Rare",
+    "description": "Carries a torch that can ignite plants if it gets too close."
+  },
+  "ZombieFrozen": {
+    "rarity": "Common",
+    "description": "An ice-age basic zombie used for frozen-lawn encounters."
+  },
+  "ZombieIceAgeDodo": {
+    "rarity": "Epic",
+    "description": "Rides a dodo and hops over plants and obstacles."
+  },
+  "ZombieIceAgeHunter": {
+    "rarity": "Epic",
+    "description": "Lobs snowballs that freeze plants from several tiles away."
+  },
+  "ZombieIceAgeTroglobite": {
+    "rarity": "Epic",
+    "description": "Pushes ice blocks that crush anything in front of them."
+  },
+  "ZombieLostCityJane": {
+    "rarity": "Rare",
+    "description": "Bounces lobbed projectiles back at your plants."
+  },
+  "ZombieModernAllStar": {
+    "rarity": "Epic",
+    "description": "Charges down a lane at football speed, smashing plants in his path."
+  },
+  "ZombieNewspaper": {
+    "rarity": "Epic",
+    "description": "Calm behind his paper, then enraged and lightning-fast when it rips."
+  },
+  "ZombiePiano": {
+    "rarity": "Epic",
+    "description": "A piano zombie that crushes plants and plays a deadly tune."
+  },
+  "ZombieProspector": {
+    "rarity": "Rare",
+    "description": "Dynamite-packs himself and blasts to the left side of the lawn."
+  },
+  "ZombieRa": {
+    "rarity": "Rare",
+    "description": "Steals sun from the lawn and keeps it until you take him down."
+  },
+  "ZombieTombRaiser": {
+    "rarity": "Epic",
+    "description": "Raises tombstones on empty tiles, blocking planting space."
+  },
+  "ZombieWizard": {
+    "rarity": "Epic",
+    "description": "Zaps plants into helpless sheep until he is defeated."
+  }
+}

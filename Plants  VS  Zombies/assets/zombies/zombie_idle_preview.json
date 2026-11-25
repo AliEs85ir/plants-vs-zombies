@@ -1,0 +1,674 @@
+{
+  "Basic Egypt": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic Halloween": {
+    "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic IceAge": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_BASIC_BRICK/ZOMBIE_ICEAGE_BASIC_BRICK.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic Pirate": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PIRATE_BASIC/ZOMBIE_PIRATE_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic West": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_WEST_BASIC/ZOMBIE_WEST_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Basic West2": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_STPATRICKS_BASIC/ZOMBIE_STPATRICKS_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Birthday Basic": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_TUTORIAL_FLAG_BIRTHDAY/ZOMBIE_TUTORIAL_FLAG_BIRTHDAY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Birthday Basic2": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_TUTORIAL_BIRTHDAY/ZOMBIE_TUTORIAL_BIRTHDAY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Birthday Basic3": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_SWASHBUCKLER_HOLIDAY/ZOMBIE_SWASHBUCKLER_HOLIDAY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Canon1": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CARNIE_CANNON/ZOMBIE_CARNIE_CANNON.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Egypt Camel": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_CAMEL/ZOMBIE_EGYPT_CAMEL.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Egypt Flag": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_VET_FLAG/ZOMBIE_EGYPT_VET_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Egypt Flag2": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_FLAG/ZOMBIE_EGYPT_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar1": {
+    "pamPath": "768/FULL/ZOMBIE/GARGANTUAR_FEASTIVUS/GARGANTUAR_FEASTIVUS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar11": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_EIGHTIES_GARGANTUAR/ZOMBIE_EIGHTIES_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar12": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_GARGANTUAR/ZOMBIE_ICEAGE_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar13": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_LOSTCITY_GARGANTUAR/ZOMBIE_LOSTCITY_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar2": {
+    "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_GARGANTUAR/HALLOWEEN_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar4": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DINO_GARGANTUAR/ZOMBIE_DINO_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar5": {
+    "pamPath": "768/FULL/ZOMBIE/BEACH_GARGANTUAR/BEACH_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar7": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CARNIVAL_GARGANTUAR/ZOMBIE_CARNIVAL_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Gargantuar8": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CORPORATE_IMP/ZOMBIE_CORPORATE_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Halloween Flag": {
+    "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC_FLAG/HALLOWEEN_ZOMBIE_BASIC_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Ice Yeti": {
+    "pamPath": "768/INITIAL/ZOMBIE/YETI/YETI.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp1": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_FEASTIVUS_IMP/ZOMBIE_FEASTIVUS_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp10": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_IMP_MONK/ZOMBIE_DARK_IMP_MONK.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp11": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_EIGHTIES_IMP/ZOMBIE_EIGHTIES_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp12": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_IMP/ZOMBIE_ICEAGE_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp13": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_LOSTCITY_IMP/ZOMBIE_LOSTCITY_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp2": {
+    "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_IMP/HALLOWEEN_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp3": {
+    "pamPath": "768/FULL/ZOMBIE/LNY_SUPERFAN_ZOMBIE/LNY_SUPERFAN_ZOMBIE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp4": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DINO_IMP/ZOMBIE_DINO_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp5": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_BEACH_IMP_MERMAID/ZOMBIE_BEACH_IMP_MERMAID.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp6": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CARNIE_IMP/ZOMBIE_CARNIE_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp7": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CARNIVAL_2HEADED_IMP/ZOMBIE_CARNIVAL_2HEADED_IMP.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp8": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CORPORATE_GARGANTUAR/ZOMBIE_CORPORATE_GARGANTUAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Imp9": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_IMP_DRAGON/ZOMBIE_DARK_IMP_DRAGON.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester1": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_JESTER/ZOMBIE_DARK_JESTER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester2": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CHEFSTER/ZOMBIE_CHEFSTER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester3": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_JESTER_BIRTHDAY/ZOMBIE_JESTER_BIRTHDAY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "jester4": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_80S_BREAKDANCER/ZOMBIE_80S_BREAKDANCER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "PeashooterZombie": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_TUTORIAL_FLAG/ZOMBIE_TUTORIAL_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SquashZombie": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_TUTORIAL/ZOMBIE_TUTORIAL.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "SunProducer": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_RA/ZOMBIE_EGYPT_RA.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Tutorial Flag": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_TUTORIAL_FLAG/ZOMBIE_TUTORIAL_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "Valentines Basic": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_VALENTINES/ZOMBIE_VALENTINES.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "WalnutZombie": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_TUTORIAL/ZOMBIE_TUTORIAL.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_WEST_VETERAN_FLAG/ZOMBIE_WEST_VETERAN_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag10": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PONCHO/ZOMBIE_PONCHO.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag11": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_MECH_CONE/ZOMBIE_MECH_CONE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag2": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_WEST_FLAG/ZOMBIE_WEST_FLAG.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag3": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_SWASHBUCKLER/ZOMBIE_SWASHBUCKLER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag4": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_SUMMERNIGHTS/ZOMBIE_SUMMERNIGHTS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag5": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_SPORTZBALL_BUCKETHEAD/ZOMBIE_SPORTZBALL_BUCKETHEAD.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag6": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ROMAN_SHIELD/ZOMBIE_ROMAN_SHIELD.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag7": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ROMAN_BASIC/ZOMBIE_ROMAN_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag8": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_RAINCOAT/ZOMBIE_RAINCOAT.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "West Flag9": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PONCHO_HOLIDAY/ZOMBIE_PONCHO_HOLIDAY.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieArcade": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_80S_ARCADE/ZOMBIE_80S_ARCADE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBarrel": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PIRATE_BASIC/ZOMBIE_PIRATE_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBeachFisherman": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_BEACH_FISHERMAN/ZOMBIE_BEACH_FISHERMAN.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBeachOctopus": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_BEACH_OCTOPUS/ZOMBIE_BEACH_OCTOPUS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBeachSnorkel": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_BEACH_SNORKELER/ZOMBIE_BEACH_SNORKELER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossBeach": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_BEACH_ZOMBOSS/ZOMBIE_BEACH_ZOMBOSS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossDragon": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_ZOMBOSS/ZOMBIE_DARK_ZOMBOSS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossEgypt": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_ZOMBOSS/ZOMBIE_EGYPT_ZOMBOSS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieBossMammoth": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_ZOMBOSS/ZOMBIE_ICEAGE_ZOMBOSS.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieCrystalSkull": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_LOSTCITY_CRYSTALSKULL/ZOMBIE_LOSTCITY_CRYSTALSKULL.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieDarkArmor3": {
+    "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieDarkImpDragon": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_IMP_DRAGON/ZOMBIE_DARK_IMP_DRAGON.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieDarkKing": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_KING/ZOMBIE_DARK_KING.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieExplorer": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieFrozen": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_BASIC_BRICK/ZOMBIE_ICEAGE_BASIC_BRICK.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieIceAgeDodo": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_DODORIDER/ZOMBIE_ICEAGE_DODORIDER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieIceAgeHunter": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_HUNTER/ZOMBIE_ICEAGE_HUNTER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieIceAgeTroglobite": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_TROGLOBITE/ZOMBIE_ICEAGE_TROGLOBITE.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieLostCityJane": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_LOSTCITY_CRYSTALSKULL/ZOMBIE_LOSTCITY_CRYSTALSKULL.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieModernAllStar": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_MODERN_ALLSTAR/ZOMBIE_MODERN_ALLSTAR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieNewspaper": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_MODERN_NEWSPAPER/ZOMBIE_MODERN_NEWSPAPER.PAM",
+    "clip": "idle_newspaper",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombiePiano": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_WEST_BASIC/ZOMBIE_WEST_BASIC.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieProspector": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_PROSPECTOR/ZOMBIE_PROSPECTOR.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieRa": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_RA/ZOMBIE_EGYPT_RA.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieTombRaiser": {
+    "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_TOMBRAISER/ZOMBIE_EGYPT_TOMBRAISER.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "ZombieWizard": {
+    "pamPath": "768/FULL/ZOMBIE/ZOMBIE_DARK_WIZARD/ZOMBIE_DARK_WIZARD.PAM",
+    "clip": "idle",
+    "loop": true,
+    "scale": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  }
+}

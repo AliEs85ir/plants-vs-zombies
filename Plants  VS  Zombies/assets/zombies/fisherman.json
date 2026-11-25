@@ -1,0 +1,62 @@
+{
+  "zombie": "ZombieBeachFisherman",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_BEACH_FISHERMAN/ZOMBIE_BEACH_FISHERMAN.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "INTRO": [
+      {
+        "clip": "intro",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "cast",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "THROW_HOOK"
+        }
+      },
+      {
+        "clip": "cast_loop",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "HOOKING"
+        }
+      },
+      {
+        "clip": "reel",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "REEL"
+        }
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

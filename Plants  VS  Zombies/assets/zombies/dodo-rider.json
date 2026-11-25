@@ -1,0 +1,82 @@
+{
+  "zombie": "ZombieIceAgeDodo",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_DODORIDER/ZOMBIE_ICEAGE_DODORIDER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle2",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "idle3",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "fly_start",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "FLY_START"
+        }
+      },
+      {
+        "clip": "fly_loop",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "FLY"
+        }
+      },
+      {
+        "clip": "fly_end",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "FLY_DOWN"
+        }
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

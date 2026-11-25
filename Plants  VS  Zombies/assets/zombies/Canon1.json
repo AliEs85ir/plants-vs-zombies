@@ -1,0 +1,52 @@
+{
+  "zombie": "Canon1",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_CARNIE_CANNON/ZOMBIE_CARNIE_CANNON.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "prep",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "CANON_PREPARE"
+        }
+      },
+      {
+        "clip": "fire",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "CANON_FIRE"
+        }
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

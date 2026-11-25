@@ -1,0 +1,58 @@
+{
+  "zombie": "SunProducer",
+  "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_RA/ZOMBIE_EGYPT_RA.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "power_up",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "power",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      },
+      {
+        "clip": "power_down",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

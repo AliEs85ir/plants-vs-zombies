@@ -1,0 +1,106 @@
+{
+  "zombie": "ZombieNewspaper",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_MODERN_NEWSPAPER/ZOMBIE_MODERN_NEWSPAPER.PAM",
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle_newspaper",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "newspaper",
+          "eventType": false
+        },
+        "effects": [
+          {
+            "id": "newspaper_particles",
+            "trigger": "ON_START",
+            "anchor": "KINEMATIC",
+            "once": true,
+            "condition": {
+              "type": "healthBelow",
+              "eventType": 0.5
+            },
+            "velocity": {"x": 0, "y": 0},
+            "visibility": {
+              "zombie_skull": false,
+              "_zombie_glasses": false,
+              "_zombie_hair": false,
+              "zombie_jaw": false
+            }
+          }
+        ]
+      },
+      {
+        "clip": "walk_newspaper",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "newspaper",
+          "eventType": true
+        }
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "newspaper_defeat",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "effects": [
+          {
+            "id": "newspaper_particles",
+            "trigger": "ON_START",
+            "anchor": "KINEMATIC",
+            "once": true,
+            "velocity": {"x": -150, "y": 350},
+            "visibility": {
+              "zombie_hand_outer_01": false,
+              "zombie_arm_outer_lower": false
+            }
+          }
+        ]
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "newspaper",
+          "eventType": false
+        }
+      },
+      {
+        "clip": "eat_newspaper",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "newspaper",
+          "eventType": true
+        }
+      }
+    ]
+  }
+}

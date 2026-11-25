@@ -1,0 +1,90 @@
+{
+  "zombie": "Basic Halloween",
+  "pamPath": "768/FULL/ZOMBIE/HALLOWEEN_ZOMBIE_BASIC/HALLOWEEN_ZOMBIE_BASIC.PAM",
+  "visibilityConfig": {
+    "conditions": [
+      {
+        "type": "hasArmor",
+        "armorAlias": "ConeDefault",
+        "phase" : "phase1",
+        "layers": {
+          "zombie_armor_cone_norm": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "ConeDefault",
+        "phase" : "phase2",
+        "layers": {
+          "zombie_armor_cone_damage_01": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "ConeDefault",
+        "phase" : "phase3",
+        "layers": {
+          "zombie_armor_cone_damage_02": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BucketDefault",
+        "phase" : "phase1",
+        "layers": {
+          "zombie_armor_bucket_norm": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BucketDefault",
+        "phase" : "phase2",
+        "layers": {
+          "zombie_armor_bucket_damage_01": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BucketDefault",
+        "phase": "phase3",
+        "layers": {
+          "zombie_armor_bucket_damage_02": true
+        }
+      }
+    ]
+  },
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

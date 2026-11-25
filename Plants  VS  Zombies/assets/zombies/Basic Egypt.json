@@ -1,0 +1,89 @@
+{
+  "zombie": "Basic Egypt",
+  "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_EGYPT_BASIC/ZOMBIE_EGYPT_BASIC.PAM",
+  "visibilityConfig": {
+    "conditions": [
+      {
+        "type": "hasArmor",
+        "armorAlias": "ConeDefault",
+        "layers": {
+          "_zombie_egypt_armor1_states": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BucketDefault",
+        "phase" : "phase1",
+        "layers": {
+          "_zombie_egypt_armor2_states": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BrickDefault",
+        "phase" : "phase1",
+        "layers": {
+          "zombie_armor_brick_norm": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BucketDefault",
+        "phase" : "phase2",
+        "layers": {
+          "zombie_armor_brick_damage_01": true
+        }
+      },
+      {
+        "type": "hasArmor",
+        "armorAlias": "BucketDefault",
+        "phase" : "phase3",
+        "layers": {
+          "zombie_armor_brick_damage_02": true
+        }
+      },
+      {
+        "type": "healthBelow",
+        "value": 0.5,
+        "layers": {
+          "zombie_egypt_arm_outer_lower": false,
+          "zombie_egypt_hand_outer_01": false
+        }
+      }
+    ]
+  },
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

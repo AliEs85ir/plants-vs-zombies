@@ -1,0 +1,47 @@
+{
+  "zombie": "SquashZombie",
+  "pamPath": "768/INITIAL/ZOMBIE/ZOMBIE_TUTORIAL/ZOMBIE_TUTORIAL.PAM",
+  "visibilityConfig": {
+    "states": {
+      "WALK": { "zombie_jaw": false, "zombie_skull": false },
+      "IDLE": { "zombie_jaw": false, "zombie_skull": false },
+      "ATTACK": { "zombie_jaw": false, "zombie_skull": false },
+      "DEATH": { "zombie_jaw": false, "zombie_skull": false }
+    }
+  },
+  "states": {
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "WALK": [
+      {
+        "clip": "walk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "timeScale": 2.75
+      }
+    ],
+    "ATTACK": [
+      {
+        "clip": "eat",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ]
+  }
+}

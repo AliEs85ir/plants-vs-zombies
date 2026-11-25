@@ -1,0 +1,192 @@
+{
+  "zombie": "ZombieBossMammoth",
+  "pamPath": "768/FULL/ZOMBIE/ZOMBIE_ICEAGE_ZOMBOSS/ZOMBIE_ICEAGE_ZOMBOSS.PAM",
+  "states": {
+    "INTRO" : [
+      {
+        "clip": "intro",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "IDLE": [
+      {
+        "clip": "idle",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT"
+      }
+    ],
+    "ABILITY": [
+      {
+        "clip": "wind_1",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_WIND1"
+        }
+      },{
+        "clip": "wind_2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_WIND2"
+        }
+      },{
+        "clip": "wind_3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_WIND3"
+        }
+      },
+      {
+        "clip": "wind_4",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_WIND4"
+        }
+      },
+      {
+        "clip": "slingshot",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_SLINGSHOT"
+        }
+      },
+      {
+        "clip": "glacier_column_1",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COLUMN1"
+        }
+      },
+      {
+        "clip": "glacier_column_2",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COLUMN2"
+        }
+      },{
+        "clip": "glacier_column_3",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COLUMN3"
+        }
+      },{
+        "clip": "glacier_column_4",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COLUMN4"
+        }
+      },
+      {
+        "clip": "glacier_column_5",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COLUMN5"
+        }
+      },
+      {
+        "clip": "glacier_column_6",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COLUMN6"
+        }
+      },
+      {
+        "clip": "reveal",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_REVEAL"
+        }
+      },
+      {
+        "clip": "stun",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "STUN_LOOP"
+        }
+      },
+      {
+        "clip": "cover_up",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition": {
+          "type": "allStar",
+          "eventType": "MAMMOTH_COVER_UP"
+        }
+      }
+    ],
+    "DEATH": [
+      {
+        "clip": "die",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "MAMMOTH_DIE"
+        }
+      },
+      {
+        "clip": "die_talk",
+        "loop": true,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "MAMMOTH_TALK"
+        }
+      },
+      {
+        "clip": "die_exit",
+        "loop": false,
+        "priority": 0,
+        "tag": "DEFAULT",
+        "condition" : {
+          "type" : "allStar",
+          "eventType" : "MAMMOTH_EXIT"
+        }
+      }
+    ]
+  }
+}
